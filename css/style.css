@@ -18,3 +18,9 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.foot{
+  position: absolute;
+  right: 320px;
+
+}
