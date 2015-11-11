@@ -6,6 +6,12 @@
 	}
 
 /*////////// Global Styles //////////*/
+
+* {font: sans serif}
+
+
+/*////////// head and body ////////*/
+
 head {
 	display: none;
 }
@@ -17,10 +23,7 @@ body {
 	margin:0;
 }
 
-h1  {
-	margin: 0 auto;
-	font-size: 5em;
-}
+/*////////// wrapper ////////*/
 
 .wrapper {
 	width: 960px;
@@ -31,10 +34,17 @@ h1  {
 	display: block;
 }
 
+
+
+
+/*////////// block ////////*/
+
 div{
 	display:block;
 	margin :0 auto;
 }
+
+/*////////// header ////////*/
 
 header {
 	padding-bottom: 10px;
@@ -45,7 +55,10 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
-
+h1  {
+	margin: 0 auto;
+	font-size: 5em;
+}
 
 h1 a {
 	color: rgb(152,173,166);
@@ -55,9 +68,9 @@ h1 a {
 
 
 
-* {font: sans serif}
 
 
+/*////////// About ////////*/
 
 h2 {
     color: rgb(111,127,122);
@@ -68,10 +81,31 @@ h2 {
     border: 5px rgb(152,173,166) solid;
 }
 
+#material a {
+    color: #1783bb;
+    text-decoration: none;
+}
 
+
+
+/*////////// Press ////////*/
+
+.press {
+	margin-bottom: 20px
+}
+
+.press img {
+    border: 5px #ccc solid;
+    padding: 1px;
+}
+
+.press img:hover {
+    border: 5px rgb(111,127,122) solid;
+}
+
+/* //////FOOTER//////*/
 
 footer {
 	text-align:right;
 }
-}
-/* Write all remaining styles here */
+
