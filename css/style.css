@@ -31,8 +31,6 @@ h1 a{
   font-size: 250%;
   text-decoration:none;
   color: rgb(136, 154, 148);
-  border-bottom-style: solid;
-  border-width:  1px;
 }
 
 h2 a{
@@ -64,7 +62,7 @@ p{
 
 footer{
 	text-align: right;
-	font-size: 80%;
+	font-size: 75%;
 	clear: both;
 }
 
@@ -76,6 +74,17 @@ img{
 
 .col-4{
 	float: left;
+}
+
+.col-4 img{
+	border-color: rgb(193,196,195);	
+	border-style: solid;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.col-4 img:hover{
+	border-color: rgb(75,85,81);
 }
 
 .clearfix:after{
