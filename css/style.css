@@ -6,11 +6,6 @@
 
 /*////////// Global Styles //////////*/
 
-* {
-	padding: 0;
-	margin: 0;
-}
-
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -24,13 +19,38 @@ body {
 	padding: 0 45px 20px;
 }
 
-header a{
+
+h1{
+	border-color:rgb(136, 154, 148);
+  border-bottom-style: solid;
+  border-width:  1px;
+}
+h1 a{
   font-family:"Baskerville", serif;
   font-weight: normal;
-  font-size: 200%;
+  font-size: 250%;
   text-decoration:none;
   color: rgb(136, 154, 148);
-  display: block;
+  border-bottom-style: solid;
+  border-width:  1px;
+}
+
+h2 a{
+	text-decoration: none;
+}
+
+h2 a:hover{
+	text-decoration: underline;
+}
+
+h2 a:active{
+	text-decoration: underline;
+	color: red;
+}
+
+h2 a:visit{
+	text-decoration: none;
+	color: purple;
 }
 
 h2{
@@ -40,4 +60,28 @@ h2{
 
 p{
   color: rgb(67, 66, 94);
+}
+
+footer{
+	text-align: right;
+	font-size: 80%;
+	clear: both;
+}
+
+img{
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(150, 165, 162);
+}
+
+.col-4{
+	float: left;
+}
+
+.clearfix:after{
+	content:".";
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
