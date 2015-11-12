@@ -1,6 +1,20 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+  font-family: "Baskerville"; 
+  src: "fonts/Baskerville.ttf";
+  font-weight: thin;
+}
+
+@font-face {
+  font-family: "Baskerville-SemiBold"; 
+  src: fonts/Baskerville-SemiBold.ttf;
+  /*font-weight: thin;*/
+}
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville); */
 
 /*////////// Global Styles //////////*/
 
@@ -18,3 +32,64 @@ body {
 }
 
 /* Write all remaining styles here */
+
+section {
+  display: block;
+}
+
+h1 {
+  font-family: "Baskerville", serif;
+  font-weight: normal;
+  font-size: 5em;
+  padding-bottom: 10px;
+  margin: 0px 0px 5px 0px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(202, 203, 204) 
+
+}
+
+header a {
+  color: rgb(152,173,166);
+  text-decoration: none;
+}
+
+h2 {
+  color: rgb(110, 127, 130);
+  font-size: 2em;
+}
+
+img {
+  border-style: solid;
+  border-color: rgb(150, 165, 162);
+  border-width: 5px;
+}
+
+.press-image {
+  display: inline;
+  border-color: rgb(200, 204, 204 )
+  
+}
+
+a:link {
+  text-decoration: none
+}
+
+a:visited {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+.press-image:hover {
+  border-color: rgb(116, 126, 124);
+}
+
+footer p {
+  text-align: right;
+  color: #000; 
+  font-size: 75%;
+   
+}
