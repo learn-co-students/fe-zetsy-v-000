@@ -3,11 +3,11 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
-
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+  height: 100%;
 }
 
 .wrapper {
@@ -15,6 +15,51 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+  height: 100%;
+
 }
 
 /* Write all remaining styles here */
+h1{
+  color: rgb(144,160,153) ;
+  font-size: 5em;
+  font-weight: normal;
+  margin: 0;
+}
+h2{
+color: rgb(93,107,110);
+font-size: 2em;
+
+
+}
+hr{
+  color: rgb(144,160,153 );
+}
+
+a img {
+  border-color: rgb(190,190,190);
+  border-style: solid;
+  border-width: 4px;
+  margin: 2px;
+}
+ a:hover img {
+  -webkit-transition: b all .8s ease;
+  -moz-transition: all .8s ease;
+  -o-transition: all .8s ease;
+  transition: all .8s ease;
+  border-color: rgb(133,153,145);
+  border-style: solid;
+  border-width: 4px;
+  margin: 2px;
+ }
+ #logo-img{
+  border-color: rgb(140,155,149);
+  border-style: solid;
+  border-width: 5px;
+ }
+
+footer{
+  float:right;
+  font-size: 12px;
+  margin-top: 8px;
+ }
