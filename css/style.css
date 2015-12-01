@@ -56,17 +56,15 @@ header a:hover {
     color: rgb(93, 111, 104);
 }
 
-
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: #1783bb;
 }
 
 #main a:hover {
     color: #1783bb;
-    text-decoration:underline;
+    text-decoration: underline;
 }
-
 
 #main img {
     border: 5px rgb(152, 173, 166) solid;
