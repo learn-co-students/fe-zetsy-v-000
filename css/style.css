@@ -12,9 +12,77 @@ body {
 
 .wrapper {
 	width: 960px;
+  /*width: 945px;*/
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
 /* Write all remaining styles here */
+
+h1 a:link, h1 a:visited {
+  font: 2.5em 'Baskerville', serif; 
+  color: rgb(157, 172, 168);
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: rgb(111, 126, 122);
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0 0 10px;
+}
+
+h2 {
+ font-size: 2em;
+ color: rgb(111, 127, 125);
+}
+
+hr {
+  height: 1px;
+  background: rgb(202, 203, 204); 
+  border: 0;
+  margin: 0 0 5px;
+}
+
+#info img {
+  border: 5px solid rgb(156, 171, 167);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#info a:link, a:visited {
+  color: rgb(67, 127, 180);
+  text-decoration: none;
+}
+
+#info a:hover, a:active {
+  color: rgb(67, 127, 180);
+  text-decoration: underline;
+}
+
+a img {
+  border: 5px solid rgb(201, 202, 203);
+}
+
+a img:hover {
+  border: 5px solid rgb(114, 129, 125);
+}
+
+#footer {
+  float: right;
+  position: relative;
+  right: 15px;
+  font-size: 0.75em;
+}
