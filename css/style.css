@@ -64,11 +64,13 @@ header a:hover {
 
 #about a {
   color: #1783bb;
+  transition: color 0.5s ease;
   text-decoration: none;
 }
 
 #about a:hover {
   text-decoration: underline;
+  color: #ffc5d9;
 }
 
 #press {
