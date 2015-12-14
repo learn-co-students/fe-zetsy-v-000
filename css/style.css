@@ -4,6 +4,7 @@
 
 /*////////// Global Styles //////////*/
 
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -18,3 +19,30 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+font-family: Baskerville, serif;
+color: rgb(157, 171, 169);
+font-size: 80px;
+margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Times New Roman', serif;
+  color: rgb(157, 171, 169);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+img {
+  border: 5px solid rgb(157, 171, 169);
+}
+.footer {
+  font-size: 13px;
+  float: right;
+  margin-right: 5px;
+}
+
+a img:hover {
+  
+}
