@@ -1,13 +1,15 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
-
+@font-face {
+  font-family: "Baskerville";
+  src: url(../fonts/Baskerville.ttc)format("truetype");
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +19,76 @@ body {
 	padding: 0 45px 20px;
 }
 
+p {
+  color:#555;
+}
+
+a:hover {
+  font-weight: bold;
+  color:#6F7F7A;
+  border-color:#6F7F7A;
+}
+
+img {
+  width:100%;
+}
+
+.press-link:hover {
+  border-color:#6F7F7A;
+}
+
 /* Write all remaining styles here */
+h1 a {
+  font-family: 'Baskerville', serif;
+  font-weight: normal;
+  color:#98ADA6;
+  text-decoration: none;
+  font-size:3em;
+}
+
+h1 {
+  border-bottom: 1px solid #98ADA6;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+ }
+
+h2{
+  color:#6F7F7A;
+}
+
+.featured-image {
+  border: 4px solid #98ADA6;
+}
+
+.press-link {
+  border: 4px solid #ccc;
+  width: 24.5%;
+  float: left;
+  margin-left: .5%;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+}
+
+.clearfix:after {
+  content: ".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  height: 0;
+  line-height: 0;
+}
+
+#col-1 {
+  margin-left: 0%;
+}
+
+footer {
+  float:right;
+}
+
+
+
+
