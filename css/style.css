@@ -1,20 +1,78 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+   font-family: 'Baskerville';
+   src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+   background: #F3EBE9;
+   font-size: 100%;
+   font-family: 'Times New Roman', serif;
 }
-
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+   width: 960px;
+   margin: 0 auto;
+   background: #fff;
+   padding: 0 45px 20px;
+}
+h1 {
+   font-family: 'Baskerville';
+   font-size: 5em;
+   padding-bottom: 10px;
+   margin: 0 0 5px;
+   border-bottom: 1px solid rgb(174, 191, 164);
+}
+h2 {
+   font-size: 2em;
+   color: rgb(92, 108, 103)
+}
+p {
+   color: #2e2d2d;
+   margin: 0 0 20px 0;
+}
+.copy {
+   font-size: 0.8em;
 }
 
 /* Write all remaining styles here */
+
+header a {
+   text-decoration: none;
+   color: rgb(135, 158, 149);
+}
+header a:hover {
+   color: rgb(111, 127, 122);
+}
+#frontpage img {
+    border: 5px rgb(152, 173, 166) solid;
+}
+
+#frontpage a {
+    color: #1783bb;
+    text-decoration: none;
+}
+
+#frontpage a:hover {
+    text-decoration: underline;
+}
+
+#press {
+    margin-bottom: 20px;
+}
+
+#press img {
+    border: 5px #ccc solid;
+    padding: 1px;
+}
+
+#press img:hover {
+    border: 5px rgb(111, 127, 122) solid;
+}
+
+footer {
+    text-align: right;
+    background: #fff;
+}
