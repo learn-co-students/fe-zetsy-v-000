@@ -1,6 +1,9 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +20,93 @@ body {
 	padding: 0 45px 20px;
 }
 
+
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	color: #98ADA6;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
 /* Write all remaining styles here */
+
+/*////// LAYOUT //////*/
+
+
+.wrapper {
+  width:960px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width:32%;
+
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+ 
+}
+
+.col-3 {
+
+
+}
+
+[class*="col-"] {
+  margin-left:2%;
+
+}
+
+#necklace img{
+	border-style: solid;
+	border-width: 5px;
+	border-color: #98ADA6;
+}
+
+#press img{
+	border-style: solid;
+	border-width: 5px;
+	border-color: #ccc;
+}
+
+#press img:hover{
+	transition: border-color 0.2s ease;
+	border-color: #98ADA6;
+}
+
+
+.first {
+  margin-left: 0%;
+}
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+
+
+/*////// BOX MODEL //////*/
+
+
