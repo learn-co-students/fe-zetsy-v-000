@@ -52,13 +52,22 @@ header a {
 	text-decoration: none;
 }
 
+#featured a:hover {
+	text-decoration: underline;
+}
+
 #press {
 	margin-bottom: 20px;
 }
 
 #press img {
+	transition: border-color 0.1s ease;
 	border: 5px #ccc solid;
 	padding: 1px;
+}
+
+#press img:hover {
+	border-color: #888;
 }
 
 .small {
