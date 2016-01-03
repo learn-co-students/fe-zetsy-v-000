@@ -1,6 +1,14 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+p {
+  color: rgb(85,85,85);
+}
+@font-face {
+  font-family: Scheherazade;
+  src: url(../fonts/Baskerville.ttc);
+}
+
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +25,60 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/*////////// Headers //////////*/
+
+h2 {
+  color: rgb(107,121,115);
+  font-size: 2em;
+}
+
+h1 {
+  color: rgb(152,173,166);
+  font-size: 5em;
+  font-family: Scheherazade;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+header a:link {
+  color: rgb(152,173,166);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(111,127,122);
+}
+
+
+/*////////// Borders //////////*/
+
+img {
+  border: 5px solid rgb(154,172,167);
+}
+
+#press img {
+  border: 5px solid rgb(202,206,206);
+}
+
+/*////////// Links //////////*/
+
+#about a:link {
+  color: rgb(77,141,182);
+  text-decoration: none;
+}
+
+#about a:hover {
+  text-decoration: underline;
+}
+#press img:hover {
+  border: 5px rgb(111,127,122) solid;
+}
+
+
+/*////////// Footer //////////*/
+
+footer {
+  font-size: .75em;
+  text-align: right;
+}
