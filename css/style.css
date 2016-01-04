@@ -1,12 +1,7 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
 @font-face {
 	font-family: 'Baskerville';
 	src: url(../fonts/Baskerville.ttc);
 }
-
-/*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
@@ -44,8 +39,6 @@ p  {
 .small {
 	font-size: 0.8em;
 }
-
-/*////////// Section Styles //////////*/
 
 header a {
 	color: rgb(152,173,166);
