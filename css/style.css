@@ -8,6 +8,7 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+  color: rgb(85,85,85) ;
 }
 
 .wrapper {
@@ -18,3 +19,51 @@ body {
 }
 
 /* Write all remaining styles here */
+p {
+  color: rgb(85,85,85);
+}
+
+.necklace {
+  border: 5px solid rgb(132,145,141);
+}
+
+img {
+  border: 4px solid rgb(196,199,198);
+}
+
+footer {
+  text-align: right;
+}
+h2 {
+  color: rgb(111,127,122);
+  font-size: 2.2em;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(196,196,195,.6);
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0 0 10px;
+  font-family: 'Baskerville', serif;
+  color: rgb(152,173,166);
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(147,165,158);
+}
+
+p a:visited{
+  color: rgb(23,131,187);
+}
+
+.news:hover {
+  border: 4px solid rgb(104,117,113);
+}
