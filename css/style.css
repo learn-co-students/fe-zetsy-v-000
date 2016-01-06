@@ -75,10 +75,18 @@ header a {
 #press img {
     border: 5px #ccc solid;
     padding: 1px;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
 }
 
 #press img:hover {
     border: 5px rgb(111,127,122) solid;
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
 
 footer p {
