@@ -52,6 +52,11 @@ p {
 header a {
   color: rgb(152, 173, 166); 
   text-decoration: none;
+  /* -- Transition added -- */
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
 }
 
 header a:hover {
@@ -75,9 +80,15 @@ header a:hover {
   margin-bottom: 20px;
 }
 
+/* --- Transition added to border -- */
+
 #press img {
   border: 5px #ccc solid;
   padding: 1px;
+  -webkit-transition: border 1s ease-out;
+  -moz-transition: border 1s ease-out;
+  -o-transition: border 1s ease-out;
+  transition: border 1s ease-out;
 }
 
 #press img:hover {
