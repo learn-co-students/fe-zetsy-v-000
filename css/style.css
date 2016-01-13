@@ -20,26 +20,28 @@ body {
 
 /* Write all remaining styles here */
 
-/*////////   Sections  ///////*/
-
+/*////////   Header  ///////*/
 
 header h1 {
-	font-family: Baskerville, serif;
-	font-size: 500%;
 	margin: 0 0 4px;
 	padding: 0 0 12px;
 	border-bottom: 1px solid rgb(152,173,166);
 }
 
-section h2 {
-	font-size: 200%;
+
+header h1 a {
+	color: rgb(152,173,166);
+	font-family: Baskerville, serif;
+	font-size: 250%;
+	text-decoration: none;
+}
+	
+
+header h1 a:hover {
+	color: rgb(111,127,122);
 }
 
-footer p {
-	text-align: right;
-	font-size: .8em;
-	padding: 8px;
-}
+
 
 /*/////   Images  /////////*/
 
@@ -48,3 +50,44 @@ body img {
 	border: .33em solid rgb(152,173,166);
 
 }
+
+/*/////   Sections  /////////*/
+
+
+section h2 {
+	font-size: 200%;
+}
+
+#about p a {
+	color: rgb(23,131,187);
+	text-decoration: none;
+
+}
+
+/*/////   Press links  /////////*/
+
+#press a {
+	border: .33em solid rgb(204,204,204);
+
+}
+
+#press a:hover {
+	border: .33em solid rgb(152,173,166);
+}
+
+
+
+/*/////   Footer  /////////*/
+
+
+footer p {
+	text-align: right;
+	font-size: .8em;
+	padding: 8px;
+}
+
+
+
+
+
+
