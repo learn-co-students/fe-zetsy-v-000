@@ -1,8 +1,42 @@
 /*////////////// Fonts //////////////*/
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+
+header a:visited, header a:link, header a:active {
+	text-decoration: none;
+	color: rgb(111,127,122);
+}
+
+header a:hover {
+	color: rgb(152,173,166);
+}
+
+header h1{
+	font-size: 5em;
+	margin: 0 0 5px;
+	font-family: 'Libre Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+	font-weight: normal;
+	padding-bottom: 10px; 
+}
+
+header img {
+	border: 5px rgb(111,127,122) solid;
+}
+
+p {
+	font-size: 1em;
+	color: #555;
+	font-family: 'Times New Roman', serif; 
+}
+
+h1, h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
 
 body {
 	background: #F3EBE9;
@@ -15,6 +49,29 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	font-family: 'Libre Baskerville', serif;
 }
 
-/* Write all remaining styles here */
+#images img {
+	border: 5px #ccc solid;
+	padding: 1px;
+	margin-bottom: 20px;
+}
+
+#images img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+#about a:visited, #about a:link, #about a:active {
+	text-decoration: blink;
+}
+
+#about a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	text-align: right; 
+	position: relative;
+	font-size: 0.8em;
+}
