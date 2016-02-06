@@ -2,12 +2,17 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: 'Bakerville';
+	src: url(fonts/Bakerville.ttc);
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +23,63 @@ body {
 }
 
 /* Write all remaining styles here */
+
+	h1 {
+ 	font-family: 'Bakerville', serif;
+	color: #859891;
+ 	font-size: 5em;
+	margin: 0 0 5px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #859891;
+	}
+
+	h2 {
+		color: #859891;
+		font-size: 2em;
+	}
+
+	#featured-image img {
+		border:	5px solid;
+		border-color: #859891;
+	}
+
+	#logo a:link, #logo a:visited, 	#about a:active {
+   color: #859891;
+   text-decoration: none;
+ 	}
+
+	#logo a:hover {
+   color: #5C6C67;
+	}
+
+	#about a:link, #about a:visited {
+   color: #176EAD;
+   text-decoration: none;
+ 	}
+
+	#about a:hover {
+   color: #176EAD;
+   text-decoration: underline;
+	}
+
+	#about a:active {
+   color: #176EAD;
+	}
+
+ #press {
+ 	margin-bottom: 20px;
+ }
+
+ #press img {
+ 	border: 5px #ccc solid;
+ 	padding: 1px;
+ }
+
+ #press img:hover {
+ 	border: 5px #859891 solid;
+ }
+
+footer {
+	text-align: right;
+	font-size: 0.8em;
+}
