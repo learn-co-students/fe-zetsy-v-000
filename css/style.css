@@ -18,3 +18,58 @@ body {
 }
 
 /* Write all remaining styles here */
+
+a {
+	text-decoration: none;
+}
+
+/* //////// HEADER ///////// */
+
+header h1 {
+	color: rgb(152,173,166)
+	text-decoration: none;
+	font-size: 80px;
+	font-family: 'Baskerville', serif;
+	margin: 0 0 10px 0;
+}
+
+header a {
+	color:rgb(152,173,166);
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+/* //////// Featured ///////// */
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	color: rgb(111,127,122);
+}
+
+#press img {
+	border: 5px rgb(152,173,166) solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+/* //////// Footer ///////// */
+
+footer {
+	background-color: #FFF;
+}
+footer p {
+	clear: both;
+	float:right;
+	color: rgb(176,186,175);
+}
