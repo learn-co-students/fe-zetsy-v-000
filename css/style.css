@@ -64,34 +64,37 @@ a:hover {
 }
 
 
-div {
 
-	float:left;  /* for side-by-side columns */
-	width = 32%;
-	margin-left: 2px;
-
-}
-
-
-#press img {
+#press {
 	border: 5px #ccc solid;
+	width: 23.5%;
+	margin-left: 0.8px;
 }
 
-#press img a:hover {
-	border: 5px rgb(111,127,122) solid;}
+#press a:hover {
+	border: 5px #ccc solid;}
 
-#press img a:visited {border: 5px rgb(111,127,122) solid;}
+#press a:visited {border: 5px  rgb(204,204,204) solid;}
 
 .first {
   margin-left: 0%;
 }
 
 footer {
-
-	float: right;
+	display: block;
 	text-align: right;
-	margin-top: 12px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 	font-size: 0.8em;
+}
+
+.clearfix{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
 }
 
 
