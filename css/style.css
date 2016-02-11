@@ -60,6 +60,15 @@ h2 {
   border: 5px rgb(204,204,204) solid;
 }
 
+#press a:hover img {
+  border: 5px green solid;
+  cursor: pointer;
+  -webkit-transition: border 2s ease-out;
+  -moz-transition: border 2s ease-out;
+  -o-transition: border 2s ease-out;
+  transition: border 2s ease-out;
+}
+
 footer p{
   font-size: .8em;
   color: #555;
