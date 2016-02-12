@@ -1,6 +1,11 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+/* using the @font-face rule from https://css-tricks.com/snippets/css/using-font-face/ */
+@font-face {
+  font-family: 'Baskerville';
+  src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +22,77 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(106,122,117);
+}
+
+p {
+  color: rgb(85,85,85);
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+.mini{
+  font-size:0.8em;
+}
+
 /* Write all remaining styles here */
+
+/* style <a> element descended from <header> element */
+header a{ /*untouched and visited link state*/
+  color: rgb(152, 173, 166);
+  text-decoration:none;
+}
+
+header a:hover { /*hover cursor link state*/
+  color: rgb(111, 127, 122);
+  text-decoration:none;
+}
+
+/* --- SPOTLIGHT --- */
+
+/* style <img> element descended from #spotlight */
+#spotlight img{
+  border: 5px solid rgb(152, 173, 166);
+}
+
+/* style <a> element descended from #spotlight */
+#spotlight a{ /* untouched and visited linke state*/
+  color: rgb(23,131,187);
+  text-decoration:none;
+}
+
+#spotlight a:hover{ /*hover cursor link state*/
+  color: rgb(23,131,187);
+  text-decoration:underline;
+}
+
+/* --- #COVERAGE ---- */
+#coverage{
+  margin-bottom:20px;
+}
+
+/* style <img> element descended from #coverage */
+#coverage img{  
+  border: 5px solid rgb(204,204,204);
+  padding: 1px;
+}
+
+#coverage img:hover{ /*hover cursor link state*/
+  border: 5px solid rgb(111,127,122);
+}
+
+/* --- FOOTER --- */
+footer {
+  text-align: right;
+}
