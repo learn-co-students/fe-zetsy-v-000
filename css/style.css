@@ -1,13 +1,17 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+    font-family: "Baskerville";
+    src: url(../fonts/Baskerville.ttc) format("truetype");
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +22,85 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+  margin: 0;
+  padding-bottom: 6px;
+}
+#title {
+	font-family: "Baskerville";
+	color: #98ADA6;
+	font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+  text-decoration:none
+}
+
+#title:hover {
+	color: #6F7F7A;
+}
+
+h2 {
+	color: #6F7F7A;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.content {
+	color: #555555;
+	font-size: 16px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: .25em 0;
+    padding: 0;
+}
+#necklace {
+  border-style: solid;
+  border-color: #98ADA6;
+  border-width: 5px;
+}
+
+.logos {
+  border-style: solid;
+  border-color: #CCCCCC;
+  border-width: 5px;
+  margin: 0;
+}
+
+.logos:hover {
+  border-color: #6F7F7A;
+}
+.copyright {
+  color: #555555;
+	font-size: 13px;
+  float: right;
+  margin: 15px;
+  padding: 4px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	line-height: 0;
+	content: ".";
+	clear: both;
+	height: 0;
+	}
+
+#learn:link {
+  color: #1783BB;
+  text-decoration: none;
+}
+
+#learn:visited {
+  color: #1783BB;
+  text-decoration: none;
+}
+
+#learn:hover {
+    text-decoration: underline;
+}
