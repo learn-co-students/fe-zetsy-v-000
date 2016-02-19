@@ -71,13 +71,17 @@ p {
 
 
 .press img {
+  transition: border 2s ease;
   border: 5px solid rgb(204,204,204);
+
 }
 
 /* PRESS SECTION */
 
 .press img:hover {
+
   border: solid 5px rgb(111,127,122);
+
 }
 
 /* FOOTER */
