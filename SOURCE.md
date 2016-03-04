@@ -27,3 +27,4 @@ Press
 [bergdorf-logo.png]<!-- links to: http://www.bergdorfgoodman.com/ -->
 
 <!-- paragraph -->&copy; 2014 Zetsy, All Rights Reserved.
+rgb(152, 173, 166)
