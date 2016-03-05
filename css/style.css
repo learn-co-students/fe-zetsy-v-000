@@ -1,13 +1,49 @@
 /*////////////// Fonts //////////////*/
+h1 {
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: 700;
+    font-family: Baskerville ;
+    border-bottom: 1px solid #ccc;
+}
 
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
 
+a:hover {
+	transition: color 0.5s ease;
+	color: rgb(111,127,122);
+}
+
+header a {
+    color: rgb(152,173,166);
+    text-decoration: none;
+		transition: color 2s ease;
+}
+
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	font: #ccc;
+}
+
+footer {
+    text-align: right;
+    background: #fff;
 }
 
 .wrapper {
@@ -17,4 +53,36 @@ body {
 	padding: 0 45px 20px;
 }
 
+.small {
+    font-size: 0.8em;
+}
+
 /* Write all remaining styles here */
+#featured a {
+    color: #1783bb;
+		text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+#featured img {
+    border: 5px rgb(152,173,166) solid;
+}
+#press{
+	margin-bottom: 20px;
+}
+#press img:hover {
+    border: 5px rgb(111,127,122) solid;
+		transition: border .5s ease;
+}
+#press img {
+    border: 5px #ccc solid;
+    padding: 1px;
+		transition: border 1s ease;
+}
+
+a:-webkit-any-link {
+    cursor: auto;
+}
