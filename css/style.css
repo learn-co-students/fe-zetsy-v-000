@@ -1,8 +1,16 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(http://www.cssfontstack.com/Baskerville);
+}
 
 /*////////// Global Styles //////////*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
 
 body {
 	background: #F3EBE9;
@@ -18,3 +26,64 @@ body {
 }
 
 /* Write all remaining styles here */
+
+header a {
+	color: rgb(128,128,128);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(180,180,180);
+}
+
+
+#featured a {
+	color: black;
+}
+
+#featured a:hover {
+	color: blue;
+}
+
+
+#featured img {
+	border: 5px rgb(180,180,180) solid;
+}
+
+#press img {
+	border: 5px rgb(180,180,180) solid;
+}
+
+#press img:hover {
+	border: 5px rgb(128,128,128) solid;
+}
+
+p {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 1em;
+	color: 	black;
+	margin: 0 0 20px 0;
+}
+
+
+h1 {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 	5em;
+	margin: 0 0 5px;
+	color: 	rgb(128,128,128);
+}
+
+h2 {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 	2em;
+	color: 	rgb(128,128,128);
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
+
+.small {
+	font-size: 0.8em;
+}
