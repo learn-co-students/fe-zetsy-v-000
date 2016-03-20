@@ -23,7 +23,10 @@ body {
 
 /* Write all remaining styles here */
 h1 {
-  color: #98ADA6;
-  text-decoration: none;
-  font-size: 90px;
+  padding-bottom:10px;
+  margin: 0 0 5px;
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #ccc;
 }
