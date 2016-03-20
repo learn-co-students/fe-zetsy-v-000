@@ -58,3 +58,30 @@ header a:hover {
 #featured img {
   border: 5px rgb(152,173,166) solid;
 }
+
+#featured a {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+#featured a:hover {
+  text-decoration: underline;
+}
+
+#press {
+  margin-bottom: 20px;
+}
+
+#press img {
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+#press img:hover {
+  border: 5px rgb(111,127,122) solid;
+}
+
+#footer {
+  text-align: right;
+  background: #fff;
+}
