@@ -18,3 +18,8 @@ body {
 }
 
 /* Write all remaining styles here */
+.press-img {
+  float: left;
+  display: inline;
+  background: #ccc;
+}
