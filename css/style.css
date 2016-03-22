@@ -26,4 +26,10 @@ h1 {
   color: rgba(152, 173, 166, 1);
 }
 
+h2 {
+  font-size: 35px;
+  font-family: 'Times New Roman', serif;
+  color: rgba(111, 127, 122, 1);
+}
+
 /* Write all remaining styles here */
