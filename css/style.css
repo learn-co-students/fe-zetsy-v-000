@@ -41,6 +41,8 @@ h1 {
   font-family: 'Baskerville', serif;
   color: rgba(152, 173, 166, 1);
   border-bottom: 1px solid #cccccc;
+  margin: 0 0 5px 0;
+  padding: 0 0 10px 0;
 }
 
 h2 {
@@ -56,9 +58,9 @@ p {
 /*///// MAIN IMAGE /////*/
 
 #main img {
-
   border: 5px solid rgba(152, 173, 166, 1);
   max-width: 100%
+  margin: 5px 50px;
 }
 
 /*///// LAYOUT //////*/
@@ -69,7 +71,7 @@ p {
   display: inline;
   border: 5px rgba(204, 204, 204, 1) solid;
   padding: 1px;
-  margin: 0px 5px 20px 0px;
+  margin: 2px;
 }
 
 
