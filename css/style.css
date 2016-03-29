@@ -5,9 +5,14 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  color: #555555;
+	font-family: 'Times New Roman', serif;
+  display: block;
+}
+
+div {
+  display: block;
 }
 
 .wrapper {
@@ -17,4 +22,45 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+  font-size: 5em;
+  color: #98ADA6;
+  font-family: Baskerville;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #BABABA;
+  margin: 0 0 5px 0;
+}
+
+h2 {
+  color: #667570;
+  font-size: 2em;
+}
+
+#main-border {
+  border: 5px #98ADA6 solid;
+}
+
+#CR {
+  float: right;
+  font-size: 80%;
+  margin: 20px 0;
+}
+
+#press img{
+  transition: border-color 0.5s ease-out;
+  border: 5px #BABABA solid;
+}
+
+#press img:hover {
+  border: 5px #64736E solid;
+}
+
+a {
+  color: #1783BD;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1783BD;
+  text-decoration: underline;
+}
