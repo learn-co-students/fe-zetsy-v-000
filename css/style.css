@@ -18,3 +18,43 @@ body {
 }
 
 /* Write all remaining styles here */
+h2 {
+	color: gray;
+	font-size: 2em;
+}
+
+h1 {
+	font-size: 5em;
+	color: gray;
+	font-weight: lighter;
+	padding: 0px;
+	margin: 0 0 5px;
+	border-bottom-style: solid; 
+	border-bottom-width: 1px;
+}
+.copy {
+	text-align: right
+}
+
+img {
+	border-color: gray;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.image-link:hover {
+	border-color: gray;
+	border-style: solid;
+}
+
+.image-link {
+	border-color: #D3D3D3;
+}
+
+a {
+	text-decoration: none;
+}
+
+#cover {
+	position: auto;
+}
