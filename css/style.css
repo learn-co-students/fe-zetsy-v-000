@@ -1,13 +1,18 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+  font-family: "Baskerville";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Baskerville.ttc");
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: "Times New Roman", serif; 
 }
 
 .wrapper {
@@ -18,3 +23,122 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.main-image {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-image img {
+  margin: 0;
+  border: 5px solid rgb(142, 165, 156);
+  padding: 0;
+}
+
+.main-image hr {
+  margin: 0 0 3px 0;
+  height: 1px;
+  padding: 0;
+  border: 0 none;
+  background-color: rgb(230, 230, 230);
+}
+
+.press {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.press a img {
+  border: 5px solid rgb(221, 221, 221);
+}
+
+.press a:hover img {
+  border: 5px solid rgb(142, 165, 156);
+  -webkit-transition: border-color 1s;
+  -moz-transition: border-color 1s;
+  transition: border-color 1s;
+}
+
+.footer {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer p {
+  font-size: .75em;
+  float: right;
+}
+
+.col-1 {
+  display: inline-block;
+  margin: 0;
+  width: 24%;
+  padding: 0;
+}
+
+.col-2, .col-3, .col-4 {
+  display: inline-block;
+  width: 24%;
+  margin: 0 0 0 .667%;
+  padding: 0;
+}
+
+.main-content {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content a {
+  text-decoration: none;
+  color: rgb(82, 117, 192);
+}
+
+.main-content a:hover {
+  color: rgb(25, 25, 255);
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  transition: color 1s;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 0;
+  font-family: "Baskerville", "Times New Roman", serif;
+  font-weight: 200;
+  color: rgb(158, 170, 170);
+}
+
+h2 {
+  font-size: 1.75em;
+  color: rgb(115, 125, 125);
+}
+
+p {
+  font-size: .9em;
+}
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.clearfix:before {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
