@@ -2,19 +2,91 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+  font-family: 'Baskerville';
+  src: url(../fonts/Baskerville.ttc);
+}
+
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background: #F3EBE9;
+  font-size: 100%;
+  font-family: 'Times New Roman', serif; 
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+}
+
+h2 {
+  color: rgb(111,127,122);
+  font-size: 2em;
+  display: block;
+  font-weight: bold;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+  display: block;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+/*////////// Section Styles //////////*/
+
+header a {
+  color: rgb(152, 173, 166);
+  text-decoration: none;
+}
+
+a {
+  background: transparent;
+}
+
+header a:hover {
+  color: rgb(111,127,122); 
+}
+
+#featured img {
+  border: 5px rgb(152,173,166) solid;
+}
+
+#press {
+  margin-bottom: 20px;
+}
+
+#press img {
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+#press img:hover{
+  border: 5px rgba(134, 158, 149, 1) solid;
+}
+
+footer {
+  text-align: right;
+}
