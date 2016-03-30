@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,61 @@ body {
 }
 
 /* Write all remaining styles here */
+header a {
+	color: rgb(152, 173, 166);
+	text-decoration: none;
+	padding-top: none;
+}
+
+h1 {
+	font-family: "Baskerville", serif;
+	font-size: 5em;
+	font-weight: normal;
+	color: rgb(152, 173, 166);
+	margin: 0 0 5px;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 10px;
+}
+
+h2	{
+	color: rgb(111, 127, 122);
+	font-size: 2em;
+}
+
+@font-face {
+	font-family: "Baskerville";
+	src: url("../fonts/Baskerville.ttc");
+}
+
+p {
+	color: #555555;
+	font-size: 1em;
+	margin: 0 0 20px;
+}
+
+.little {
+	font-size: 0.8em;
+}
+
+#about {
+	color: #1783bb
+	text-decoration: none;
+}
+
+#about img {
+	border: 5px solid rgb(152, 173, 166);
+}
+
+footer {
+	text-align: right;
+	background: #fff none repeat scroll 0 0;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px solid #ccc;
+	padding: 1px;
+}
