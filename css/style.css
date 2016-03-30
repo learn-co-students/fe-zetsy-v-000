@@ -1,7 +1,11 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: Baskerville;
+	src: local("Baskerville"), 
+		url('../fonts/Baskerville.ttc');
+	font-weight: normal;
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -17,4 +21,56 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+/* Main Body */
+#main-body {
+	height: 100%;
+	min-height: 100%;
+	overflow: auto;
+}
+
+/* Zetsy logo */
+h1 {
+	color:rgb(160, 169, 166);
+	font-size: 5em;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+
+/* Section Headings */
+h2 {
+	color: rgb(109, 129, 135);
+	font-size: 2em;
+}
+
+/* Featured Image */
+.featured-image {
+	border: 5px rgb(160, 170, 165) solid;
+}
+
+/* Press */
+#press {
+	display: inline;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#press a img {
+	border: 5px rgb(160, 170, 165) solid;
+	margin: 0 auto;
+	padding: 0;
+	vertical-align: top;
+	transition: border 0.5s ease;
+}
+#press a img:hover {
+	border: 5px rgb(117, 126, 123) solid;
+	height: 168px;
+	width: 257px;
+	z-index: 10;
+}
+
+/* Footer */
+footer {
+	float: right;
+	font-size: 0.8em;
+}
