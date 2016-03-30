@@ -17,4 +17,98 @@ body {
 	padding: 0 45px 20px;
 }
 
+img.wrapper {
+  width: 100%;
+}
+
+h1 {
+    color: rgb(152, 173, 166);
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
+p.small {
+  rgb(85, 85, 85);
+  display: block;
+  font-family: 'Times New Roman', serif;
+  font-size: 12.8px;
+  height: 15px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 1em;
+  text-align: right;
+}
+
+h2 #press {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+
+img.img-1 {
+    border: 5px #ccc solid;
+    padding: 1px;
+    margin: 0;
+}
+
+img.main {
+  width: 950px;
+  height: 473px;
+}
+img {
+  display: inline-block;
+  width: 224px;
+  height: 143px;
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.clearfix:before {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+a {
+  color: #1783bb;
+}
+
+a:link {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1783bb;
+}
+
 /* Write all remaining styles here */
