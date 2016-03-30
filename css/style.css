@@ -18,3 +18,49 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  color: rgb(157, 168, 163); 
+  margin: 0 0 5px;
+  font-size: 5em;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  color: rgb(118,  126, 120 );
+}
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
+p a {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+p a:hover{
+  text-decoration: underline;
+}
+
+img {
+  border: 5px solid #9DA8A3;
+}
+
+.links img {
+  border: 5px solid #CBCDCC;
+  padding: 1px;
+}
+
+.links img:hover {
+  border: 5px solid #9DA8A3;
+}
+
+.footer {
+  text-align: right;
+  font-size: 0.8em;
+}
+
+
