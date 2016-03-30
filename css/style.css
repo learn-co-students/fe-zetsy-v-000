@@ -2,19 +2,77 @@
 
 /* link the web font used for the level 1 heading here */
 
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	
 }
 
 .wrapper {
 	width: 960px;
-	margin: 0 auto;
+	margin: 0 auto ;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0px 45px 20px;
+	
 }
 
 /* Write all remaining styles here */
+
+
+h2 {
+	/*color: #6f7f7a;*/
+	color: rgb(111,127,122);
+	}
+p {
+	color: rgb(85,85,85)
+	}
+	
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size:3.5em;
+	color: rgb(152,173,166);
+	}
+
+
+hr {
+	color: #ccc;
+	margin-top: -20px;
+	}
+	
+#main {
+	border: 5px rgb(152,173,166) solid;
+	margin: -5px auto 0;
+}
+
+
+footer img {
+	border: 5px #ccc solid;
+	width: 229px;
+	}
+	
+footer img:hover {
+	border: 5px rgb(85,85,85) solid;
+	cursor: pointer;
+	}
+	
+
+footer p {
+	color: rgb(152,173,166);
+	text-align: right;
+	}
+	
+p a {
+	text-decoration: none;
+	}
+
+p a:hover {
+	text-decoration: underline;
+	}
+	
+
+	
