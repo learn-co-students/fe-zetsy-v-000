@@ -18,3 +18,29 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  color: rgb(152,173,166);
+  font-size: 5em;
+}
+#jumbo {
+  border: 5px rgb(152,173,166) solid;
+}
+h2 {
+  color: rgb(111,127,122);
+  font-size: 2em;
+}
+.small {
+    border: 5px #ccc solid;
+    padding: 1px;
+    clear: both;
+}
+
+.small:hover {
+  border: 5px rgb(111,127,122) solid;
+}
+footer {
+  text-align: right;
+  background: #fff;
+}
+
