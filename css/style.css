@@ -1,6 +1,7 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +18,78 @@ body {
 	padding: 0 45px 20px;
 }
 
+p  {
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
 /* Write all remaining styles here */
+
+h1 {
+  color: rgb(152, 173, 166);
+  font-size: 5em;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+  font-family: 'Lora', serif;
+}
+
+header img {
+  border: 5px solid rgb(152,173,166);
+}
+
+h2 {
+  color: rgb(152, 173, 166);
+  font-size: 2em;
+}
+
+footer {
+  position: relative;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 0.8em;
+}
+ /* LINKS */
+
+header a {
+  color: rgb(152, 173, 166);
+  text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(111,127,122);
+    text-decoration: none;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    -o-transition: color 1s ease;
+    transition: color 1s ease;
+}
+
+#press img {
+  border: 5px solid rgb(204, 204, 204);
+}
+
+#press img:hover {
+    border: 5px rgb(111,127,122) solid;
+    -webkit-transition: border 1s ease;
+    -moz-transition: border 1s ease;
+    -o-transition: border 1s ease;
+    transition: border 1s ease;
+}
+
+a {
+  color: rgb(68, 118, 155);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
