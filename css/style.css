@@ -2,6 +2,10 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: "Baskerville";
+	src: url(fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -17,4 +21,80 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/*Header is grey, large, and in Baskerville font*/
+/*There is a grey page break between the header and about section*/
+
+h1 {
+	font: 600 5em "Baskerville";
+	color: rgb(150, 170, 160);
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+}
+
+/*About and Press titles are grey, mid-size, Baskerville font*/
+
+h2 {
+	font: 600 2em "Baskerville";
+	color: rgb(102, 128, 133);
+}
+
+/*About text is a darker grey*/
+
+p  {
+	color: rgb(67, 66, 82);
+}
+
+footer {
+	font-size: 0.8em;
+}
+
+/*Section Styles*/
+
+/*Header link is darker grey on hover*/
+
+header a {
+	color: rgb(150, 170, 160);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(102, 128, 133);
+}
+
+/*About image is outlined in grey border*/
+
+#about img {
+	border: 5px solid rgb(150, 170, 160);
+}
+
+#about a {
+	color: rgb(16, 109, 175);
+	text-decoration: none;
+}
+
+/*Learn more link is mid-blue, not underlined, is underlined on hover*/
+
+#about a:hover {
+	text-decoration: underline;
+}
+
+/*Press images are outlined in grey border*/
+
+#press img {
+	padding: 1px;
+	border: 5px solid #ccc;
+	margin-bottom: 10px;
+}
+
+#press img:hover {
+	border: 5px solid rgb(102, 128, 133);
+}
+
+/*Copyright is small and located in the bottom right corner and is grey*/
+
+footer {
+	font-size: 0.8em;
+	text-align: right;
+	color: gray;
+}
