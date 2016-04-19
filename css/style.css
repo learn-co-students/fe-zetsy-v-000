@@ -38,21 +38,22 @@ img, video, audio {
   color: grey;
 }
 
-.header {
+#header {
   font-size: 32px;
   height: 100%;
   border-bottom: 1px solid #ccc;
 }
 
-.col {
+#col {
   float: left;
   width: 25%;
   background: 0px #ccc;
   margin: 10px;
   border: 1px dashed black;
   display: block;
+}
 
-.footer {
+#footer {
     float: both;
   }
 
