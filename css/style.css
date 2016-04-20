@@ -2,8 +2,7 @@
 
 /* link the web font used for the level 1 heading here */
 
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700);
-
+@import "fonts/baskerville.ttc";
 
 /*////////// Global Styles //////////*/
 
@@ -34,36 +33,30 @@ img, video, audio {
 /* Write all remaining styles here */
 
 .baskerville { /* select elements with class="baskerville" */
-  font-family: "Libre Baskerville", serif;
+  font-family: "Baskerville", serif;
   color: #98ADA6;  /* #6F7F7A;*/
 }
 
 h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-hr {
-  font-color: #ccc;
-}
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+  }
 
 #feature {
   border: 5px solid #98ADA6;
-}
-
-#header {
-  font-weight: normal;
-  font-size: 32px;
-  height: 100%;
-  margin-bottom: 0px;
 }
 
 h1.baskerville:hover {
   color: #6F7F7A;
 }
 
-h2.baskerville{
+h2{
   color: #6F7F7A;
+  font-size: 2em;
 }
 
 #col {
@@ -83,7 +76,6 @@ h2.baskerville{
     float: right;
     font-size: 0.8em;
   }
-
 
 .clearfix:after {
   content: ".";
