@@ -14,7 +14,7 @@ body {
 }
 
 .wrapper {
-	width: 960px;
+	width: 1050px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
@@ -35,36 +35,53 @@ img, video, audio {
 
 .baskerville { /* select elements with class="baskerville" */
   font-family: "Libre Baskerville", serif;
-  color: grey;
+  color: #98ADA6;  /* #6F7F7A;*/
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+hr {
+  font-color: #ccc;
 }
 
 #feature {
-  border: 5px solid black;
+  border: 5px solid #98ADA6;
 }
 
 #header {
+  font-weight: normal;
   font-size: 32px;
   height: 100%;
-  border-bottom: 1px solid #grey;
+  margin-bottom: 0px;
+}
+
+h1.baskerville:hover {
+  color: #6F7F7A;
+}
+
+h2.baskerville{
+  color: #6F7F7A;
 }
 
 #col {
-  float: left;
-  width: 25%;
-  background: 0px #ccc;
-  padding: 0px;
-  margin: 10px;
-  border: 1px dashed black;
   display: block;
+  float: left;
+  width: 24.5%;
+  margin-left: .5%;
+  background: rgb(229, 222, 220); 
+  border: 5px solid rgb(198, 198, 198) ;
+}
+
+#col img {
+  width: 100%;
 }
 
 #footer {
     float: right;
-    font-size: 14px;
+    font-size: 0.8em;
   }
 
 
