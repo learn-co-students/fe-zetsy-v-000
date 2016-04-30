@@ -12,6 +12,7 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+  color: rgb(152, 173, 166);
 }
 
 .wrapper {
@@ -25,4 +26,28 @@ body {
 
 #name {
   font-family: "Baskerville";
+  font-size: 5em;
+}
+
+h1 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+}
+
+img {
+  border: 5px rgb(152, 173, 166) solid;
+}
+
+p {
+  color: #555;
+}
+
+.pop:hover {
+  border: 5px rgb(111, 127, 122) solid;
+}
+
+#copyright {
+  font-size: .8em;
+  text-align: right;
 }
