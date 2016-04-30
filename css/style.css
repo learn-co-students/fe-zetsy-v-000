@@ -17,4 +17,58 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/*////////// Header //////////*/
+
+h1 {
+  color: rgb(152, 173, 166);
+  font-size: 80px;
+  font-family: Baskerville, serif;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(193, 193, 193);
+  margin: 0 auto;
+}
+
+/*////////// Banner //////////*/
+
+.banner {
+  border: 5px solid rgb(138, 155, 148);
+  margin-top: 5px;
+}
+
+/*////////// About Section //////////*/
+
+p {
+  color: rgb(67, 67, 67);
+  font-size: 16px;
+}
+
+h2 {
+  color: rgb(111, 127, 122);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(23, 131, 187);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(23, 131, 187);
+}
+
+/*////////// Press Section //////////*/
+
+.col-1 {
+  border: 5px solid rgb(193, 193, 193);
+}
+
+/*////////// Footer //////////*/
+
+footer p {
+  text-align: right;
+  font-size: 0.8em;
+  color: #555;
+  margin-top: 20px;
+}
