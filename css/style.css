@@ -18,3 +18,100 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*////// LAYOUT //////*/
+
+h1{
+	font-size: 50px;
+	
+}
+
+.col-1{
+  border-style: solid;
+  border-width: 5px;
+  color: #777;
+  
+}
+
+figcaption {
+    color: #777;
+	
+    
+}
+	
+.col-2 {
+  width: 190px;
+  height: 103px;
+  border: 6px solid grey;
+  margin: 0px;
+  padding: 20px;
+  
+}
+
+.col-3{
+  width: 185px;
+  height: 102px;
+  border: 6px solid grey;
+  margin: 5px;
+  padding: 20px;
+  position: relative;
+	bottom: 159px;
+	left: 245px;
+}
+
+.col-4{
+  width: 185px;
+  height: 103px;
+  border: 6px solid grey;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  bottom: 332px;
+  left: 475px;
+}
+
+.col-5{
+  width: 185px;
+  height: 103px;
+  border: 6px solid grey;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  bottom: 507px;
+  left: 721px;
+}
+
+.milk-text{
+	position: relative;
+	bottom: 490px;
+	left: 710px;
+}
+
+#nami{
+	position:relative;
+	bottom: 20px;
+	right: 19px;
+}
+
+#times{
+	position:relative;
+	bottom: 20px;
+	right: 19px;
+}
+
+#sedona{
+	position:relative;
+	bottom: 20px;
+	right: 19px;
+}
+
+#berg{
+	position:relative;
+	bottom: 20px;
+	right: 19px;
+}
+
+p:hover{
+	background-color: blue
+	
+}
