@@ -1,20 +1,86 @@
 /*////////////// Fonts //////////////*/
-
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 /* link the web font used for the level 1 heading here */
+  body {
+  background: #F3EBE9;
+  font-size: 100%;
+  font-family: 'Times New Roman', serif; 
+}
 
-/*////////// Global Styles //////////*/
+  .wrapper {   
+   width: 960px;
+   margin: 0 auto;
+   background: #FFF;
+   padding: 0 45px 20px;
+  } 
 
-body {
+  h1 {
+   padding-bottom: 30px;
+   margin: 0, 0, 0px;
+   font-size: 5em;
+   color: rgb(152, 173, 166); 
+   font-weight: normal;
+   font-family: 'Libre Baskerville', serif;
+   border-bottom: 1px solid #ccc
+  }
+
+  body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
 
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  h2 {
+    color: rgb(111, 127, 122);
+    font-size: 2em;
+  }
+
+  p {
+    color: 555;
+    font-size: 1em;
+    0, 0, 20, 0;
+  }
+  
+  .small {
+    font-size: 0.8em;
 }
 
-/* Write all remaining styles here */
+  header a {
+  color: rgb(152,173,166);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(111,127,122);
+}
+
+.container img {
+  border: 5px rgb(152,173,166) solid;
+}
+
+.container a {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+#boxes {
+  margin-bottom: 20px;
+}
+
+#boxes img {
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+#boxes img:hover {
+  border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+  text-align: right;
+}
+
