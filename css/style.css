@@ -68,6 +68,7 @@ header a:hover {
 }
 
 #press img {
+	transition: border 0.5s ease;
 	border: 5px #ccc solid;
 	padding: 1px;
 }
