@@ -1,7 +1,7 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700);
 /*////////// Global Styles //////////*/
 
 body {
@@ -19,6 +19,51 @@ body {
 
 /* Write all remaining styles here */
 
-div#wrapper > h1 {
+#headline {
   font-family: 'Libre Baskerville', serif;
+  color: #98ADA6;
+  font-size: 3.5em;
+  margin-bottom: 2%;
+}
+
+hr {
+  color: #98ADA6;
+  margin: 0.2em 0;
+}
+
+a#inline-link {
+  text-decoration: none;
+}
+
+a#inline-link:hover {
+  transition: text-decoration 0.5s ease;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #6E7D73;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#featured {
+  border: 5px solid #95AEA7;
+}
+
+p {
+  font-size: 100%;
+  color: #555555;
+}
+
+#footer img {
+  border: 4px solid #C4C7C7;
+}
+
+#footer img:hover {
+  transition: border-color 0.5s ease;
+  border-color: #6C7F7A;
+}
+
+#bottom {
+  text-align: right;
 }
