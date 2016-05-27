@@ -7,13 +7,13 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: #F3EBE9 ;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
 
 /*body {
-  display: block;
+  display: block; 
 }*/
 
 .wrapper {
@@ -48,12 +48,9 @@ background: transparent;
 
 
 #featured img {
-  border: 5px rgb (204,204,204) solid;
+  border: 5px gray solid;
  }
 
-img {
-  border: 1px;
-}
 
 h2 {
   color: rgb(152,173,166);
