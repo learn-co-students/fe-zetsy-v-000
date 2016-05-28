@@ -4,6 +4,9 @@
 
 /*////////// Global Styles //////////*/
 
+
+
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -17,4 +20,39 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+h1{
+  font-family: 'Baskerville', serif;
+  font-size: 5em;
+  color: rgb(152,173,166);
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+}
+
+h2{
+  font-family: 'Times New Roman', serif;
+  font-size: 2em;
+  color: rgb(111,127,122);
+
+}
+
+.pic {
+  display: inline-block;
+  border: 5px rgb(204,204,204) solid;
+  padding: 1px;
+}
+
+img{
+  height: 100%;
+}
+
+footer p{
+  text-align: right;
+  font-size: .8em;
+  color: #555;
+}
+
+.featured{
+  border: 5px rgb(152,173,166) solid;
+}
