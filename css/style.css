@@ -1,0 +1,88 @@
+/*////////////// Fonts //////////////*/
+
+/* link the web font used for the level 1 heading here */
+
+/*////////// Global Styles //////////*/
+
+h1 {
+	font-size: 75px;
+	color: rgba(152,173,166,1);
+	border-bottom: 1px solid rgba(204,204,204,1);
+	margin: 0 0 5px;
+}
+
+h1:hover {
+	color: rgba(111,127,122,1);
+}
+
+h2 {
+	font-size: 32px;
+	color: rgba(111,127,122,1);
+}
+
+body {
+	background: #F3EBE9;
+	font-size: 100%;
+	font-family: 'Times New Roman', serif; 
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
+}
+
+a[href*="Native_American"] {
+	color: rgba(23,134,204,1);
+	text-decoration: none;
+}
+
+a[href*="Native_American"]:hover {
+	text-decoration: underline;
+}
+
+/* Write all remaining styles here */
+
+.press {
+	float: left;
+	border: 5px solid rgba(204,204,204,1);
+}
+
+.press:hover {
+	border-color: rgba(111,127,122,1);
+}
+
+.space {
+	margin-left: 4px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+footer {
+	clear: both;
+	margin-top: 22px;
+	margin-bottom: 25px;
+	float: right;
+	font-size: 13px;
+}
+
+#press-links {
+	margin-bottom: 10px;
+}
+
+#main-image {
+	max-width: 100%;
+	border: 5px solid rgba(152,173,166,1);
+}
+
+p {
+	font-size: 16px;
+}
