@@ -4,6 +4,7 @@
 
 /*////////// Global Styles //////////*/
 
+<<<<<<< HEAD
 h1 {
 	font-size: 75px;
 	color: rgba(152,173,166,1);
@@ -20,6 +21,8 @@ h2 {
 	color: rgba(111,127,122,1);
 }
 
+=======
+>>>>>>> 6011e1ecdcb881d494a7f550d21edd8c2dae00f7
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -33,6 +36,7 @@ body {
 	padding: 0 45px 20px;
 }
 
+<<<<<<< HEAD
 a[href*="Native_American"] {
 	color: rgba(23,134,204,1);
 	text-decoration: none;
@@ -69,7 +73,7 @@ a[href*="Native_American"]:hover {
 footer {
 	clear: both;
 	margin-top: 22px;
-	margin-bottom: 25px;
+	margin-bottom: 24px;
 	float: right;
 	font-size: 13px;
 }
@@ -86,3 +90,6 @@ footer {
 p {
 	font-size: 16px;
 }
+=======
+/* Write all remaining styles here */
+>>>>>>> 6011e1ecdcb881d494a7f550d21edd8c2dae00f7
