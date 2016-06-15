@@ -45,6 +45,19 @@ p {
 	margin: 0 0 20px 0;
 }
 
+#featured {
+	border: 5px rgb(152,173,166) solid;
+	color: #1783bb;
+}
+
+#featured-link {
+	text-decoration: none;
+}
+
+#featured-link:hover {
+	text-decoration: underline;
+}
+
 /*/////// Section ///////*/
 
 header a {
@@ -54,19 +67,6 @@ header a {
 
 header a:hover {
 	color: rgb(111,127,122);
-}
-
-#featured {
-	border: 5px rgb(152,173,166) solid;
-}
-
-#featured a {
-	color: #1783bb
-	text-decoration: none;
-}
-
-#featured a:hover {
-	text-decoration: underline;
 }
 
 #press {
