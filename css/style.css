@@ -26,10 +26,12 @@ body {
 h1 {
 	color: rgb(152,173,166);
 	font-size: 80px;
+	font-weight: 900;
 	font-family: 'Baskerville', serif;
-
-
-}
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 5px
+	}
 
 h2 {
 	color: rgb(111,127,122);
@@ -43,6 +45,7 @@ p{
 
 .boxes img {
 	border: 5px solid #d3d3d3;
+	padding: 1px;
 }
 
 img {
@@ -73,4 +76,20 @@ footer {
 #link:hover, #link:active {
 	color: rgb(111,127,122);
 	text-decoration:underline;
+}
+
+
+.boxes img:link {
+	border: 5px solid rgb(111,127,122);
+
+}
+
+.boxes img:visited {
+	border: 5px solid rgb(111,127,122);
+
+}
+
+.boxes img:hover, .boxes img:active {
+	border: 5px solid rgb(111,127,122);
+
 }
