@@ -24,7 +24,7 @@ body {
 
 /* Write all remaining styles here */
 h1 {
-
+  color:rgb(111,127,122);
 	font-size: 80px;
 	font-weight: 900;
 	font-family: 'Baskerville', serif;
@@ -91,22 +91,12 @@ footer {
 	border: 5px solid rgb(111,127,122);
 }
 
-h1:link {
-color:rgb(111,127,122);
+header a:link {
+color:rgb(152,173,166);
 text-decoration:none;
 }
 
-h1:visited {
-color:rgb(111,127,122);
-text-decoration:none;
-}
 
-h1:hover {
-color:rgb(74,72,71);
-text-decoration:none;
-}
-
-h1:active {
+header a:hover {
 color:rgb(111,127,122);
-text-decoration:none;
 }
