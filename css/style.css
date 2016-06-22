@@ -1,13 +1,24 @@
 /*////////////// Fonts //////////////*/
+.wrapper h1 {
+  font-size: 76px;
+  color: rgb(152,173,166);
+  font-family: 'Baskerville';
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+}
 
-/* link the web font used for the level 1 heading here */
+.wrapper h2 {
+  font-size: 30px;
+  color: rgb(152,173,166);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +28,36 @@ body {
 	padding: 0 45px 20px;
 }
 
+#necklace {
+  border: 5px solid gray;
+  margin: 0;
+  border-color: rgb(152,173,166);
+}
+
+.logos {
+  transition: border-color .5s ease;
+  border: 5px solid lightgray;
+}
+
+a {
+   transition: text-decoration .5s ease;
+   text-decoration: none;
+   color: rgb(23,134,197);
+}
+
+p a:hover  {
+  text-decoration: underline;
+}
+
+.logos:hover {
+  border-color: gray;
+}
+
+
+.copywrite {
+  text-align: right;
+  font-size: 13px;
+  color: rgb(100,100,111);
+
+}
 /* Write all remaining styles here */
