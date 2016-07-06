@@ -18,3 +18,52 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.header{
+  padding: 0 0 10px 0;
+  margin: 0 0 5px 0;
+  font-size: 80px;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #CBCBCB;
+  color: #9DABA6;
+}
+
+.neck{
+  border:5px solid #9DABA6;
+}
+
+.section-title{
+  font-size: 20px;
+  color: #777;
+}
+
+.block-text{
+  color: #555;
+}
+
+.block-text a:link{
+  color: #749AC4;
+  text-decoration: none;
+}
+
+.footer{
+  float:right;
+  font-size:13px;
+  color: #555;
+  padding:15px 0 20px 0;
+}
+
+.clearfix{
+  visibility: hidden;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.press img{
+  border:5px solid #CCC;
+}
+
+.press img:hover{
+  border:5px solid #888;
+}
