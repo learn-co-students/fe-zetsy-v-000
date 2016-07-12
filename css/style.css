@@ -43,3 +43,7 @@ h1 {
 	font-family: 'Bakersville', serif;
 	border-bottom: 1px solid #ccc;
 }
+
+h1 {
+	display: block;
+}
