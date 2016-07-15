@@ -24,7 +24,7 @@ head {
 
 /* Write all remaining styles here */
 
-#main img {
+#featured img {
     border: 5px rgb(152,173,166) solid;
 }
 
@@ -43,15 +43,13 @@ h1 {
 	font-weight: normal;
 	font-family: 'Bakersville', serif;
 	border-bottom: 1px solid #ccc;
-}
-
-h1{
 	display: block;
 	-webkit-margin-before: 0.67em;
 	-webkit-margin-after: 0.67em;
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
 }
+
 
 header {
 	display: block;
