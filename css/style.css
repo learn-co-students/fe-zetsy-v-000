@@ -1,6 +1,6 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@import url(https://fonts.googleapis.com/css?family=Baskerville:700);
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +17,41 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+header a {
+	text-decoration: none;
+	color: rgb(152,173,166);
+	font-size: 80px;
+	font-weight: bold;
+
+}
+
+h1 {
+	border-bottom: rgb(204, 204, 204);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#necklace {
+    border: 5px rgb(152,173,166) solid;
+}
+
+#jewelry {
+	text-decoration: none;
+}
+
+h2 {
+ 	color: rgb(111,127,122);
+ 	font-size: 32px;
+ 	font-weight: bold;
+ }
+
+ #press a img{
+ 	border: 5px #ccc solid;
+ }
+
+ footer {
+ 	text-align: right;
+ 	font-size: 0.8em;
+ }
