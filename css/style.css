@@ -33,14 +33,7 @@ a:hover {
 }
 
 /* Write all remaining styles here */
-section {
-  background-color: #fff;
-  margin: 0;
-  display: block;
-}
-
 h1 {
-  display: block;
   transition: all 0.2s ease;
   color: rgba(136,158,149,1);
   font-family: 'Baskerville', serif;
@@ -62,7 +55,6 @@ h2 {
 p {
   color: rgba(85,85,85,1);
   font-size: 1em;
-  display: block;
   margin: 0 0 20px 0;
 }
 
@@ -70,18 +62,12 @@ footer {
   color: rgba(85,85,85,1);
   float: right;
   font-size: 0.8em;
-  margin: 0;
-  display: block;
-  background: #blue;
 }
 
 .img-1 { /* header img */
   border: 5px #ccc solid;
   width: 950px;
   height: 473px;
-  background: blue;
-  position: relative;
-  top: 0;
 }
 
 .img-2 { /* bottom 4 imgs */
