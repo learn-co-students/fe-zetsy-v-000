@@ -1,6 +1,9 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+  font-family: 'Baskerville';
+  src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +20,87 @@ body {
 	padding: 0 45px 20px;
 }
 
+a {
+  color: rgba(31,108,183,1); 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* Write all remaining styles here */
+section {
+  background-color: #fff;
+  margin: 0;
+  display: block;
+}
+
+h1 {
+  display: block;
+  transition: all 0.2s ease;
+  color: rgba(136,158,149,1);
+  font-family: 'Baskerville', serif;
+  font-size: 5em;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 5px; /* very important */
+  padding-bottom: 10px;
+}
+
+h1:hover {
+  color: rgba(93,108,102,1);
+}
+
+h2 {
+  color: rgba(93,108,102,1);
+  font-size: 32px;
+}
+
+p {
+  color: rgba(85,85,85,1);
+  font-size: 1em;
+  display: block;
+  margin: 0 0 20px 0;
+}
+
+footer {
+  color: rgba(85,85,85,1);
+  float: right;
+  font-size: 0.8em;
+  margin: 0;
+  display: block;
+  background: #blue;
+}
+
+.img-1 { /* header img */
+  border: 5px #ccc solid;
+  width: 950px;
+  height: 473px;
+  background: blue;
+  position: relative;
+  top: 0;
+}
+
+.img-2 { /* bottom 4 imgs */
+  transition: all 0.2s ease;
+  border: 5px #ccc solid;
+  padding: 1px;
+  width: 224px;
+  height: 143px;
+}
+
+.img-2:hover {
+  border-color: rgba(93,108,102,1);
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
