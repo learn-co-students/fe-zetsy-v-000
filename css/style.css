@@ -2,12 +2,24 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
+
+/*
+@font-face {
+	font-family: 'Baskerville';
+	src: url(https://fonts.gstatic.com/s/librebaskerville/v4/pR0sBQVcY0JZc_ciXjFsKwHlCYWexZJCPRz1QQ0uKVU.woff2);
+}
+*/
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +30,69 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#necklace {
+	    border: 5px solid rgb(152,173,166);
+}
+
+header h1 {
+    color: rgb(152,173,166);
+		font-family: 'Baskerville', serif;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 10px;
+	  font-size: 5em;
+		margin-bottom: 5px;
+}
+
+header h1 a {
+		color: rgb(152,173,166);
+		text-decoration: none;
+		transition: all 0.5s ease;
+}
+
+header h1 a:hover {
+		color: rgb(111,127,122);
+		text-decoration: none;
+}
+
+article h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+		font-weight: bold;
+}
+
+article a {
+    color: #1783bb;
+    text-decoration: none;
+}
+
+article a:hover {
+	text-decoration: underline;
+}
+
+article p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
+footer h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+		font-weight: bold;
+}
+
+div#press img {
+	transition: border 0.5s ease;
+	border: 5px #ccc solid;
+  padding: 1px;
+}
+
+div#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer p {
+	font-size: 0.8em;
+	text-align: right;
+}
