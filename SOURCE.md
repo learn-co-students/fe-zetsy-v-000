@@ -15,7 +15,7 @@ Jewelry in the Americas has an ancient history. Beginning as far back as 8800 BC
 <!-- Note: "Learn more" links to: http://en.wikipedia.org/wiki/Native_American_jewelry -->
 
 <!-- paragraph -->
-Mary's jewelry has received recognition, and been featured in the National Museum of the American Indian, The New York Times Style Magazine, and Sedona Monthly. The collection been has sold across the United States and Europe and been carried by the retail stores of Bergdorf Goodman.
+  
 
 <!-- level 2 header -->
 Press
