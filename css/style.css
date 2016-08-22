@@ -79,6 +79,7 @@ header {
 /*////////// Text //////////*/
 
 #featured a {
+	transition: all .4s ease;
 	color: #1783bb;
 	text-decoration: none;
 }
@@ -102,6 +103,7 @@ h1 {
 }
 
 h1 a {
+	transition: all .4s ease;
 	color: #98ADA6;
 	text-decoration: none;
 }
@@ -128,6 +130,7 @@ p {
 }
 
 #press img {
+	transition: all .4s ease;
 	border: 5px solid #cbcdcc;
 	padding: 1px;
 }
