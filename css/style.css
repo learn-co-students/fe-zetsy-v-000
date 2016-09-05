@@ -7,6 +7,8 @@ h1 {
     font-weight: normal;
     font-family: 'Baskerville', serif;
     border-bottom: 1px solid #ccc;
+    color: rgb(152,173,166);
+    text-decoration: none;
 }
 
 h2 {
@@ -21,11 +23,11 @@ body {
 	    font-family: 'Times New Roman', serif;
 }
 
-/* link the web font used for the level 1 heading here */
+/* link the web font used for the level 1 heading here
 h1 {
 	font-family: 'My font';
 	src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
-  }
+  } */
 /*////////// Global Styles //////////*/
 
 body {
