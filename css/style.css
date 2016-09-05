@@ -29,11 +29,6 @@ h1 @font-face {
   src: url('../fonts/Baskerville.ttc');
   }
 
-	/*font-family: 'My font';
-	src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
-  } */
-/*////////// Global Styles //////////*/
-
 body {
 	background: #F3EBE9;
 	font-size: 100%;
