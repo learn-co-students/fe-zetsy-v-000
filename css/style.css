@@ -23,9 +23,13 @@ body {
 	    font-family: 'Times New Roman', serif;
 }
 
-/* link the web font used for the level 1 heading here
-h1 {
-	font-family: 'My font';
+/* link the web font used for the level 1 heading here */
+h1 @font-face {
+  font-family: 'Baskerville';
+  src: url('../fonts/Baskerville.ttc');
+  }
+
+	/*font-family: 'My font';
 	src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
   } */
 /*////////// Global Styles //////////*/
