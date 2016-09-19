@@ -18,3 +18,16 @@ body {
 }
 
 /* Write all remaining styles here */
+h1,h2 { color:#9DAEA8;}
+
+header img {border:5px solid #9DAEA8;}
+
+.about p a {text-decoration: none;
+			color:#79A0C3;}
+.about p a:hover {text-decoration: underline;}
+
+.press img { border: 5px solid #CBCDCC; }
+.press img:hover {border: 5px solid #70817B; }
+
+footer p {font-size: 10px; 
+	text-align: right;}
