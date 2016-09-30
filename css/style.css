@@ -18,3 +18,68 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: rgb(152,173,166);
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	color: rgb(111,127,122);
+  font-size: 2em;
+}
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	width: 23%;
+	border: 5px #ccc solid;
+  padding: 1px;
+}
