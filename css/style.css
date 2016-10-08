@@ -18,3 +18,23 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font-size: 500%;
+	color: #8c8c8c;
+	font-weight: normal;
+}
+
+h2, h3 {
+	font-size: 200%;
+	color: #8c8c8c;
+}
+
+img {
+	transition: border 0.5s ease;
+	border: 3px solid #8c8c8c;
+}
+
+img:hover {
+	border: 3px solid #4d4d4d;
+}
