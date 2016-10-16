@@ -19,6 +19,43 @@ body {
 
 /* Write all remaining styles here */
 
-p{
-	font-family: 'Libre Baskerville', serif;
+h1{
+	font-size: 50px;
+	color:#A4A99A;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-bottom-width: 2px;
+	border-color: #A4A99A;
+}
+h1 {
+	margin: 3px 0 2px 0;
+	font-family: 'Libre Baskerville';
+}
+
+* {
+	font-family: serif;
+	color: #62595E;
+}
+
+h2{
+	color: #99A8A3;
+}
+img{
+	border-style: solid;
+	border-width: 5px;
+}
+
+h1 + img{
+	border-color: #9CABA6;
+}
+
+.pressPics img{
+	border-color: #CBCBCB;
+	transition: border-color .2s ease;
+}
+.pressPics img:hover{
+	border-color: #757E7B;
 }
