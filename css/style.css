@@ -27,8 +27,13 @@ h2 {
 	color: rgb(111,127,122);
 }
 
-img {
+#main_image figure {
 	border: 5px rgb(152,173,166) solid;
+}
+
+#Press img {
+	border: 5px #ccc solid;
+	padding: 1px
 }
 
 .wrapper {
@@ -39,3 +44,7 @@ img {
 }
 
 /* Write all remaining styles here */
+/*/////MEDIA/////*/
+img, video, audio {
+	max-width: 100%;
+}
