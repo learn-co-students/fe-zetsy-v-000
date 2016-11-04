@@ -55,3 +55,31 @@ img, video, audio {
 	background: #fff;
 	padding: 0 45px 20px;
 }
+
+.col-1 {
+	float: left;
+	width: 23%;
+}
+
+.col-2 {
+	float: left;
+	width: 23%;
+}
+
+.col-3 {
+	float: left;
+	width: 23%;
+}
+
+.col-4 {
+	float: left;
+	width: 23%;
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+}
+
+.first {
+	margin-left: 0%
+}
