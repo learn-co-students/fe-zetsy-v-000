@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,19 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font: bold 80px 'Baskerville.ttc';
+	color: #98ADA6;
+	background: white;
+	text-align: left;
+	padding: 40px;
+	}
+
+h2 {
+		font: bold 40px 'Baskerville.ttc';
+		color: #98ADA6;
+		background: white;
+		text-align: left;
+		padding: 40px;
+		}
