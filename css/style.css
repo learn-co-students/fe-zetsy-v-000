@@ -24,13 +24,51 @@ h1 {
 	color: #98ADA6;
 	background: white;
 	text-align: left;
-	padding: 40px;
+	width: 960px;
+	align: center;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
 	}
 
 h2 {
-		font: bold 40px 'Baskerville.ttc';
-		color: #98ADA6;
+		font: bold 30px 'Baskerville.ttc';
+		color: #6F7F7A;
 		background: white;
 		text-align: left;
-		padding: 40px;
+		width: 960px;
+		align: center;
+		margin:0 auto;
+		background: #fff;
+		padding: 0 45px 20px;
 		}
+
+#about {
+	text-align: left;
+	width: 960px;
+	align: center;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
+}
+
+img {
+	border: 5px solid #98ADA6;
+	text-align: left;
+	align: center;
+	margin: 0 auto;
+}
+
+.p {
+	align: center;
+	background: #fff;
+	padding: 5px 4px 5px;
+}
+
+#necklace {
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	background: white;
+	padding: 0 45px 20px
+}
