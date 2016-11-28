@@ -34,10 +34,8 @@ h1 {
 h2 {
 		font: bold 30px 'Baskerville.ttc';
 		color: #6F7F7A;
-		background: white;
 		text-align: left;
 		width: 960px;
-		align: center;
 		margin:0 auto;
 		background: #fff;
 		padding: 0 45px 20px;
@@ -45,8 +43,8 @@ h2 {
 
 #about {
 	text-align: left;
-	width: 960px;
 	align: center;
+	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
