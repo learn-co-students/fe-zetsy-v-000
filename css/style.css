@@ -7,7 +7,8 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: rgb(152,173,166);
 }
 
 .wrapper {
@@ -17,4 +18,27 @@ body {
 	padding: 0 45px 20px;
 }
 
+img {
+	border-style: solid;
+  border-width: 5px;
+  border-color: #827e7e;
+}
+
+#press img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #827e7e;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 0.5em;"
+	-webkit-transition: border-color 1s ease;
+}
+
+#press img:hover{
+	border-color: red;
+}
+
+p.clear {
+    clear: both;
+}
 /* Write all remaining styles here */
