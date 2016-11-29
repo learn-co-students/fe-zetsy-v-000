@@ -3,11 +3,15 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+*, html{
+}
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	color: #767d76;
+
 }
 
 .wrapper {
@@ -15,6 +19,46 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+a, a:hover, a:visited{
+	color: pink;
+}
+
+header{
+	display: block;
+	border-bottom: 1px solid #666;
+	margin-bottom: 10px;
+
+}
+
+section#header-image{
+	border: 5px solid #666;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0;
+	padding: 20px 0;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#press a img{
+	border: 5px solid #666;
+}
+
+#press a:hover img{
+	border: 5px solid #999;
+}
+
+footer{
+	text-align: right;
+	font-size: 12px;
 }
 
 /* Write all remaining styles here */
