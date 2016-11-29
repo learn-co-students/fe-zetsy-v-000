@@ -7,7 +7,52 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.25em;
+}
+
+h1 {
+	font-family: 'Bakersville','Times New Roman';
+	font-size:5em;
+	color: rgb(152,173,166);
+}
+
+h2 {
+	font-family:'Times New Roman';
+	font-size:2em;
+	color: rgb(111,127,122);
+}
+
+footer {
+	text-align: right;
+	font-family:'Times New Roman';
+	font-size:1em;
+}
+
+#main_image figure {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#Press img {
+	border: 5px #ccc solid;
+	padding: 1px
+}
+
+/* Write all remaining styles here */
+/*/////MEDIA/////*/
+img, video, audio {
+	max-width: 100%;
+}
+
+/*/////LAYOUT/////*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .wrapper {
@@ -17,4 +62,39 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+.col-1 {
+	float: left;
+	width: 23%;
+}
+
+.col-2 {
+	float: left;
+	width: 23%;
+}
+
+.col-3 {
+	float: left;
+	width: 23%;
+}
+
+.col-4 {
+	float: left;
+	width: 23%;
+}
+
+[class*="col-"] {
+	margin-left: 1%;
+}
+
+.first {
+	margin-left: 0%
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
