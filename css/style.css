@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,55 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font: bold 80px 'Baskerville.ttc';
+	color: #98ADA6;
+	background: white;
+	text-align: left;
+	width: 960px;
+	align: center;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
+	}
+
+h2 {
+		font: bold 30px 'Baskerville.ttc';
+		color: #6F7F7A;
+		text-align: left;
+		width: 960px;
+		margin:0 auto;
+		background: #fff;
+		padding: 0 45px 20px;
+		}
+
+#about {
+	text-align: left;
+	align: center;
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
+}
+
+img {
+	border: 5px solid #98ADA6;
+	text-align: left;
+	align: center;
+	margin: 0 auto;
+}
+
+.p {
+	align: center;
+	background: #fff;
+	padding: 5px 4px 5px;
+}
+
+#necklace {
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	background: white;
+	padding: 0 45px 20px
+}
