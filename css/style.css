@@ -1,6 +1,8 @@
 /*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +19,85 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1{
+  border-color:rgb(136, 154, 148);
+  border-bottom-style: solid;
+  border-width:  1px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+h1 a{
+  font-family:"Baskerville", serif;
+  font-weight: normal;
+  font-size: 250%;
+  text-decoration:none;
+  color: rgb(136, 154, 148);
+  padding-bottom: 20px;
+  display: block;
+}
+
+#necklace{
+
+}
+
+h2 a{
+	text-decoration: none;
+}
+
+h2 a:hover{
+	text-decoration: underline;
+}
+
+h2 a:active{
+	text-decoration: underline;
+	color: red;
+}
+
+h2 a:visit{
+	text-decoration: none;
+	color: purple;
+}
+
+h2{
+  color: rgb(136, 154, 148);
+  font-size: 2em;
+}
+
+p{
+  color: rgb(67, 66, 94);
+}
+
+footer{
+	text-align: right;
+	font-size: 75%;
+	clear: both;
+}
+
+img{
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(150, 165, 162);
+}
+
+.col-4{
+	float: left;
+}
+
+.col-4 img{
+	border-color: rgb(193,196,195);	
+	border-style: solid;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.col-4 img:hover{
+	border-color: rgb(75,85,81);
+}
+
+.clearfix:after{
+	content:".";
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
