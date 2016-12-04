@@ -65,11 +65,17 @@ img#necklace {
 	border: 5px rgb(153, 173, 166) solid;
 }
 
-.press-link img {
-	float: left;
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
 	border: 5px rgb(204, 204, 204) solid;
-	margin: 0 2px 20px;
 	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111, 127, 122) solid;
 }
 
 footer {
