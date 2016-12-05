@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,49 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.title {
+	font-family: 'Baskerville', serif;
+	font-size: 500%;
+	color: rgba(136,158,149,.85);
+}
+
+.necklace {
+	border: 5px solid rgba(136,158,149,.85);
+}
+	body h2 {
+	color: rgba(93,108,116,.85);
+	font-size: 200%;
+	}
+
+	body p {
+		color: rgba(66,66,66,.85);
+	}
+
+	a:link {
+		color: rgba(72,109,178,.85);
+		text-decoration: none;
+		-moz-transition: color 2s ease-out;
+		-webkit-transition: color 2s ease-out;
+		-o-transition: color 2s ease-out;
+		transition: color 2s ease-out;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		color: rgba(0,255,0,.85);
+	}
+
+
+[id*="img-"] {
+	border: 3px solid rgba(136,158,149,.85);
+}
+
+
+	footer {
+		font-size: 0.8em;
+		position:relative;
+		left:820px;
+		display:block;
+		color: rgba(66,66,66,.85);
+	}
