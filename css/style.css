@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+@import ("fonts/Baskerville.ttc");
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,57 @@ body {
 	padding: 0 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+
+h1 {
+	font-family: Baskerville, serif;
+	font-weight: lighter;
+	font-size: 4em;
+	color: #929c99;
+	margin-bottom: 5px;
+	padding: 10px 0px 10px 0px;
+	border-bottom: 1px solid #929c99;
+}
+
+img[alt*="Necklace"] {
+	border: 5px solid #929c99;
+}
+
+h2 {
+	color: #929c99;
+	font-size: 2em;
+}
+
+p a {
+	text-decoration: none;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+.press section {
+	float: left;
+	margin: .3%;
+}
+
+.links {
+	margin: 0 auto;
+}
+
+img {
+		border: 5px solid #ddd;
+	}
+
+img:hover {
+	border: 5px solid #929c99;
+}
+
+footer {
+	display: block;
+	clear: both;
+	font-size: .75em;
+	text-align: right;
+	padding-top: 10px;
+}
