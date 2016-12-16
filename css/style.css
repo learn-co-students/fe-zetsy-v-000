@@ -18,3 +18,40 @@ body {
 }
 
 /* Write all remaining styles here */
+
+body {
+  margin-top: -55px;
+}
+
+h1 {
+  color: #98ADA6;
+  font-size: 5em;
+  font-family: 'Baskerville', serif;
+}
+
+h1:hover {
+  color: #6F7F7A;
+}
+
+h2 {
+  color: #6F7F7A;
+}
+
+h6 {
+  float: right;
+}
+
+img {
+  border: 5px solid #98ADA6;
+}
+
+.press {
+  display: block;
+  margin: 0 auto;
+}
+
+footer  {
+  display: block;
+  margin: 0 auto;
+}
+
