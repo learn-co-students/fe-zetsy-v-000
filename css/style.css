@@ -7,14 +7,94 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+  height: 100%;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 5px 45px 70px;
 }
 
 /* Write all remaining styles here */
+
+body {
+  margin-top: -45px;
+}
+
+header {
+ 
+}
+
+header a {
+  color: #98ADA6;
+}
+
+a {
+  text-decoration: none;
+  background: transparent;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #6F7F7A;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 5em;
+  font-family: 'Baskerville', serif;
+}
+
+.featured {
+  margin-top: -45px;
+}
+
+.featured img {
+border: 5px solid #98ADA6;
+}
+
+h2 {
+  color: #6F7F7A;
+  font-size: 2em;
+}
+
+h6 {
+  float: right;
+  margin-top: -1px;
+  margin-right: 10px;
+  font-size: 0.75em;
+  color: #555555;
+  font-weight: normal;
+}
+
+img {
+  
+}
+
+p {
+  color: #555555;
+}
+
+.press {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.press img {
+  border: 5px solid #CCC;
+  background: transparent;
+  margin: 0 auto;
+}
+
+.press img:hover {
+  border: 5px solid #98ADA6;
+}
+
+footer  {
+  display: block;
+  margin-bottom: 20px;
+}
+
