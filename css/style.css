@@ -1,13 +1,18 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+  font-family: "Baskerville";
+  src: url('../fonts/Baskerville.ttc');
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+  color: rgb(85, 85, 85);
 }
 
 .wrapper {
@@ -17,4 +22,88 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1, h2 {
+  color: #6F7F7A;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h6 {
+  font: normal .8em 'Times New Roman';
+  margin-bottom: 17px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+p a {
+  text-decoration: none;
+  color: #1783BB;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+*:hover {
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/* HEADER */
+
+header {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin-bottom: 5px;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+}
+
+h1 a{
+  color: #98ADA6;
+  font-family: "Baskerville";
+  font-size: 2.5em;
+  text-decoration: none;
+  margin-bottom: 1px;
+}
+
+h1 a:hover {
+  color: #6F7F7A;
+}
+
+h6 {
+
+}
+
+/* HERO IMAGE */
+
+#hero img {
+  border: 5px solid #98ADA6;
+}
+
+/* PRESS */
+
+#press img {
+  float: left;
+  padding: 1px;
+  border: 5px solid #CCCCCC;
+  margin: 0 4px 24px 0;
+}
+
+#press img:hover {
+  border-color: #6F7F7A;
+}
+
+/* FOOTER */
+
+#footer {
+  clear: both;
+  text-align: right;
+  margin: 0;
+}
