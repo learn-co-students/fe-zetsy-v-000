@@ -1,8 +1,18 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 /*////////// Global Styles //////////*/
+
+@font-face {
+	font-family: "Baskerville";
+	src: "http://learn-co-curriculum.github.io/fe-zetsy/fonts/Baskerville.ttc";
+}
+
+html {
+	margin: 0px;
+	padding: 0px;
+}
 
 body {
 	background: #F3EBE9;
@@ -17,4 +27,57 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+a:link {
+	text-decoration: none;
+	color: rgb(23,131,187);
+}
+
+h1 a {
+	color: rgb(152,173,166);
+}
+
+h1 a:hover {
+	color: #666;
+}
+
+h1 {
+	color: rgb(152, 173, 166);	
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	font-weight: normal;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(111,127, 122);
+}
+
+hr {
+	border-top: 1px solid gray;
+	border-color: rgb(197,197,197);
+	border-bottom: none;
+	margin-bottom: 5px;
+}
+
+img {
+	border: 5px solid rgb(204, 204, 204);
+	padding: 1px;
+}
+
+.wrapper > img {
+	border-color: rgb(152, 173, 166);
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: #555;	
+}
+
+p:last-child {
+	text-align: right;
+	font-size: 0.8em;
+}
+
