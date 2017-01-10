@@ -1,4 +1,8 @@
+
+
+
 /*////////////// Fonts //////////////*/
+
 
 /* link the web font used for the level 1 heading here */
 @font-face {
@@ -14,6 +18,11 @@ body {
 	font-family: 'Times New Roman', serif;
 }
 
+body, html {
+	height: 100%;
+	min-height: 100%;
+}
+
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
@@ -26,14 +35,17 @@ body {
 h1 {
 	font-family: Baskerville, serif;
 	font-size: 5em;
-}
-
-h1 {
 	color: rgb(152, 173, 166);
+	margin: 0 0 5px;
 }
 
 h2 {
 	color: rgb(111, 127, 122);
+	font-size: 2em;
+}
+
+p {
+	color: rgb(77, 77, 77);
 }
 
 
@@ -52,9 +64,10 @@ a {
 footer {
 	float: right;
 	color: rgb(128, 128, 128);
+	font-size: .75em;
 }
 
-.clearfix {
+.clearfix:after {
 	content: ".";
 	display: block;
 	clear: both;
