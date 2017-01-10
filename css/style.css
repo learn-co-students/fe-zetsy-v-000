@@ -61,6 +61,20 @@ a {
 	text-decoration: none;
 }
 
+p a:hover {
+	text-decoration: underline;
+}
+
+a:hover h1 {
+	text-decoration: none;
+	color: rgb(111, 127, 122);
+}
+
+a:hover img {
+	border-color: rgb(152, 173, 166);
+
+}
+
 footer {
 	float: right;
 	color: rgb(128, 128, 128);
