@@ -2,12 +2,19 @@
 
 /* link the web font used for the level 1 heading here */
 
+
+@font-face {
+  font-family: 'Baskerville';
+  src: url('font/Baskerville.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+
 }
 
 .wrapper {
@@ -18,3 +25,62 @@ body {
 }
 
 /* Write all remaining styles here */
+/* ////////////////// header line ////////////////// */
+hr {
+	border-width: 1px;
+	border-color: rgba(220, 220, 220, 0.5);
+}
+
+/* ////////////////// font style ////////////////// */
+h1	{
+	color: rgb(145, 162, 156);
+	font-size: 75px;
+	font-weight: 200;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+h1, h2, p {
+	font-family: 'Baskerville', serif;
+}
+
+h2 {
+	color: rgb(92, 94, 94);
+	font-weight: 700;
+	font-size: 32px;
+}
+
+p {
+	line-height: 20px;
+}
+
+.font-link {
+	color: rgb(99, 127, 191);
+	text-decoration: none;
+}
+
+.font-link:hover {
+	color: rgb(25, 65, 77);
+}
+
+/* //////////////////  image ////////////////// */
+
+.border-banner, .hover-state {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(134, 151, 145);
+}
+
+.hover-state:hover {
+	border-color: rgb(64, 63, 62);
+}
+
+/* ////////////////// footer ////////////////// */
+
+
+footer p {
+	color: rgb(126, 125, 128);
+	font-size: 13px;
+	text-align: right;
+	padding-right: 10px;
+}
