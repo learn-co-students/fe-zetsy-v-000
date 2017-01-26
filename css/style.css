@@ -1,6 +1,8 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+
 
 /*////////// Global Styles //////////*/
 
@@ -8,6 +10,7 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	margin-top: 0;
 }
 
 .wrapper {
@@ -18,3 +21,50 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#zetsy {
+	font-family: 'Libre Baskerville', serif;
+	color: #A8B7B2;
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+#zetsy:hover {
+	color: #6F7F7A;
+}
+
+#necklace {
+	border: 4px solid #98ADA6;
+	margin-top: 10px;
+}
+
+.divider {
+	display: block;
+	background: #CBCBCB;
+	height: 1px;
+}
+
+h1 {
+	color: #718174;
+}
+
+a {
+	text-decoration: none;
+}
+
+.press {
+	border: 4px solid #CBCBCB;
+	display: inline-block;
+	margin: 2px;
+	transition: border 400ms ease-out;
+}
+
+.press:hover {
+	border: 4px solid #70817B;
+}
+
+footer {
+	text-align: right;
+}
