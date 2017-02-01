@@ -49,6 +49,11 @@ h2 {
 
 #featured img {
   border: 5px solid rgb(152, 173, 166);
+  transition: border-color 1s ease-in-out; /* include a transition here */
+}
+
+#featured img:hover {
+  border-color: #AE20B3; /* transition change to be implemented on hover */
 }
 
 #featured p {
@@ -56,6 +61,11 @@ h2 {
   font-size: 1em;
   margin: 0 0 20px 0;
   display: block;
+  transition: color 0.5s linear; /* include a transition here */
+}
+
+#featured p:hover {
+  color: #AE20B3; /* transition change to be implemented on hover */
 }
 
 #featured a {
@@ -70,6 +80,11 @@ h2 {
 #press img {
   border: 5px solid #ccc;
   padding: 1px;
+  transition: border-color 1s ease;
+}
+
+#press img:hover {
+  border-color: #AE20B3;
 }
 
 footer {
@@ -82,3 +97,5 @@ footer {
   color: #555;
   margin: 0 0 20px 0;
 }
+
+
