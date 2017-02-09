@@ -8,7 +8,7 @@
 @font-face {
 	font-family: 'Baskerville';
 	src: url(../fonts/Baskerville.ttc); /* Since "fonts" folder is outside of "css" folder, use "../" to go up
-	one level then type folder and file name. */
+	one level then type foldername/filename. */
 }
 
 /*////////// Global Styles //////////*/
@@ -74,11 +74,16 @@ p {
 
 #logo a {
 	color: rgb(152,173,166);
+	-webkit-transition: color 2s ease-out;  /* transitions color of logo - see #logo a:hover; */
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
 	text-decoration: none;  /* removes underline from "a" tag */
 }
 
 #logo a:hover {
-	color: rgb(111,127,122);  /* changes color of text when you hover over it */
+	color: rgb(111,127,122);  /* transitions color of text when you hover over it */
+  cursor: pointer;
 }
 
 #necklace img {
