@@ -1,20 +1,114 @@
 /*////////////// Fonts //////////////*/
+/*@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700'); */
+
+/* Use above link from Google Fonts if you don't have a local font; font-family: 'Libre Baskerville', serif; */
 
 /* link the web font used for the level 1 heading here */
+
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc); /* Since "fonts" folder is outside of "css" folder, use "../" to go up
+	one level then type foldername/filename. */
+}
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	background: #F3EBE9; /* Color behind .wrapper */
+	font-size: 100%;  /* Adjusts to width of .wrapper */
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
+	width: 960px;  /* width of background - the part you see in the browser window */
+	margin: 0 auto 0;  /* Margin is space between elements. First value "0" adjusts top, second value "auto"
+	adjusts right and left margins (depending on screen size) and third value adjusts bottom. */
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 45px 20px;  /* Padding is space between border and content. "0" is top, "45px" is right and left
+	sides and "20px" is bottom. The browser does not display padding. You only see the "white" .wrapper with width
+	of 960px. Total with padding is 1050px. If your screen is smaller, you will see a scroll bar. */
 }
 
 /* Write all remaining styles here */
+
+h1 { /* for <h1> heading(s) */
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em; /* 16px, ?pt, 100%, 1em */
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 { /* for <h2> heading(s) */
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;  /* margin of "20px" between (at bottom) paragraphs */
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+
+/*//////// MEDIA ////////*/
+
+/* img { /* Tells images to display at 100% of their parent. */
+/*  max-width: 100%
+} */
+
+/*//////// SELECTOR STYLING ////////*/
+
+/* * {  /* includes padding and border for IE box model
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} */
+
+/* the following "#logo a" changes the properties of the "a" tag */
+
+#logo a {
+	color: rgb(152,173,166);
+	-webkit-transition: color 2s ease-out;  /* transitions color of logo - see #logo a:hover; */
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+	text-decoration: none;  /* removes underline from "a" tag */
+}
+
+#logo a:hover {
+	color: rgb(111,127,122);  /* transitions color of text when you hover over it */
+  cursor: pointer;
+}
+
+#necklace img {
+	border: 5px solid rgb(152,173,166);  /* adds a border to the image */
+}
+
+#featured a {
+	color: #1783bb;  /* changes color of text and removes underline */
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;  /* underlines text when you hover over it */
+}
+
+#press img {
+	border: 5px solid #ccc;  /* adds a border to the image */
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px solid rgb(111,127,122);  /* changes color of image border when you hover over it */
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
