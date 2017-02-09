@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,61 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/* Header Style */
+
+h1 { /* select all <p> */
+  font-size: 5em; /* 16px, ?pt, 100%, 1em */
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#logo a:hover {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+/* a:-webkit-any-link {
+    cursor: auto;
+} */
+
+#necklace img {
+	border-top-color: rgb(152,173,166);
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-right-color: rgb(152,173,166);
+	border-right-style: solid;
+	border-right-width: 5px;
+	border-bottom-color: rgb(152,173,166);
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-left-color: rgb(152,173,166);
+	border-left-style: solid;
+	border-left-width: 5px;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+
+/*//////// MEDIA ////////*/
+
+img { /* Tells images to display at 100% of their parent. */
+  max-width: 100%
+}
+
+/*//////// LAYOUT ////////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; /* includes padding and border for IE box model */
+}
