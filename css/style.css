@@ -2,12 +2,17 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: Baskerville;
+	src: fonts/Baskerville.ttc;
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +23,69 @@ body {
 }
 
 /* Write all remaining styles here */
+#zetsy {
+	transition: color 1s ease;
+	padding: 1em 0 0 0;
+	font-size: 500%;
+	font-family: 'Baskerville';
+	color: rgb(146, 168, 160);
+	display: inline;
+}
+
+#zetsy-link {
+	text-decoration: none;
+}
+
+a:hover #zetsy {
+	color: rgb(103, 120, 114);
+	border: 0 none;
+}
+
+div#header-horizontal-line {
+	min-height: 1px;
+  clear:both;
+	width:100%;
+  border-bottom:2px solid rgb(191, 192, 191);
+  height:1px; padding-top:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+h1 {
+	color: rgb(136, 151, 146);
+}
+
+#about, #press {
+	color: rgb(103, 120, 114);
+	font-size: 200%;
+}
+
+p, footer {
+	color: rgb(77, 77, 77);
+}
+
+footer {
+	text-align: right;
+	font-size: 80%;
+}
+
+/*////////// Image Formatting ////////////////*/
+
+#necklace {
+	border: 5px solid rgb(146, 168, 160)
+}
+
+img#nmai-logo, img#times-logo, img#sedona-logo, img#bergdorf-logo {
+	transition: border 0.5s ease;
+	border: 5px solid rgb(192, 194, 193);
+	padding: 1px;
+}
+
+img#nmai-logo:hover, img#times-logo:hover, img#sedona-logo:hover, img#bergdorf-logo:hover {
+	border: 5px solid rgb(103, 120, 114);
+	padding: 1px;
+}
+
+#nmai-logo div#press-links, #times-logo div#press-links, #sedona-logo div#press-links {
+	margin: 0 2px 0 0;
+}
