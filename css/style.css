@@ -65,3 +65,23 @@ h1 {
 #press img:hover{
 	border: 5px solid rgb(111,127,122);
 }
+
+footer {
+	font-size: 0.8em;
+	text-align: right;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+p a{
+	text-decoration: none;
+	color: #1783bb;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
