@@ -26,11 +26,8 @@ body {
 
 header h1 a{
 	display: block;
-	font-size: 2.5em;
-	font-weight: bold;
 	color: #98ada6;
 	text-decoration: none;
-	padding-bottom: 10px;
 	border-bottom: 1px solid #ccc;
 	font-family: Baskerville, serif;
 }
@@ -56,8 +53,15 @@ img, video, audio {
 
 h1 {
 	color: rgb(111,127,122);
+  margin: 0 0 5px;
+	padding-bottom: 10px;
+	font-size: 5em;
+	font-weight: bold;
 }
-
+h2{
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
 #press img{
 	border:	5px solid #ccc;
 }
