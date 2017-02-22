@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,78 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1, h2 {
+	color: rgb(107, 123, 118);
+	text-decoration: none;
+}
+
+h2{
+	font-size: 2.5em;
+}
+
+p {
+	font-size: 1.50em;
+}
+
+
+
+#header a{
+	font-size: 3.5em;
+	color: rgb(107, 123, 118);
+	text-decoration: none;
+}
+
+#header a:active{
+	text-decoration: none;
+	color: rgb(107, 123, 118);
+}
+
+#header a:visited {
+	text-decoration: none;
+	color: rgb(107, 123, 118);
+}
+
+#header a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+.about a{
+	text-decoration: none;
+	color: blue;
+}
+
+.about a:active{
+	text-decoration: none;
+	color: blue;
+}
+
+.about a:hover{
+	text-decoration: underline;;
+	color: red;
+}
+
+.about img {
+	border: thin rgb(107, 123, 118) solid;
+	/*border-style: solid;
+	border-width: thin;
+	border-color: rgb(107, 123, 118)*/
+}
+
+.press img {
+	border: thin rgb(107, 123, 118) solid;
+	/*border-style: solid;
+	border-width: thin;
+	border-color: rgb(107, 123, 118)*/
+}
+
+.press img:hover{
+	border: thin blue solid;
+}
+
+.footer {
+	text-align: right;
+	background: #fff;
+	font-size: .75em;
+}
