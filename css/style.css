@@ -1,8 +1,30 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+/*/////// LAYOUT /////// */
+
+ * {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+/*/////// MEDIA /////// */
+
+img, video, audio {
+  max-width: 100%
+}
+
 
 /*////////// Global Styles //////////*/
+
+.shadowimage {
+  border: 10px solid grey;
+  box-sizing: border-box;
+}
+
 
 body {
 	background: #F3EBE9;
@@ -18,3 +40,49 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.toptitle{
+position: relative;
+top: 10px;
+
+}
+
+
+.copyline{
+font-size: 0.5em;
+float: right;
+margin: 5px;
+line-height: 1.5em;
+}
+
+h1  {
+
+  font: normal 4em 'Libre Baskerville', serif;
+  color: #777;
+}
+/*////////// Columns //////////*/
+
+.col-1{
+  float: left;
+  margin: 2px;
+  width: 24%;
+  border: 3px solid grey;
+  box-sizing: border-box;
+}
+/* to prevent leftmost having margin*/
+.first{
+
+margin-left: 0%;
+}
+
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+
