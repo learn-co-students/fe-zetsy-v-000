@@ -3,13 +3,56 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
-
+@font-face {
+	font-family: "Baskerville";
+	src: url(fonts/Baskervilee.tcc);
+}
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
+header {
+	font-size: 5em;
+	font-family: "Baskerville";
+	color: rgb(144, 167, 162);
+	font-weight: bold;
+	border-bottom: solid;
+	border-width: thin;
+}
+#bigpic {
+	border-style: solid;
+	border-color: white;
+	border-width: medium;
+}
+#bigpic img{
+	border-style: solid;
+	border-width: thick;;
+	border-color: rgb(144, 167, 162);
+}
+a {
+	text-decoration: none;
+	color: rgb(133,165,207);
+}
+
+h2 {
+	color: rgb(103,123,115);
+	font-size: 2em;
+}
+p {
+	color: rgb(103,123,115);
+}
+
+#logos img{
+	border-style: solid;
+	border-width: medium;
+	border-color: rgb(144, 167, 162);
+}
+
+#logos img:hover{
+	border-color: rgb(100,100,100);
+}
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
