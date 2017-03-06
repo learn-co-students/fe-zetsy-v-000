@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,72 @@ body {
 }
 
 /* Write all remaining styles here */
+
+header {
+	border-bottom: solid 1px #D6D6D6;
+	margin-bottom: 5px;
+}
+
+header h1 {
+	color: #9EAEA8;
+	font-size: 5em;
+	line-height: 1em;
+	margin-bottom: .1em;
+	margin-top: 0;
+	padding: 10px 0;
+}
+
+a#header-h1,
+a#header-h1:visited,
+a#header-h1:active {
+	text-decoration: none;
+	color: #9EAEA8;
+}
+
+a#header-h1:hover {
+	color: rgb(111,127,122);
+	text-decoration: none;
+	cursor: auto;
+}
+
+#featured-image {
+	border: solid 6px #9AADA7;
+}
+
+h2 {
+	font-size: 2em;
+	color: #787F7B;
+	font-weight: bold;
+}
+
+#press a {
+	display: inline-block;
+	border: solid 5px #C9CCCB;
+	height: 143px;
+	transition: border-color 0.5s ease;
+}
+
+#press a:hover {
+	border-color: #6E7C77;
+}
+
+img {
+	margin-bottom: 0;
+}
+
+footer {
+	color: #555555;
+	text-align: right;
+	margin: 30px 0;
+	font-size: .75em;
+}
+
+a {
+	text-decoration: none;
+	color: #1789CD;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+	text-decoration: underline;
+}
