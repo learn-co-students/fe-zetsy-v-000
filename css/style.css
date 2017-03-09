@@ -26,14 +26,22 @@ body {
 	src: url(.../fonts/Baskerville.ttc);
 }
 
-h1{
+h1 a{
 	color: rgb(152, 173, 166);
 	font-size: 80px;
 	font-family: Baskerville, 'Times New Roman', serif;
+	text-decoration: none;
+
+}
+
+h1{
 	border-bottom: 1px solid rgb(204,	204,	204	);
 	margin:0 0 5px;
 	padding-bottom: 10px;
+}
 
+h1 a:hover{
+	color:rgb(108,	124,	119	)
 }
 
 
@@ -45,6 +53,15 @@ img#necklace {
 .wrapper #about h2{
 	font-size: 30px;
 	color:rgb(111,	127,	122	);
+}
+
+#about a{
+	text-decoration: none;
+	color: rgb(23,	131,	187	)
+}
+
+#about a:hover{
+	text-decoration: underline;
 }
 
 
@@ -60,4 +77,8 @@ footer{
 
 #press img{
 	border:5px rgb(204,	204,	204	) solid;
+}
+
+#press img:hover{
+	border: 5px rgb(111,	127,	122	) solid;
 }
