@@ -1,4 +1,5 @@
 /*////////////// Fonts //////////////*/
+@import url('https://fonts.googleapis.com/css?family=Lora');
 
 /* link the web font used for the level 1 heading here */
 
@@ -7,7 +8,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +19,58 @@ body {
 }
 
 /* Write all remaining styles here */
+#logo {
+	color: #9daba7;
+	/*font-weight: bold;*/
+	font-size: 2.5em;
+	font-family: "Lora";
+}
+
+figure img {
+	border: solid 7px #9baca6;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	right: 40px;
+}
+
+/*.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}*/
+
+h2 {
+	color: #6a7b7a;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+a:hover {
+	color: black;
+}
+
+a img:hover{
+	color: #707e79;
+}
+
+section img {
+	border: solid 5px #c8cccb;
+	margin: 2px;
+}
+.image-2 {
+	float: left
+}
+.image-3 {
+	float: left;
+}
+.image-4 {
+	float: left;
+}
+
+footer {
+	float: right;
+}
