@@ -40,7 +40,6 @@ header {
 h1 {
 	margin: 10px 0;
 	font-size: 4em;
-	font-weight: lighter;
 }
 
 img {
@@ -49,6 +48,7 @@ img {
 }
 
 footer p {
+	font-size: 0.75em;
 	margin-top: 20px;
 	float: right;
 }
@@ -61,12 +61,31 @@ footer p {
 	color: rgba(144,162,156,1);
 }
 
+.first {
+	margin: 0%;
+}
+
+.wrapper a {
+	text-decoration: none;
+	transition: color 0.5s ease;
+	color: rgb(152,173,166);
+}
+
+
+/*/////////////// Hover Effects ///////////////////*/
+
+.wrapper a:hover {
+	color: darkslategrey;
+}
+
+.press-thumbnail:hover {
+	border: 4px solid darkslategrey;
+}
+
 .press-thumbnail {
+	border: 4px solid rgba(136,154,147,1);
 	float: left;
 	width: 23%;
 	margin-left: 1%;
-}
-
-.first {
-	margin: 0%;
+	transition: border 0.5s ease;
 }
