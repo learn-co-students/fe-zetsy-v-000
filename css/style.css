@@ -1,13 +1,44 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
 
 /*////////// Global Styles //////////*/
 
+html {
+	font-family: sans-serif;
+	display: block;
+	width: : 100%;
+}
+
+head {
+	display: none;
+}
+
+meta{
+	display: none;
+}
+
+title {
+    display: none;
+}
+
+link {
+    display: none;
+}
+
+script {
+    display: none;
+}
+
+
 body {
+  margin: 0;
 	background: #F3EBE9;
+  background-color: rgb(243, 235, 233);
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	display: block;
 }
 
 .wrapper {
@@ -17,4 +48,89 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+div {
+	display: block;
+}
+
+header {
+	display: block;
+}
+
+a {
+	background: transparent;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 0 0 5px;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	display: block;
+	-webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+	color: rgba(152, 173, 166, 1);
+}
+
+header a {
+	font-weight: bold;
+	color: rgba(152,173,166,1);
+	text-decoration: none;
+}
+
+section{
+	display: block;
+}
+
+ #featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+	display: block;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+	display: block;
+	-webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+#press {
+	margin-bottom: 20px;
+	display: block;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press link:hover {
+	color: rgba(152, 173, 166, 1);
+}
+
+footer {
+	text-align: right;
+	background: #FFF;
+	display: block;
+}
+
+.copyright {
+	font-size: 0.8em;
+}
