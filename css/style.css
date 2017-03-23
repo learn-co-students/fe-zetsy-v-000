@@ -8,6 +8,11 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	
+}
+
+p {
+	color: #555;
 }
 
 .wrapper {
@@ -17,4 +22,51 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+/* HEADLINES */
+
+h1, h2 {
+	color: rgb(152,173,166);
+}
+
+h1 {
+	font: bold 5em 'Baskerville', serif;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(111,127,122);
+}
+
+/* SECTIONS */
+
+header img {
+	border: 5px solid rgb(152,173,166);
+}
+
+footer p {
+	font-size: .8em;
+	color: #555;
+	text-align: right;
+}
+
+/* ELEMENT STYLES */
+
+img {
+	border: 5px solid #ccc;
+}
+
+a:link {
+	color: #1783bb;
+    text-decoration: none;
+}
+
+
+
+
+ 
+
+
+
+
