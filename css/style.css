@@ -1,5 +1,4 @@
 /*////////////// Fonts //////////////*/
-
 @import url('fonts/Baskerville.ttc');
 /*////////// Global Styles //////////*/
 
@@ -25,6 +24,7 @@ img {
 	border: 5px rgb(202,202,202) solid;
 	padding: 1px;
 }
+
 img.press:hover {
 	border: 5px rgb(111,127,122) solid; /*border-color:rgb(111,127,122):*/
 }
