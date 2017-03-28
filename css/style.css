@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,37 @@ body {
 	padding: 0 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+
+h1,h2{
+	color:#ccc;
+}
+
+h1{
+	padding-top: 20px;
+	border-bottom: 1px #ccc solid;
+}
+
+#header{
+	min-height:400px;
+	max-width: 100%;
+	background-image: url("../images/necklace.jpg");
+	border: 4px #ccc solid;
+
+}
+#press img{
+	display: block;
+	float:left;
+	border: 4px #ccc solid;
+	margin-left: 4px;
+}
+
+.clearfix:after{
+ visibility: hidden;
+ display: block;
+ font-size: 0;
+ content: " ";
+ clear: both;
+ height: 0;
+}
