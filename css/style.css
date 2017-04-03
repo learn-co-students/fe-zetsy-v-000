@@ -1,4 +1,8 @@
 /*////////////// Fonts //////////////*/
+@font-face {
+    font-family: Baskerville;
+    src: ../fonts/Baskerville.ttc;
+}
 
 /* link the web font used for the level 1 heading here */
 
@@ -7,7 +11,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +21,65 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	color: rgb(152, 173, 166);
+	font-family: Baskerville, serif;
+	font-size: 5em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+  /*font-weight: normal;   i don't understand what it does here.
+                            Is was in the example, but when i apply it on my page,
+                            it stops looking like an example.  */ 
+}
+
+h1:hover {
+  color: rgb(111,127,122);
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+  display: block;
+}
+
+p {
+	color: #555;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1em;
+
+}
+a:link, a:visited{
+	text-decoration: none;
+}
+p>a {
+	color: #1783bb;
+}
+p>a:hover {
+	text-decoration: underline;;
+}
+
+#main img {
+	border: 5px solid;
+  border-color: rgb(152, 173, 166);
+}
+#press img {
+  /*display: block;*/
+  margin: 0 auto;
+  padding: 1px;
+	border: 5px solid;
+  border-color: rgb(204, 204, 204);
+}
+#press img:hover {
+  border-color: rgb(111,127,122);
+}
+
+footer {
+text-align: right;
+}
+
+p.small {
+	margin-bottom: 20px;
+	font-size: 0.8em;
+}
