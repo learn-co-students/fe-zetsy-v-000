@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,42 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	color: rgb(152,173,166);
+}
+h1:hover {
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	color: rgb(111,127,122);
+}
+
+img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+h2{
+	font-size: 2em;
+	color: rgb(111,127,122);
+}
+
+p{
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: right;
+	margin-top: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
