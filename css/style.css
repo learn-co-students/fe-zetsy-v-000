@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,47 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font: 4em Baskerville;
+	margin: 0px 0px 5px 0px;
+	color: rgba(157,170,165,1);
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+#main img {
+	border: 5px solid rgba(157,170,165,1);
+}
+
+h2 {
+	color: rgba(95,106,102, 1);
+	font-size: 2em;
+}
+
+p {
+	color: rgba(95,106,102, 1);
+}
+/***lvha: link, visited, hover, active **/
+p a:link{
+	color: rgba(91,145,202, 1);
+}
+p a:hover{
+	color: rgba(117,15,109, 1);
+}
+
+#press a img{
+	border: 5px solid rgba(157,170,165,0.5);
+	margin-bottom: 20px;
+}
+
+#press a img:hover{
+	border: 5px solid rgba(157,170,165,1);
+}
+
+footer {
+	float:right;
+	margin-bottom: 20px;
+	color: rgba(95,106,102, 1);
+	font-size: 0.5em;
+}
