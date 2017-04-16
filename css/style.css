@@ -1,13 +1,14 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url(https://fonts.googleapis.com/css?family=Rubik+Mono+One);
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +19,20 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1, h2 {
+	color: rgb(152,173,166);
+	font-family: 'Rubik Mono One', sans-serif;
+}
+.copy {
+	text-align: right;
+}
+
+a {
+	-o-transition: background-color 0.5 ease;
+	transition: background-color 0.5 ease;
+}
+
+a:hover {
+	background-color: rgb(152,173,166);
+}
