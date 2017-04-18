@@ -1,13 +1,12 @@
 /*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Ranga|UnifrakturCook:700');
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -15,6 +14,24 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+
 }
 
-/* Write all remaining styles here */
+
+
+h1 {color: #9B9B9B;
+		font-family: "Indie Flower", cursive;}
+
+#Main_Image {border:5px solid #9B9B9B;}
+
+/*press box*/
+#press_release {border:5px solid #9B9B9B;}
+/**copyright**/
+#copyright {float: right;}
+
+.clearfix::after{content: ".";
+									display: block;
+								clear: both;
+								visibility: hidden;
+								height:0;
+								line-height: 0;}
