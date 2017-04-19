@@ -1,6 +1,7 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +18,87 @@ body {
 	padding: 0 45px 20px;
 }
 
+div {
+	display: block;
+}
+
 /* Write all remaining styles here */
+
+/* /// LOGO ///*/
+
+#logo h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	font-size: 4.5em;
+	color: rgb(152,173,166);
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#logo a:link, #logo a:visited {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+#logo a:hover {
+  color: rgb(111,127,122);
+  text-decoration: none;
+}
+
+/* /// ABOUT ///*/
+
+p {
+	display: block;
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 1.2em 0;
+}
+
+h2 {
+	display: block;
+	font-weight: bold;
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+#about a:link, #about a:visited {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#about a:hover {
+  color: #1783bb;
+  text-decoration: underline;
+}
+
+#about img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+/* /// PRESS ///*/
+
+#press img:link, #press img:visited {
+	border: 5px #ccc solid;
+	text-decoration: none;
+}
+
+#press img:hover {
+  border: 5px rgb(111,127,122) solid;
+  text-decoration: none;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+/* /// FOOTER ///*/
+
+footer {
+	text-align: right;
+	font-size: .8em;
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+	color: #555;
+}
