@@ -1,6 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +21,85 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	color: #93A8A1;
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+}
+
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+h2	{
+	color: #6F7F7A;
+	display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+img {
+	border-color: #93A8A1;
+	border-style: solid;
+	border-width: 5px;
+}
+
+footer {
+	float: right;
+	font-size: .8em;
+}
+
+.p-link a {
+	text-decoration: none;
+	color: #1783BB;
+}
+
+.p-link a:visited {
+	color: #1783BB;
+}
+
+.p-link a:hover {
+	text-decoration: underline;
+}
+
+.title a {
+	text-decoration: none;
+	color: #93A8A1;
+}
+
+.title a:visited {
+	color: #93A8A1;
+}
+
+.title a:hover {
+	color: #6F7F7A;
+}
+
+.col-1 {
+	float: left;
+	width: 25%;
+}
+
+.col-1 img {
+	border-color: #CCCCCC;
+	margin-bottom: 20px;
+}
+
+.col-1 img:hover {
+	border-color: #93A8A1;
+}
+
+.clear-fix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
