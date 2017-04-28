@@ -18,3 +18,63 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	display: block;
+	border-bottom: solid 1px #98ADA6;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #98ADA6;
+	font-size: 2.75em;
+	font-family: Baskerville, sans-serif;
+}
+
+h1 a:hover {
+	color: #6F7F7A;
+	cursor: auto;
+}
+
+#necklace {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #98ADA6;
+}
+
+h2 {
+	font-size: 2em;
+	color: #6F7F7A;
+}
+
+a img {
+	border-style: solid;
+	border-width: thick;
+	border-color: #CCC;
+}
+
+
+p {
+	color: #555555;
+}
+
+#learn-more {
+	text-decoration: none;
+	color: #1783BB;
+}
+
+#learn-more:hover {
+	text-decoration: underline;
+}
+
+footer {
+	text-align: right;
+	padding-right: 5px;
+}
+
+.copyright {
+	font-size: .8em;
+	color: #555;
+}
