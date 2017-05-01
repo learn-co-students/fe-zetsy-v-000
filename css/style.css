@@ -1,7 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +21,38 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+	padding-bottom: 10px;
+	color: #98ada6;
+	margin: 0 0 8px;
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+}
+
+#main-pic {
+	border: 5px #98ada6 solid;
+}
+
+#about-mary h2 {
+	font-size: 2em;
+    color: #496f63;
+}
+
+#about-mary p {
+	font-size: 1em;
+    color: #4e3a3a;
+}
+
+#logos-links img {
+	border: 6px #b5c1bd solid;
+}
+
+#logos-links img:hover {
+    border: 6px #303033 solid; 
+}
+
+#copyright {
+	font-size: 0.8em;
+	color: #4e3a3a;
+	float: right;
+}
