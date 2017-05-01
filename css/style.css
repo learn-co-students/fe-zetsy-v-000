@@ -44,6 +44,7 @@ h1 {
 }
 
 #logos-links img {
+    transition: border 0.9s ease;
 	border: 6px #b5c1bd solid;
 }
 
@@ -55,4 +56,17 @@ h1 {
 	font-size: 0.8em;
 	color: #4e3a3a;
 	float: right;
+}
+
+/*
+
+div {
+  transition: all 0.5s ease;
+  background: red;
+  padding: 10px;
+}
+
+div:hover {
+  background: green;
+  padding: 20px;
 }
