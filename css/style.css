@@ -1,13 +1,14 @@
-/*////////////// Fonts //////////////*/
 
+/*////////////// Fonts //////////////*/
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
 
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +19,50 @@ body {
 }
 
 /* Write all remaining styles here */
+
+body div h1 .main-stuff {
+	font-size: 2.2em;
+	color: grey;
+	text-decoration: none;
+}
+
+body div .necklace-picture {
+	margin: 5px;
+	border: solid 5px;
+	border-color: #aaa;
+}
+
+body div h2 {
+	font-size: 2em;
+	color: grey;
+}
+
+body div p .Learn-more {
+	color: blue;
+	text-decoration: none;
+}
+/*
+body div p .Learn-more a:hover {
+	color: blue;
+	text-decoration: underline;
+} Couldn't get it to work.  */
+
+body div .links-icon {
+	border: solid 5px;
+	color: #aaa;
+}
+
+body div footer {
+	float: right;
+	font-size: 0.75em;/*
+	margin-top: 1em; slips outside of body*/
+}
+
+/*
+.clearfix:after {
+	content: ".";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+} Doesn't seem to do anything here. */
