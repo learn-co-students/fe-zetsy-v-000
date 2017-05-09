@@ -41,6 +41,7 @@ a {
 
 h1 a {
 	color: rgb(152, 173, 166);
+	transition: color 1s ease;
 }
 
 h1 a:hover {
@@ -80,6 +81,7 @@ p a:hover {
 }
 
 #press img {
+	transition: border 1s ease;
 	border: 5px solid rgb(204, 204,	204);
 	padding: 1px;
 }
