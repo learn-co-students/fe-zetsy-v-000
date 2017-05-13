@@ -48,10 +48,14 @@ p  {
 header a {
 	color: rgb(152,173,166);
 	text-decoration: none;
+	transition: color 0.8s ease,
+              padding 0.8s linear;
+	padding: inherit;
 }
 
 header a:hover{
 	color: rgb(111,127,122);
+	padding: 10px;
 }
 
 #featured img {
@@ -73,11 +77,14 @@ header a:hover{
 
 #press img {
 	border: 5px #ccc solid;
+	transition:	border 0.8s ease,
+							padding 0.2s linear;
 	padding: 1px;
 }
 
 #press img:hover {
-	border: 5px rgb(111,127,122) dashed;
+	border: 5px rgb(111,127,122) solid;
+	padding: 2.5px;
 
 }
 
