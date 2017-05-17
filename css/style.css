@@ -1,93 +1,105 @@
 /*////////////// Fonts //////////////*/
 
+
 /* link the web font used for the level 1 heading here */
+
 @font-face {
-	font-family: 'Baskerville';
-	src: url(../fonts/Baskerville.ttc);
+    font-family: 'Baskerville';
+    src: url(../fonts/Baskerville.ttc);
 }
+
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif;
+    background: #F3EBE9;
+    font-size: 100%;
+    font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+
 
 /*////////// Layout //////////*/
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 p {
-	color: #555555;
+    color: #555555;
 }
 
 
 /*////////// Header //////////*/
 
 header {
-  border-bottom: 1px solid #d2d2d2;
-  margin-bottom: 5px;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 5px;
 }
 
 h1 {
-	color: #98ada6;
-	font-family: 'Baskerville', serif;
-  font-size: 5em;
-  margin: 0 0 10px;
-	margin-bottom: 10px;
-	transition: color .5s ease-in-out;
+    color: #98ada6;
+    font-family: 'Baskerville', serif;
+    font-size: 5em;
+    margin: 0 0 10px;
+    margin-bottom: 10px;
+    transition: color .5s ease-in-out;
 }
 
 h1:hover {
-	color: #6F7F7A;
-	cursor: pointer;
+    color: #6F7F7A;
+    cursor: pointer;
 }
+
 
 /*////////// Sections //////////*/
+
 .section-title {
-	color: #6F7F7B;
-	font-size: 2em;
+    color: #6F7F7B;
+    font-size: 2em;
 }
 
+
 /** Featured **/
+
 #featured-item img {
-  border: 5px solid #98ADA6;
+    border: 5px solid #98ADA6;
 }
+
 
 /** Press **/
 
 #press img {
-	border: 5px solid #CCC;
-	padding: 1px;
-	transition: border-color .4s ease-in-out;
+    border: 5px solid #CCC;
+    padding: 1px;
+    transition: border-color .4s ease-in-out;
 }
 
 #press img:hover {
-	border-color: #98ada6;
+    border-color: #98ada6;
 }
+
 
 /*////////// Footer //////////*/
 
 footer p {
-	float: right;
+    float: right;
 }
+
 
 /*////////// Clearfix //////////*/
 
 .clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
