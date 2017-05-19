@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,34 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+.clearfix:after {
+	visibility: hidden;
+	content: ".";
+	clear:both;
+	display: block;
+	line-height: 0;
+	height: 0;
+}
+
+.images {
+	float: left;
+	margin: 2px;
+	width: 23.5%;
+	border: 5px solid rgb(204, 204, 204);
+	box-sizing: border-box;
+}
+
+.images img {
+	width: 100%;
+	min-height: 100%;
+}
+.first {
+	margin-left: 0px;
+}
+
+.last {
+	margin-right: 0px;
+}
+/* Write all remaining styles here
+tachyons
+*/
