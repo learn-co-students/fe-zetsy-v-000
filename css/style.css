@@ -2,12 +2,14 @@
 
 /* link the web font used for the level 1 heading here */
 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +20,76 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: bold;
+	font-family: "Baskerville", serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgba(111,127,122,1);
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+/* We'll style the sections*/
+
+/* the header */
+/* the <a> attribute within the <header>*/
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+/* the <a>:hover attribute within the <header>
+   while it hovers*/
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+/* the #feature */
+/* first the img within the #feature */
+#feature img {
+	border: 5px rgb(152,173,166	) solid; /* how big, color, type*/
+}
+
+/* now we'll style <a> attribue within #feature */
+#feature a {
+	color:rgb(23,131,187);
+	text-decoration: none;
+}
+
+/* Now we'll style the section #press */
+#press { /* first give the whole section some room */
+	margin-bottom: 20px;
+}
+
+/* now style the img within #press */
+#press img {
+	border:5px rgb(204,204,204) solid;
+	padding: 1px;
+}
+
+/*Now the hover color.  <a>:hover withing
+	#press */
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+/*Lastly, we'll style the <footer>*/
+footer {
+	text-align: right;
+	background: #fff;
+}
