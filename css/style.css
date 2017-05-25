@@ -2,6 +2,10 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -16,7 +20,6 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
 
 
 h1 {
@@ -68,7 +71,6 @@ header a:hover {
 	border: 5px #ccc solid;
 	padding: 1px;
 }
-
 
 #press img:hover {
 	border: 5px rgb(111,127,122) solid;
