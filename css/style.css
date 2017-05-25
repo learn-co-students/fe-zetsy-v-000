@@ -2,12 +2,17 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc)
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +23,65 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: #9bb0a9;
+	font-size: 5em;
+	margin: 0px 0px 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	font-family: 'Baskerville', serif;
+}
+
+header a {
+	color: #9bb0a9;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: #70817b;
+}
+
+h2 {
+	color: #748080;
+	font-size: 2em;
+}
+
+img[alt*="Hand"] {
+	border: 5px solid #9bb0a9;
+	padding: 0px 0px 0px 0px;
+}
+
+p {
+	color: #65656d;
+	font-size: 1em;
+}
+
+p>a {
+	text-decoration: none;
+	color: #3686bb;
+}
+
+p>a:hover {
+	text-decoration: underline;
+}
+
+#press {
+	margin: 0px auto;
+}
+
+footer {
+	color: #65656d;
+	font-size: 0.8em;
+	text-align: right;
+	padding: 20px 0px 20px;
+}
+
+img {
+	border: 5px solid #ccc;
+	padding: 1px;
+}
+
+a>img:hover {
+	border: 5px solid #70817b;
+}
