@@ -15,6 +15,35 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+
 }
 
 /* Write all remaining styles here */
+
+h1 + img {
+	border-width: 7px;
+	border-color: rgb(147, 158, 154);
+	border-style: solid;
+}
+
+h1 { 
+  font-size: 100px;
+  color: rgb(147, 158, 154);
+}
+
+h2 {
+	font-size: 50px;
+	color: rgb(147, 158, 154);
+}
+
+a img {
+	border-width: 4px;
+	border-color: rgb(230, 230, 230);
+	border-style: solid;
+}
+
+a:hover img {
+	border-width: 4px;
+	border-style: solid;
+    border-color: rgb(147, 158, 154);
+}
