@@ -18,6 +18,11 @@ body {
 }
 
 /* Write all remaining styles here */
+
+footer {
+	text-align: right;
+}
+
 h1 {
 	color: rgb(152,173,166);
 	font-family: Baskerville, serif;
@@ -43,12 +48,15 @@ p {
 	border: 5px rgb(152,173,166) solid;
 }
 
-
 #icons img {
 	border: 5px rgb(152,173,166) solid;
 }
 
+#icons img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
 @font-face {
     font-family: Baskerville;
-    src: url(fonts/Baskerville.ttc);
+    src: url(../fonts/Baskerville.ttc);
 }
