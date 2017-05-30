@@ -18,3 +18,46 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.wrapper img {
+    border: solid 5px #CCCCCC;
+}
+h1 a{
+    font-size: 50px;
+    color: #98ADA6;
+    text-decoration: none;
+}
+h1 a:hover {
+    color: #6F7F7A;
+}
+h2 {
+    font-size: 36px;
+    color: #6F7F7A;
+}
+a img:hover {
+    border-color: #6F7F7A;
+}
+.copyright {
+    float: right;
+}
+.copyright p {
+    margin-right: 10px;
+    font-size: 12px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear:both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+.topbox {
+    border-bottom: solid 1px #CCCCCC;
+    margin-bottom: 5px;
+}
+
+
+
+
+
