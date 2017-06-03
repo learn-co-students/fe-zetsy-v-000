@@ -23,6 +23,7 @@ body {
 h1 {
   color: rgb(152,173,166);
   font-size: 5em;
+  /*changed text from bold 2 normal*/
   font-weight: normal;
   font-family: 'Libre Baskerville', serif;
   transition: color 0s ease;
