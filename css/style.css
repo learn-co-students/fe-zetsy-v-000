@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,57 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	font-size: 5em;
+  color: rgb(152, 173, 166);
+	padding-bottom: 5px;
+	margin: 0 0 5px;
+	border-bottom: 1px solid rgb(152, 173, 166);
+}
+
+h2 {
+	font-size: 2em;
+  color: #6F7F7A;
+}
+
+p {
+  color: rgb(85,85,85);
+}
+
+/*//////  SECTION STYLES  ///////*/
+
+header a {
+	text-decoration: none;
+	color: rgb(152,173,166);
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#feature img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#feature a {
+	text-decoration: none;
+	color: rgb(23,131,193);
+}
+
+#feature a:hover {
+	text-decoration: underline;
+	color: rgb(23,131,193);
+}
+
+#press img {
+	border: 5px rgb(204,204,204) solid;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+  text-align: right;
+	background: #FFFFFF;
+}
