@@ -47,6 +47,7 @@ section img {
 
 #press img:hover {
 	border: 3px solid rgb(107,122,118);
+	transition: border 2s ease-out;
 }
 
 
