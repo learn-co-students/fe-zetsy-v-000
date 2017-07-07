@@ -1,20 +1,95 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(..fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	font-family: 'Baskerville', 'Times New Roman', serif;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	background: #F3EBE9;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
 	padding: 0 45px 20px;
+	background: #fff;
 }
 
-/* Write all remaining styles here */
+/*////////// General //////////*/
+
+h1	{
+	font: bold 5em 'Baskerville', serif;
+	border-bottom: solid 1px #ccc;
+	margin: 0 0 5px;
+}
+
+h3 {
+	font-size: 2em;
+	color: rgb(152,173,166);
+}
+
+p {
+	font-size: 1em;
+	color: #555;
+}
+
+img {
+	border-style: solid;
+	border-width: .3em;
+}
+
+img[alt="necklace"] {
+	border-color: rgb(152,173,166);
+}
+
+/*////////////// About: Links //////////////*/
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+	text-decoration: none;
+}
+
+#about a {
+	color: blue;
+	text-decoration: none;
+}
+
+#about a:hover {
+	text-decoration: underline;
+}
+
+/*////////////// Press: Links //////////////*/
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border-width: 5px;
+	border-color: #ccc;
+	border-style: solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border-width: 5px;
+	border-color: rgb(111,127,122);
+	border-style: solid;
+}
+
+/*////////////// Footer //////////////*/
+
+footer {
+	float: right;
+	font-size: .8em;
+}
