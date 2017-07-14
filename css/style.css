@@ -7,7 +7,9 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+  margin: 0 auto;
+  height: 100%;
 }
 
 .wrapper {
@@ -15,6 +17,36 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+  position: relative;
+  min-height: 100%;
 }
 
 /* Write all remaining styles here */
+
+img {
+  border: 2px solid #99ccff;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  margin-right: 80px;
+}
+
+a:hover img {
+  border: 3px solid #14716c;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url(../fonts/Baskerville.ttc);
+}
+
+h1 {
+  color: #14716c;
+  font-family: 'Baskerville';
+}
+
+h2 {
+  color: #1ca099;
+}
