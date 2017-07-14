@@ -1,20 +1,110 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../fonts/Baskerville.ttc');
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
+	box-sizing: content-box;
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	display: inline-block;
+	transition: color 0.75s ease;
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	color: #98ADA6;
+	margin: 0 0 1%;
+}
+
+h2 {
+	font-size: 2em;
+	color: #6F7F7A;
+}
+
+p {
+	margin-top: 20px;
+	color: #555;
+}
+
+header {
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 .75% 0;
+}
+
+header a {
+	text-decoration: none;
+}
+
+h1:hover {
+	color: #6F7F7A;
+}
+
+/*///// LAYOUT /////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+	border: 5px solid #ccc;
+}
+
+#product {
+	width: 100%;
+	border-color: #98ADA6;
+}
+
+.logo-link {
+	transition: border-color 0.75s ease;
+	display: inline-block;
+  float: left;
+  width: 24.625%;
+	margin: .25%
+}
+
+.first {
+	margin-left: 0;
+}
+
+.last {
+	margin-right: 0;
+}
+
+#press a img:hover {
+	border-color: #6F7F7A;
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+/*///// FOOTER /////*/
+
+footer p {
+	font-size: .75em;
+	text-align: right;
+	clear: both;
+	padding-top: 15px;
+}
