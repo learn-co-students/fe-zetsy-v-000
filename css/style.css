@@ -20,11 +20,10 @@ body {
 /* Write all remaining styles here */
 
 h1 {
-	color: rgb(152,173,166);
 	font-size: 5em;
   margin: 0 0 5px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid
+	border-bottom: 1px solid #ccc;
 	}
 
 img {
@@ -40,8 +39,31 @@ p {
 	margin: 0 0 20 0;
 }
 
+header a {
+	color: rgb(152,173,166);
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
 #press img {
 	border: 5px solid #ccc;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px solid rgb(111,127,122);
+	padding: 1px;
 }
 
 .small {
