@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,34 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: rgb(152,173,166);
+	font-size: 5em;
+  margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid
+	}
+
+img {
+	border: 5px solid rgb(152,173,166);
+}
+
+h2 {
+	color: rgb(152,173,166);
+	font-size: 2em;
+}
+
+p {
+	margin: 0 0 20 0;
+}
+
+#press img {
+	border: 5px solid #ccc;
+}
+
+.small {
+	text-align: right;
+	color: grey;
+	font-size: .8em;
+}
