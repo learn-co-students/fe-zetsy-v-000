@@ -1,13 +1,14 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +18,72 @@ body {
 	padding: 0 45px 20px;
 }
 
+/* //////// Sections ////// */
+
+header a {
+	color: rgb(152,173,166);
+  text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
+
+#content a {
+	color: rgb(23,138,204);
+    text-decoration: none;
+}
+
+#content a:hover {
+	color: rgb(23,131,187);
+	text-decoration: underline;
+}
+
+#content img {
+	border: 5px solid rgb(152,173,166);
+}
+
+#press img {
+	border: 5px solid rgb(204,204,204);
+}
+
+#press img:hover {
+	border: 5px solid rgb(111,127,122);
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
 /* Write all remaining styles here */
+
+h1 {
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Bree Serif', serif;
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+
+
+.small {
+	font-size: 0.8em;
+}
