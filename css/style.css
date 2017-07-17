@@ -17,4 +17,47 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 a {
+	font-size:70px;
+	font-weight: bold;
+	color:#CCC;
+	text-decoration: none;
+}
+
+h1 {
+	border-bottom:1px solid #CCC;
+	padding-bottom:15px;
+	font-family:'Baskerville', serif;
+}
+
+#featured img	{
+	border:5px solid #98ADA6;
+}
+
+section h2 {
+	font-size:34px;
+	color:#98ADA6;
+	margin-bottom:20px;
+}
+
+section p {
+	color:#555;
+}
+
+#press img {
+	border:5px solid #CCC;
+	width:24.5%;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#press img:hover {
+	border:5px solid #98ADA6;
+}
+
+footer {
+	font-size:small;
+	text-align: right;
+	color:#555;
+}
