@@ -7,14 +7,38 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
-.wrapper {
-	width: 960px;
+.wrapper
+{
+	width: 80%;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 2% 2% 2% 2%;
 }
+.necklaceimage
+{
+  border-width: thick;;
+	border-style: solid;;
+	border-color: gray;
+	max-width: 100%;
+	margin: 0 auto;
+
+}
+.floaties img:hover
+{
+	border-width: thick;;
+	border-style: solid;;
+	border-color: gray;
+
+}
+
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
 
 /* Write all remaining styles here */
