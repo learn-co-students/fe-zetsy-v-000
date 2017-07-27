@@ -1,20 +1,94 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
+	height: 1500px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/* Write all remaining styles here  */
+
+#hero {
+border: #98ADA6 4px solid;
+}
+
+header {
+color: #98ADA6;
+font-family: "Libre Baskerville";
+float: top, left;
+font-size: 4em;
+}
+
+header a {
+	color: rgb(152, 173, 166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111, 127, 122);
+}
+
+h2 {
+font-size: 2em;
+color: rgb(111, 127, 122);
+}
+
+/*test
+#press div {
+	width: 200px;
+	height: 75px;
+	margin: span;
+	background: pink;
+	padding: 70px 70px 70px 70px;
+	border: #98ADA6 4px solid;
+	display: inline;
+}
+*/
+
+
+#container {
+  height: 125px;
+  text-align: center;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+	width: 224px;
+	height: 143px;
+	background: #F7F0EE;
+	opacity: 1;
+	border: #ccc 4px solid;
+  text-align: center;
+  display: inline-block;
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+}
+
+#press .box1:hover, .box2:hover, .box3:hover, .box4:hover {
+	border: 4px rgb(111, 127, 122) solid;
+	}
+
+footer {
+	text-align: right;
+	background: #fff;
+	font-size: .8em;
+}
