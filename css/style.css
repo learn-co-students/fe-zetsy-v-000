@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -16,5 +16,23 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
+
+h1, h2 {
+	font-family: 'Baskerville', serif;
+	color: rgb(152,173,166);
+}
+
+h1{
+	font-size: 5em;
+	margin: 0 0 5px;
+	border-bottom-style: solid;
+	border-width: thin;
+	border-color: rgb(152,173,166);
+}
+
+img {
+	border: 5px rgb(152,173,166) solid
+}
+
 
 /* Write all remaining styles here */
