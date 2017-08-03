@@ -7,7 +7,16 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	height: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+div {
+	display: block;
 }
 
 .wrapper {
@@ -17,4 +26,52 @@ body {
 	padding: 0 45px 20px;
 }
 
+.clearfix after{
+	content: “.”;
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+h1 {
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	color: rgba(152, 173, 166, 1);
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Times New Roman', serif;
+	color: rgba(115, 126,	121, 1);
+}
+
+footer {
+	font-size: .8em;
+	font-family: 'Times New Roman', serif;
+	text-align: right;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#image img {
+	border: 5px solid;
+	border-color: rgba(152, 173, 166, 1);
+	margin: 2px 0;
+}
+
+#press img {
+	border: 5px solid #ccc;
+}
+
+#press img:hover {
+	border-color: rgba(115, 126,	121,	1);
+}
 /* Write all remaining styles here */
