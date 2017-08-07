@@ -1,7 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url('../fonts/Baskerville.ttc');
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -17,4 +20,82 @@ body {
 	padding: 0 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+
+
+/* Media */
+
+img, video, audio {
+	max-width: 100%;
+}
+
+img {
+	border-width: 5px;
+	border-style: solid;
+}
+
+#header img {
+	border-color: #9BA9A4;
+}
+
+#press img {
+	border-color: #CBCDCC;
+	padding: 1px;
+}
+
+
+/* Fonts */
+
+p {
+	color: #535F59;
+	margin: 0 0 20px 0;
+}
+
+h1 {
+	font-family: 'Baskerville', serif;
+	color: #99A9A3;
+	font-size: 5em;
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: #6E7B78;
+	font-size: 2em;
+}
+
+.small-text {
+	font-size: 0.8em;
+}
+
+
+/* Sections */
+
+footer p {
+	text-align: right;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+
+/* Links and States */
+
+a {
+	text-decoration: none;
+}
+
+h1:hover {
+	color: #767C7A;
+}
+
+#press img:hover {
+	border-color: #767C7A;
+}
+
+#about a {
+	color: #1783bb;
+}
