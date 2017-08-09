@@ -7,8 +7,9 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
+
 
 .wrapper {
 	width: 960px;
@@ -18,3 +19,48 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*///// FONT STYLING /////*/
+
+h1 {
+	font-weight: normal;
+	color: #A6B2AE;
+	font-size: 6em;
+	display: inline-block;
+	margin: 0;
+}
+
+h2 {
+	color: #6B7E88;
+	font-size: 2em;
+}
+
+/*///// BUTTON AND LINK REACTIONS /////*/
+/*///// BORDERS AND MARGINS /////*/
+img.logo {
+	border-style: solid;
+	border-width: medium;
+	border-color: #CBCECD;
+	margin: 0 auto;
+}
+
+
+img.logo:hover{
+	border-color: #73807B;
+}
+
+img#necklace {
+	border-style:solid;
+	border-width: 6px;
+	border-color:#B9C2BF;
+	margin: 0 auto;
+}
+
+[target=_blank] {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+#footer {
+	text-align:right;
+}
