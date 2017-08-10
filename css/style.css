@@ -1,14 +1,16 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color:gray;
 }
+
 
 .wrapper {
 	width: 960px;
@@ -17,4 +19,44 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+#logo h1{
+	font-size: 4em; /* 16px, ?pt, 100%, 1em */
+	font-family: 'Merriweather', serif;
+}
+
+.pressbox {
+float: left;
+width: 25%;
+height:auto;
+background: #ccc;
+-webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.pressbox:hover{
+	background-color: black;
+  cursor: pointer;
+
+}
+
+
+#footer{
+	font-size: 11px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+img, video, audio{ /*all audio/video/images to be fluid in sizing, but limit to 100% within container */
+  max-width: 100%
+}
