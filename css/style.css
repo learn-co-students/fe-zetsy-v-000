@@ -7,7 +7,8 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+  color: rgb(111,126,129);
 }
 
 .wrapper {
@@ -18,3 +19,33 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/* Headers */
+h1 {
+  font-family: /fonts/"Baskerville.ttc", serif;
+  font-weight: lighter;
+  src:url(fonts/Baskerville.ttc);
+  font-size: 400%;
+  margin-bottom:10px;
+  color:rgb(157,172,167);
+}
+
+/* Links */
+.learn {
+  color:blue;
+}
+
+#copywrite {
+  float: right;
+  margin-right: 20px;
+}
+
+img{
+  border: 3px solid rgb(155,172,166) ;
+  padding: 0px;
+}
+
+img:hover{
+  border: 3px solid rgb(116,126,123);
+  padding: 0px;
+}
