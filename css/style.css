@@ -38,10 +38,16 @@ h2{
 	color: rgba(112, 127, 122, 1);
 }
 
-#press {
+.press img{
 	border: 5px rgb(152,173,166) solid;
 }
 
 footer{
+	padding: 20px;
+}
+footer p{
+	font-size: 12px;
 	float:right;
+	padding: 0 20px;
+	margin: 0 20px;
 }
