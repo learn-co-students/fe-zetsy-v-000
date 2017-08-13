@@ -1,4 +1,8 @@
 /*////////////// Fonts //////////////*/
+@font-face {
+	font-family: 'Playfair Display', serif;
+	src: url(https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet)
+	}/* link the web font used for the level 1 heading here */
 
 /* link the web font used for the level 1 heading here */
 
@@ -7,7 +11,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +22,42 @@ body {
 }
 
 /* Write all remaining styles here */
+header a {
+	color: rgb(152,173,166);
+    text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+hr {
+	border-top: 1px solid #C0C0C0;
+}
+
+h1 {
+	padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+
+}
+
+h2 {
+	color: rgb(111,127,122);
+	    font-size: 2em;
+}
+
+#logo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+img {
+	padding: 0px;
+	border: 5px solid #C0C0C0;
+}
+
+footer {
+	text-align: right;
+}
