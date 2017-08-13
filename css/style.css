@@ -1,13 +1,17 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@fontface {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc)
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +22,76 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: rgb(159,172,168);
+	font-size: 5em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 5px;
+	font-family: 'Baskerville', serif;
+}
+
+h2, p, footer {
+	font-family: 'Times New Roman', serif;
+}
+
+h2 {
+	color: rgb(109,117,115);
+	font-size: 2em;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1em;
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: right;
+}
+
+p, footer {
+	color: #555;
+	margin: 0 0 20px 0;
+}
+
+img.dark {
+	border: 5px rgb(159,172,168) solid;
+}
+
+img.light {
+	border: 5px #ccc solid;
+}
+
+a:link {
+	color: rgb(159,172,168);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(159,172,168);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(109,117,115);
+	text-decoration: none;
+}
+
+.press img:hover {
+	border-color: rgb(109,117,115);
+}
+
+a.learn:link {
+	color: #1783bb;
+}
+
+a.learn:hover {
+	color: #1783bb;
+	text-decoration: underline;
+}
+
+a.learn:visited {
+	color: #1783bb;
+}
