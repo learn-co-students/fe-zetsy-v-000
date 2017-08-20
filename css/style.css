@@ -1,7 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: bakersville;
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +21,40 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/* * {
+	box-sizing: border-box;
+} */
+
+h1, h2 {
+	font-family: bakersville;
+	color: #6F7F7A;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 0 0 8px 0;
+	padding: 3px 0 5px 0;
+	border-bottom: 1px solid #6F7F7A
+}
+
+img {
+	max-width: 100%;
+	border: 5px solid #6F7F7A;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+.linked {
+	border: 5px solid #ccc;
+}
+.linked:hover {
+	border-color: #6f7f7a;
+}
+
+.info {
+	text-align: right;
+	font-size: .7em;
+}
