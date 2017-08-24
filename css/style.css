@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,64 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#logo {
+	color: rgb(134,158,149);
+	font-family:'Slabo 27px', serif;
+	font-size:300%;
+}
+hr {
+	width: 100% auto;
+	border:.5px solid rgb(193,193,193);
+	margin-top: .5em;
+	margin-bottom:1em;
+}
+.wrapper img[alt*="picture"]{
+	border:6px solid rgb(193,193,193);
+	box-sizing: border-box;
+}
+.header {
+	color: rgb(92,108,103);
+}
+
+.col-1{
+  float: left;
+  width: 22%;
+  background:#ccc;
+	display:inline-block;
+	margin-left:0;
+	margin-right: 4%;
+	box-sizing: border-box;
+	border:1% solid rgb(134,158,149);
+}
+.col-2{
+  float: left;
+  width: 22%;
+  background:#ccc;
+	display:inline-block;
+	margin-right: 4%;
+	box-sizing: border-box;
+	border:1% solid rgb(134,158,149);
+	box-shadow:none;
+}
+.col-3{
+  float: right;
+  width: 22%;
+  background:#ccc;
+	display:inline-block;
+	border:1% solid rgb(134,158,149);
+}
+.clearfix:after{
+  content:".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+	border: 1px solid rgb(134,158,149);
+}
+
+.small{
+	float: right;
+	font-size:75%;
+}
