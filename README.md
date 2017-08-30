@@ -4,7 +4,7 @@
 This challenge asks you to build the Zetsy page by writing your own HTML & CSS from scratch to match the mockup image and/or the live site example.
 
 ## Steps
-
+ 
 1. Fork this repository.
 2. Clone your fork locally.
 3. cd in the local repo you just cloned.
