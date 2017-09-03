@@ -1,5 +1,6 @@
 /*////////////// Fonts //////////////*/
-
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +8,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +19,56 @@ body {
 }
 
 /* Write all remaining styles here */
+html {
+	display: block;
+}
+
+#title {
+	display: block;
+	padding-top: 20px;
+}
+
+h1 {
+	display: block;
+	padding-bottom: 20px;
+	font-family: arial;
+	border-bottom: 2px solid;
+	color: rgb(0, 188, 225);
+}
+
+h2 {
+	display: block;
+	border-bottom: 2px solid;
+}
+
+#featured img {
+	border: 10px rgb(0, 188, 225) solid;
+}
+
+p {
+	display: block;
+	color: #555;
+	font-size: 1em;
+	margin: 0 10px 10px 0;
+	text-align: center;
+}
+
+#links img {
+	border: 2px #ccc solid;
+	padding: 2px;
+	transition: font-color 0.5s ease;
+	font-color: red;
+	-webkit-transition: background 1s;
+       -moz-transition: background 1s;
+        -ms-transition: background 1s;
+         -o-transition: background 1s;
+            transition: background 1s;
+}
+
+#links:hover {
+      background:  #b13c19;
+}
+
+footer {
+	text-align: right;
+}
