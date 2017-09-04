@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,24 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	padding-top: 20px;
+	font-size: 50px;
+	font-family: "fonts/Baskerville.ttc", cursive;
+	color: gray;
+}
+
+h2 {
+	color: gray;
+}
+
+img {
+	border-style: solid;
+	border-color: gray;
+	border-width: medium;
+}
+
+#footer {
+  padding-left: 750px;
+}
