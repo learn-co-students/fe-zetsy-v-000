@@ -18,9 +18,13 @@ body {
 }
 
 /* Write all remaining styles here */
+h1, h2 {
+	color: rgb(152,173,166);
+}
+
 #main-header {
 	padding-bottom: 10px;
-	font-size: 5em;
+	font-size: 4.5em;
 	margin: 0 0 5px;
 	font-family: "Libre Baskerville", serif;
 	border-bottom: 1px solid #ccc;
@@ -29,4 +33,29 @@ body {
 #main-header a {
 	color: rgb(152,173,166);
 	text-decoration: none;
+}
+
+#featured img {
+	border: 5px solid rgb(152,173,166);
+}
+
+#about h2 {
+	font-size: 2em;
+}
+
+#press h2 {
+	font-size: 2em;
+}
+
+#press img {
+	border: 4px solid rgb(152,173,166);
+}
+
+#press img:hover {
+	border: 4px solid rgb(82, 82, 82);
+}
+
+#copyright {
+	float: right;
+	font-size: 0.75em;
 }
