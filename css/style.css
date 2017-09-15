@@ -5,9 +5,10 @@
 /*////////// Global Styles //////////*/
 
 body {
+	display: block;
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +18,59 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+padding-bottom: 10px;
+margin: 0 0 5px;
+font-size: 5em;
+font-weight: normal;
+font-family: 'Baskerville', serif;
+border-bottom: 1px solid #ccc;
+}
+
+header a {
+color: rgb(152,173,166);
+text-decoration: none;
+}
+
+
+#featured img {
+border-color: rgb(152, 173, 166);
+border-style: solid;
+border-width: 5px;
+}
+
+h2 {
+font-weight: bold;
+color: rgb(111, 127, 122);
+font-size: 2em;
+}
+
+p {
+color: #555;
+font-size: 1em;
+margin: 0 0 20px 0;
+}
+
+p a {
+color: #1783bb;
+}
+
+#press img {
+border-color: #ccc;
+border-style: solid;
+border-width: 5px;
+padding: 1px;
+}
+
+#press img:hover {
+border-color: rgb(152, 173, 166);
+}
+
 /* Write all remaining styles here */
+.small {
+font-size: .8em;
+}
+
+footer {
+text-align: right;
+}
