@@ -3,11 +3,52 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
+}
+
+h1
+{
+margin: 0 0 5px;
+font-size: 5em;
+color: rgb(111,127,122);
+}
+
+
+h2
+{
+font-size: 2em;
+color: rgb(111,127,122);
+}
+
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+#featured img
+{
+border: 5px rgb(152,173,166) solid;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img
+{
+	border: 5px #ccc solid;
+	padding: 1px;
+}
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +59,14 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.copyrightfont
+{
+ font-size: 0.8em;
+}
+
+footer
+{
+text-align: right;
+background: #fff;
+}
