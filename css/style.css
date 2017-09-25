@@ -2,19 +2,66 @@
 
 /* link the web font used for the level 1 heading here */
 
+h1 {
+	color: gray;
+	font-size: 5em;
+	font-weight: normal;
+	font: "Baskerville", serif;
+
+}
+
+h3 {
+	color: darkslategray;
+	font-size: 2em;
+}
 /*////////// Global Styles //////////*/
+
+
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+
 }
 
 /* Write all remaining styles here */
+div {box-sizing: border-box;}
+
+img {
+	border: 5px lightslategray solid;
+
+}
+
+.wrapper {
+margin: 0, auto;
+width: whatever px
+background: (whatever color
+}
+
+
+#press {
+	border: 5px #ccc solid;
+	padding: 1px;
+	margin-bottom: 20px;
+}
+
+.clearfix:after {
+	content: “.”;
+display: block;
+clear: both;
+visibility: hidden;
+height: 0;
+line-height: 0;
+}
+
+
+#logo {
+	text-align: right;
+}
