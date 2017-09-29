@@ -60,12 +60,19 @@ article a:hover {
 	border-color: #ccc;
 	border-style: solid;
 	padding: 1px;
+	/*bonus css*/
+	overflow: hidden;
+	transition-duration: 0.8s;
+	transition-property: transform;
 }
 #press img:hover {
 	border: 5px;
 	border-color: #6f7f7a;
 	border-style: solid;
 	padding: 1px;
+	/*bonus css*/
+	transform: rotate(720deg);
+	-webkit-transform: rotate(720deg);
 }
 footer {
 text-align: right;
