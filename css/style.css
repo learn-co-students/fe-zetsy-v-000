@@ -36,17 +36,23 @@ h1 {
 	border-bottom-color: #ccc;
 	border-bottom-style: solid;
 }
+
+h2 {
+	color: #6F7F7A;
+	font-size: 2em;
+}
+
 article img {
 	border: 5px;
 	border-color: rgb(152, 173, 166);
 	border-style: solid;
 }
-#article a {
+article a {
 	color: #1783bb;
 	text-decoration: none;
 }
 
-#article a:hover {
+article a:hover {
 	text-decoration: underline;
 }
 #press img {
