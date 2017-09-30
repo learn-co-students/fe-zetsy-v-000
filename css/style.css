@@ -7,7 +7,9 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	height: 100%;
+	min-height: 100%;
 }
 
 .wrapper {
@@ -15,6 +17,37 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	height: 100%;
+	min-height: 100%;
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: rgb(152, 173, 166);
+	text-decoration: none;
+	font-size: 5em;
+	font-weight: bold;
+	font-family: 'Baskerville', serif;
+}
+
+h2 {
+	color: rgb(111, 127, 122);
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#border {
+	border: .25em solid rgb(204, 204, 204)
+}
+
+#border-1 {
+	border: .25em solid rgb(152, 173, 166)
+}
+
+footer {
+	position: absolute;
+	right: 170px;
+	padding: 2px;
+}
