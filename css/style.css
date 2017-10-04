@@ -1,13 +1,16 @@
-/*////////////// Fonts //////////////*/
+/* --- Font --- */
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville'
+	src: url(../fonts/Baskerville.ttc);
+}
 
-/*////////// Global Styles //////////*/
+/* --- Global: Body & Wrapper --- */
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +20,92 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/* ~~~~~ Local Styling ~~~~~ */
+
+/* --- Header --- */
+
+h1 {
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	font-weight: normal;
+	padding-bottom: 10px;
+	margin: 0 0 5px 0;
+}
+
+header a {
+	color: #98ADA6;
+	-webkit-transition: .5s ease-out;
+	-moz-transition: .5s ease-out;
+	-o-transition: .5s ease-out;
+	transition: .5s ease-out;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: #258498;
+}
+
+/* --- Section: Feature --- */
+
+#feature img {
+  border: 5px #98ADA6 solid;
+}
+
+/* --- Section: About --- */
+
+#about h2 {
+	color: #6F7F7A;
+	font-size: 2em;
+}
+
+#about p {
+	color: #555;
+	font-size: 1 em;
+	margin: 0 0 20px 0;
+}
+
+#about p a {
+	color: #98ADA6;
+	-webkit-transition: .5s ease-out;
+	-moz-transition: .5s ease-out;
+	-o-transition: .5s ease-out;
+	transition: .5s ease-out;
+	text-decoration: none;
+}
+
+#about p a:hover {
+	color: #258498;
+}
+
+/* --- Section: Press --- */
+
+#press h2 {
+	color: #6F7F7A;
+	font-size: 2em;
+}
+
+#press a img {
+	border: 5px #ccc solid;
+	padding: 1px;
+	-webkit-transition: border-color .5s ease-out;
+	-moz-transition: border-color .5s ease-out;
+	-o-transition: border-color .5s ease-out;
+	transition: border-color .5s ease-out;
+
+}
+
+#press a img:hover {
+	border-color: #258498;
+}
+
+/* --- Footer --- */
+
+footer {
+	text-align: right;
+}
+
+footer p {
+	margin: 20px 0 20px 0;
+	font-size: 0.8em;
+	color: #555;
+}
