@@ -38,7 +38,11 @@ font-size: 2em;
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
+body div.wrapper [footer]{
+	 right: 0;
+	 bottom: 0;
+	position: relative;
+}
 
 /*//////LAYOUT/////*/
 
