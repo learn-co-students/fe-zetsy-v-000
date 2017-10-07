@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,24 @@ body {
 	padding: 0 45px 20px;
 }
 
+#title {
+	color: #97ADA7;
+}
+
+#subtitle {
+	color: #6E7F7A;
+}
+
+.image{
+	border: 5px #97ADA6 solid;
+	padding: 1px
+}
+
+#copyright{
+	text-align: right;
+}
+
+a .image:hover {border: 5px rgb(111,127,122) solid;
+
+}
 /* Write all remaining styles here */
