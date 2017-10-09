@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -15,6 +15,31 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+.head2, .head1 {
+  color: rgb(134, 158, 149);
+}
+
+.head2 {
+  font-size: 30px;
+}
+
+.head1 {
+  font-size: 100px;
+}
+
+.mainpic {
+  border:5px solid rgb(134, 158, 149);
+}
+
+.linkpic {
+  border:5px solid rgb(193, 193, 193);
+}
+
+#credit {
+  font-size: 13px;
+  text-align: right;
 }
 
 /* Write all remaining styles here */
