@@ -1,20 +1,90 @@
-/*////////////// Fonts //////////////*/
+/*////////////// Fonts - gives instruction on where to get fonts used that are "non-standard"//////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: #F3EBE9;/* Sets up a very light pink background that sits behind the wrapper and all elements in the wrapper */
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif; /* this font will be used by the paras in the About section */
 }
 
-.wrapper {
+.wrapper { /* This is the wrapper that has the white background. Elements within the wrapper will be centered with an equal white space on the sides by
+	using margin:0 which means 0 margin on top and bottom, and auto which puts equal whitespace on the right and left as you resize the page */
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 45px 20px;/* content will have 0px padding on top 45px padding right and left and 20px padding on the bottom*/
 }
 
-/* Write all remaining styles here */
+h1 {
+	padding-bottom: 10px;/* this is the Zetsy name at the top of the wrapper. The border-bottom puts a nice thin line at the bottom. The margin is 0 top 0 right
+	and left and 5px at the bottom */
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {/* this sets up the styling for h2 headers - About and Press They will use the TNR font as it was set up in Body and there is no change here */
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p  {/*this sets up the styling for the paras. TNR is the font. Also note that there is a 20 px bottom margin for each para which determines space between*/
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+.small {/*this sets up a small TNR font size for the footer*/
+	font-size: 0.8em;
+}
+
+/*////////// Section Styles //////////*/
+
+header a {/*this sets up the color for the headers*/
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {/*this sets up the color for the links when you are hovering*/
+	color: rgb(111,127,122);
+}
+
+#artistwork img {/* this puts a 5px light grey border around the main image on the page with the id artistwork*/
+	border: 5px rgb(152,173,166) solid;
+}
+
+ /*these don't appear to be doing anything - not sure why they were in the css
+ #artistwork a {
+	color: #1783bb;
+	text-decoration: none;
+}*/
+
+/*#artistwork img: {
+	color: rgb(111,127,122);
+}
+*/
+#press {/*This sets up a 20px bottom margin as space underneath the Press header*/
+	margin-bottom: 20px;
+}
+
+#press img {/*this sets up a border around the image files in the Press section*/
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {/*this creates a grey border around the images in the press section when you hover over them*/
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {/*this puts a white background on the footer element to blend with the wrapper an moves it to align with the far right bottom */
+	text-align: right;
+	background: #fff;
+}
