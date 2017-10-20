@@ -19,5 +19,68 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+.foot {
+	font-size: 0.8em;
+}
+
+header h1 {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#main_content img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#main_content a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#main_content a:hover {
+	text-decoration: underline;
+}
+
+#press_links {
+	margin-bottom: 20px;
+}
+
+#press_links img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press_links img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
 
 /* Write all remaining styles here */
