@@ -1,6 +1,7 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+/* link the web font used for the level 1 heading here
+font-family: 'Libre Baskerville', serif; */
 
 /*////////// Global Styles //////////*/
 
@@ -19,13 +20,27 @@ body {
 
 /* Write all remaining styles here */
 
-figure img{
+h1 {
+	font: bolder 5em 'Libre Baskerville', serif;
+	color: #a4bfb6;
+}
+
+header {
+	width: 960px;
 
 }
 
-#about {
+section #featured {
 
 }
+
+#featured img{
+	border: solid 5px #a4bfb6;
+	width: 960px;
+	margin: 0 auto;
+
+}
+
 p {
 
 }
