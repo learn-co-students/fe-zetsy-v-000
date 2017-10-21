@@ -7,7 +7,9 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: #434343;
+	display: block;
 }
 
 .wrapper {
@@ -18,3 +20,46 @@ body {
 }
 
 /* Write all remaining styles here */
+/* my attempt to change Zesty logo below*/
+#logo h1 { /* selects <h1> if inside the id="logo" */
+  font-family: "Baskerville.ttc", serif;
+	color: #8A9E96;
+	font-size: 5em;
+	font-weight: normal;
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#picture { /* selects <h1> if inside the id="logo" */
+	border: 5px rgb(152,173,166) solid;
+}
+
+
+#press {
+	margin-bottom: 20px;
+	background: #fff;
+	position: relative;
+	max-width: 100%;
+	display: inline-block;
+}
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+	font-size: 0.8em;
+}
+
+#borders { /* selects <h1> if inside the id="logo" */
+	border: 5px #fff solid;
+	margin-bottom: 20px;
+	background: #fff;
+	position: relative;
+	max-width: 100%;
+	display: inline-block;
+
+}
