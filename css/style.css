@@ -29,8 +29,13 @@ body {
 
 /* Write all remaining styles here */
 
-#press img {
-  margin-right: 10px; 
-  width: 20%; 
-  height: auto; 
+
+
+figure, #press a img {
+
+  border-color: grey; 
+  border-width: thick; 
+  border-style: solid; 
+  margin-right: 3px; 
+  
 }
