@@ -34,15 +34,18 @@ body {
 header {
   font-family: 'Baskerville', serif; 
   font-size: 60px;
-  margin-left: 275px; 
-  margin-top: 50px;
-  
+  margin-left: 40px; 
+  padding-top: 15px; 
 }
 
 /* IMAGES */ 
 
 img {
   max-width: 100%;
+}
+
+header, figure {
+  margin-left: auto; 
 }
 
 figure, #press a img {
