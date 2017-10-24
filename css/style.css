@@ -1,3 +1,13 @@
+/* header - logo 
+   4 horizontal column layout 
+   1 - column for image 
+   1 - column for each section (about, press)
+  add a div for header 
+
+*/
+
+
+
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
@@ -18,3 +28,49 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/* HEADER */ 
+
+header {
+  font-family: 'Baskerville', serif; 
+  font-size: 60px;
+  margin-left: 40px; 
+  padding-top: 15px; 
+}
+
+/* IMAGES */ 
+
+img {
+  max-width: 100%;
+}
+
+header, figure {
+  margin-left: auto; 
+}
+
+figure, #press a img {
+
+  border-color: #999393; 
+  border-width: thick; 
+  border-style: solid; 
+  margin-right: 3px; 
+}
+
+/* HEADINGS TEXT COLOR */
+
+header, h2 {
+  color: #8A8383; 
+}
+
+/* HYPERLINK FOR "LEARN MORE" */ 
+
+.learn {
+  text-decoration: none; 
+}
+
+/* FOOTER */ 
+
+#footer {
+  margin-left: 75%; 
+  margin-top: 2%; 
+}
