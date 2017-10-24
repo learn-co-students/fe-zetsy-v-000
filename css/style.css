@@ -44,3 +44,7 @@ figure, #press a img {
 
 /* FOOTER */ 
 
+#footer {
+  margin-left: 75%; 
+  margin-top: 2%
+}
