@@ -31,7 +31,12 @@ body {
 
 /* HEADER */ 
 
-
+header {
+  font-family: 'Baskerville', serif; 
+  font-size: 40px;
+  margin-left: 275px; 
+  
+}
 
 /* IMAGES */ 
 
