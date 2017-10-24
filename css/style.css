@@ -47,6 +47,12 @@ figure, #press a img {
   margin-right: 3px; 
 }
 
+/* HYPERLINK FOR "LEARN MORE" */ 
+
+.learn {
+  text-decoration: none; 
+}
+
 /* FOOTER */ 
 
 #footer {
