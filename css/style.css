@@ -34,6 +34,11 @@ body {
 
 
 /* IMAGES */ 
+
+img {
+  max-width: 100%;
+}
+
 figure, #press a img {
 
   border-color: grey; 
@@ -46,5 +51,5 @@ figure, #press a img {
 
 #footer {
   margin-left: 75%; 
-  margin-top: 2%
+  margin-top: 2%; 
 }
