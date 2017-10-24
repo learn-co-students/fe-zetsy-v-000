@@ -41,10 +41,16 @@ img {
 
 figure, #press a img {
 
-  border-color: grey; 
+  border-color: #999393; 
   border-width: thick; 
   border-style: solid; 
   margin-right: 3px; 
+}
+
+/* HEADINGS TEXT COLOR */
+
+header, h2 {
+  color: #8A8383; 
 }
 
 /* HYPERLINK FOR "LEARN MORE" */ 
