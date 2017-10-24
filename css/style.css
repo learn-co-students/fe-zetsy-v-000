@@ -29,13 +29,18 @@ body {
 
 /* Write all remaining styles here */
 
+/* HEADER */ 
 
 
+
+/* IMAGES */ 
 figure, #press a img {
 
   border-color: grey; 
   border-width: thick; 
   border-style: solid; 
   margin-right: 3px; 
-  
 }
+
+/* FOOTER */ 
+
