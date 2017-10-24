@@ -28,3 +28,9 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#press img {
+  margin-right: 10px; 
+  width: 20%; 
+  height: auto; 
+}
