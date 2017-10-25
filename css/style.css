@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,66 @@ body {
 }
 
 /* Write all remaining styles here */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+	color: teal;
+	padding: 10px 0px 10px
+}
+
+h1 {
+	font-size: 50px;
+}
+
+img {
+	max-width: 100%
+}
+
+.copyright {
+	float: right;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.necklace {
+	float: left;
+	border: 5px solid teal;
+	margin-bottom: 20px;
+}
+
+.press-link {
+	border: 5px solid teal;
+	margin: 0 auto;
+	position: relative;
+}
+
+.press-link-box {
+	float: left;
+	width: 23.5%;
+	margin-left: 2%;
+
+}
+
+.first {
+	margin-left: 0%;
+}
+
+#wiki-link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
