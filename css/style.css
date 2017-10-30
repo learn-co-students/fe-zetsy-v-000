@@ -7,7 +7,8 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+  color: rgb(155, 172, 166);
 }
 
 .wrapper {
@@ -18,3 +19,28 @@ body {
 }
 
 /* Write all remaining styles here */
+/*////////// Section //////////*/
+
+h1 {
+  font-size: 3em;
+}
+
+.line {
+  color: rgb(155, 172, 166);
+}
+
+.img-links a img {
+  margin: 0;
+  padding: 0;
+  border: 3px solid rgb(183, 184, 184);
+}
+
+.img-links a:hover img {
+  margin: 0;
+  padding: 0;
+  border: 3px solid rgb(113, 127, 122);
+}
+
+a {
+  text-decoration: none;
+}
