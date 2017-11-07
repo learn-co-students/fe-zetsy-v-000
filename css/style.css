@@ -1,13 +1,24 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@@import "Bakerville.ttc"
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+}
+
+img {
+	border-color: green;
+	border-radius: 10%;
+}
+
+.wrap-big {
+	width: auto;
+	background: blue;
 }
 
 .wrapper {
@@ -18,3 +29,40 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.col-1 {
+  float: left;
+  width: 26%;
+  background-color: #ccc;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background-color: #ccc;
+}
+
+.col-3 {
+  background-color: #ccc;
+}
+
+.col-4 {
+	float: left;
+}
+
+[class*='col-'] {
+  margin-left: 2%;
+}
+
+.first  {
+  margin-left: 0%
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
