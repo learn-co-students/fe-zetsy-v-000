@@ -2,12 +2,15 @@
 
 /* link the web font used for the level 1 heading here */
 
+
+
 /*////////// Global Styles //////////*/
 
 body {
+	padding-top: 8px;
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +20,64 @@ body {
 	padding: 0 45px 20px;
 }
 
+#foot {
+	text-align: right;
+	font-size: 85%;
+
+}
+
 /* Write all remaining styles here */
+/*how do i check what changes they made without just looking using the inspect tools?*/
+
+
+
+h1 {
+	color: rgb(156, 172, 166);
+	font-size: 5em;
+	margin: 0px 0px 5px;
+	border-bottom: 1px solid;
+	padding: 5px
+}
+
+#title {
+	color: rgb(156, 172, 166);
+	/*border-bottom: 1px solid;*/
+	text-decoration: none;
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	/*font-size: 5em;*/
+	font-weight: bold;
+	font-family: 'Baskerville', serif;
+	/*border-bottom: 1px solid #ccc;*/
+
+}
+
+#title:hover {
+	color: black
+}
+
+h2 {
+	font-weight: bold;
+	color: rgb(114,126,122)
+	/*font-size: 24px*/
+}
+
+/*h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 24px;
+}*/
+
+img {
+	border: 5px #ccc solid;
+}
+
+img:hover {
+	border: 5px #000000 solid;
+}
+
+#bigimage {
+	border: 5px #ccc solid;
+	padding-top: 0px;
+
+}
