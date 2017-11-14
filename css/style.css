@@ -7,14 +7,95 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
+	width: 1150px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding-top: 0px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  display: block;
+
 }
+
+.header {
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	color: rgb(163, 178, 173	);
+	opacity: 60%;
+	font-weight: normal;
+	margin-bottom: 14px;
+}
+
+h2 {
+	color: rgb(154,	155, 145);
+	font-size: 2em;
+}
+
+#necklace {
+  width: 20%;
+
+}
+
+.about {
+	width: 1000px;
+	display:inline-block;
+}
+
+.press{
+	width: auto;
+	margin: auto;
+	display: inline-block;
+
+
+}
+
+.footer {
+  float: right;
+	margin-top: 20px;
+	margin-right: 8px;
+	width: auto;
+	display:inline-block;
+}
+
+* {
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/*////////// Image Styles //////////*/
+
+img {
+    border-style: solid;
+    border-width: 5px;
+		border-color: rgb(202, 204, 203);
+		max-width: 100%;
+		max-height: 100%;
+		display: inline-block;
+		margin: auto;
+
+}
+
+img:hover {
+	border-color: rgb(114,	127,	122);
+}
+
+
+/*////////// Links //////////*/
+
+a {
+	color: rgb(113, 151, 192);
+
+}
+
+a:visited{
+	color: purple
+}
+
 
 /* Write all remaining styles here */
