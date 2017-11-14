@@ -1,13 +1,28 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+h1 {
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+}
 
+a {
+    background: transparent;
+}
+
+a:-webkit-any-link {
+    cursor: auto;
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +33,71 @@ body {
 }
 
 /* Write all remaining styles here */
+header {
+    display: block;
+}
+
+header a {
+    color: rgb(152,173,166);
+    text-decoration: none;
+}
+
+header a:hover {
+  color: teal;
+  cursor: pointer;
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+}
+
+section {
+    display: block;
+}
+
+#featured img {
+    border: 5px rgb(152,173,166) solid;
+}
+
+#featured a {
+    color: #1783bb;
+    text-decoration: none;
+}
+
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+
+h2 {
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
+#press {
+    margin-bottom: 20px;
+}
+
+#press img {
+    border: 5px #ccc solid;
+    padding: 1px;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+footer {
+    text-align: right;
+    background: #fff;
+}
