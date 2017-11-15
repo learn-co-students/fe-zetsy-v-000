@@ -11,8 +11,7 @@ body {
 	font-family: 'Times New Roman', serif;
   height: 100%;
   min-height: 100%;
-  padding: 0 20px;
-  margin: 0 auto
+  display: block;
 }
 
 .wrapper {
@@ -66,4 +65,18 @@ p {
 
 #learn:hover {
   text-decoration: underline;
+}
+
+footer {
+  float: right;
+  font-size: small;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
 }
