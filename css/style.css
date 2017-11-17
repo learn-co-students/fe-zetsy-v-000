@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+@import url(/Users/saraschwarz/Development/code/fe-zetsy-v-000/fonts/Baskerville.ttc);
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
