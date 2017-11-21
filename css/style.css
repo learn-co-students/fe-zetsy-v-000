@@ -37,29 +37,31 @@ hr{
 	border-style: solid;
 }
 
-img{
+#necklace{
 	border-style: solid;
 	border-width: 5px;
 	border-color: #92AEA5;
 }
 
-#about{
+#about, #press{
 	color: #6B807A;
 }
 
-#press{
-	color: #6B807A;
+#press img{
+	margin: 0 1px;
+	padding: 5px;
+	background-color: #CBCBCB;
 }
 
-#press a{
-	display: float;
-	border-style: solid;
-	border-width: 5px;
-	border-color: #CBCBCB;
+h1:hover{
+	color: #6D7F79;
+}
+
+#press img:hover{
+	background-color:#6D7F79;
 }
 
 #footer{
-	float: right;
 	font-size: 75%;
 	color: #565656;
 }
