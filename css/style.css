@@ -1,8 +1,12 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+/*@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');*/
 
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -37,7 +41,7 @@ h1 {
 	color: rgb(152, 173, 166);
 	font-size: 5em;
 	font-weight: normal;
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Baskerville', serif;
 	padding-bottom: 10px;
 	margin: 0 0 5px;
 	display: block;
