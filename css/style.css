@@ -1,13 +1,16 @@
 /*////////////// Fonts //////////////*/
-
+@import url('http://fonts.googleapis.com/css?family=Libre+Baskerville');
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +21,71 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/* Style the header*/
+h1 a:link, h1 a:visited{
+	color: rgb(150,173,166);
+	text-decoration: none;
+}
+
+h1 a:hover{
+	color: rgb(110, 127, 122);
+}
+
+h1 {
+	font: 'Libre Baskerville', serif;
+	color: rgb(150,173,166);
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: bold;
+	padding-bottom: 6px;
+	border-bottom: solid;
+	border-width: thin;
+	border-color: #ccc;
+}
+
+/* Style the featured section*/
+#featured img {
+	max-width: 100%;
+	border: 5px solid;
+	color: rgb(150,173,166);
+
+}
+
+#featured a:link, #featured a:visited{
+color: rgb(0, 138, 202);
+text-decoration: none;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(110,127,122);
+	font-family: 'Times New Roman', serif;
+}
+
+p {
+	color: rgb(85,85,101);
+	font-family: 'Times New Roman', serif;
+}
+
+/*Style the news section*/
+
+#News img {
+	max-width: 24.25%;
+	border: 5px solid;
+	color: #ccc;
+	padding: 1px;
+}
+
+#News img:hover {
+	border: 5px solid;
+	color: rgb(110,127,122);
+}
+
+/*Style the footer*/
+
+footer {
+	font-size: .8em;
+	text-align: right;
+	padding-top: 7px;
+}
