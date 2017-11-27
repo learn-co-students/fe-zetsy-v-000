@@ -26,3 +26,7 @@ img {
 h1, h2 {
 	color: rgb(152,173,166)
 }
+
+a:hover {
+  background-color: fuchsia;
+}
