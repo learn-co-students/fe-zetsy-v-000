@@ -17,14 +17,22 @@ body {
 	padding: 0 45px 20px;
 }
 
-img {
-	border: 2px;
-	border-color: gray
-	display: block;
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
 }
 
 h1, h2 {
-	color: rgb(152,173,166)
+	color: rgb(152,173,166);
+	font-size: 2em;
+}
+
+h1 {
+	font-size: 5em;
 }
 
 a:hover {
