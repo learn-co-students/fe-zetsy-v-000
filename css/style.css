@@ -35,8 +35,8 @@ h2 {
 	font-size: 2em;
 }
 
-a:link {
-	color: #1783bb;
+a {
+	color: rgb(32,129,180);
 	text-decoration: none;
 }
 
@@ -44,6 +44,38 @@ a:hover {
 	text-decoration: underline;
 }
 
+img {
+	-webkit-transition: border 1s ease-out;
+	-moz-transition: border 1s ease-out;
+	-o-transition: border 1s ease-out;
+	transition: border 1s ease-out;
+}
+
+/*////////// Custom/Section Styles //////////*/
+
+header a {
+	color: rgb(152,173,166);
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+	text-decoration: none;
+}
+
 img[id="featured-image"] {
 	border: 5px rgb(152,173,166) solid;
+}
+
+#press img {
+	border: 5px solid rgb(204,204,204);
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px solid rgb(111,127,122);
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: right;
 }
