@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,71 @@ body {
 }
 
 /* Write all remaining styles here */
+header {
+	color: #98ada6;
+}
+
+h1 {
+padding-bottom: 10px;
+font-size: 5em;
+font-weight: normal;
+font-family: 'Baskerville', serif;
+border-bottom: 1px solid #ccc;
+margin: 0 0 5px;
+}
+
+section {
+	margin: auto;
+}
+
+#necklace {
+	display: block;
+	margin: auto;
+	border: 5px solid;
+	border-color: #98ada6;
+	position: relative;
+	right: 40px;
+	bottom: 10px;
+}
+
+h2 {
+	color: #6f7f7a;
+}
+
+p {
+	color: #555;
+}
+
+p a:link, a:visited {
+    color: #1783bb;
+		text-decoration: none;
+}
+
+p a:hover {
+  color: #1783bb;
+  text-decoration: underline;
+}
+
+#press a img {
+	border: 5px solid;
+}
+
+#press a:link, a:visited {
+	color: #ccc;
+}
+
+#press a:hover {
+	color: #98ada6;
+}
+
+footer {
+	display: block;
+	color: #555;
+}
+
+footer p {
+	text-align: right;
+	margin: 1em 0 1em 0;
+	font-size: 0.8em;
+
+}
