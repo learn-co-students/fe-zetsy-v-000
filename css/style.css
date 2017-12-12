@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,39 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#firsth1 {
+		font-size: 70px;
+}
+
+.border {
+	border: 5px solid rgb(152,173,166);
+}
+
+.green {
+	color: rgb(152,173,166);
+}
+
+a[href="http://en.wikipedia.org/wiki/Native_American_jewelry"] {
+	color: #2ba6cb;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+footer {
+	font-size: 12px;
+	text-align: right;
+}
+
+.borderchange {
+  border: 5px solid #ccc;
+}
+.borderchange:hover {
+  border: 5px solid rgb(152,173,166);
+}
