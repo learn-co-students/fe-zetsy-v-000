@@ -1,8 +1,16 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
 
 body {
 	background: #F3EBE9;
@@ -17,92 +25,68 @@ body {
 	padding: 0 45px 20px;
 }
 
-img.wrapper{
-	width: 100%;
-}
-
 h1 {
-	color: rgb(152, 173, 166);
 	padding-bottom: 10px;
 	margin: 0 0 5px;
 	font-size: 5em;
-	font-weight: bold;
+	font-weight: normal;
 	font-family: 'Baskerville', serif;
 	border-bottom: 1px solid #ccc;
-	text-decoration: none;
-
 }
 
 h2 {
-	color: rgb(152, 173, 166);
+	color: rgb(111,127,122);
 	font-size: 2em;
 }
 
-p {
+p  {
 	color: #555;
 	font-size: 1em;
 	margin: 0 0 20px 0;
 }
 
-p.small {
-	color: rgb(85, 85, 85);
-	display: block;
-	font-family: 'Times New Roman', serif;
-	font-size: 12.8px;
-	height: 15px;
-	margin-bottom: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 1em;
-	text-align: right;
+.small {
+	font-size: 0.8em;
 }
 
-h2 #press {
-	color: rgb(111, 127, 122);
-	font-size: 2em;
+/*////////// Section Styles //////////*/
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
 }
 
-img.main {
-	width: 950px;
-	height: 473px;
+header a:hover {
+	color: rgb(111,127,122);
 }
 
-img.img-1 {
-	border: 5px #ccc solid;
-	padding: 1px;
-	margin: 0;
+#featured img {
+	border: 5px rgb(152,173,166) solid;
 }
 
-img {
-	border: 5px #ccc solid;
-	padding: 1px;
-	display: inline;
-	height: 143px;
-	width: 224px;
-}
-
-.clearfix:after {
-	clear: both;
-	content: ".";
-	display: block;
-	height: 0;
-	line-height: 0;
-	visibility: hidden;
-}
-
-a {
-	color: #1783bb;
-}
-
-a:link {
+#featured a {
 	color: #1783bb;
 	text-decoration: none;
 }
 
-a:hover {
+#featured a:hover {
 	text-decoration: underline;
-	color: #1783bb;
 }
 
+#press {
+	margin-bottom: 20px;
+}
 
-/* Write all remaining styles here */
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
