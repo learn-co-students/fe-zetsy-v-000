@@ -17,21 +17,18 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif;
-	padding: inherit;
+
 }
 
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+
 }
 
 /* Write all remaining styles here */
- /*#featured{
-	 margin: 10px;
- }*/
+ /* Costumized my site to look a little cooler than most */
 
 #featured img {
     border: 5px rgb(152,173,166) solid;
