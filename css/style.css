@@ -2,12 +2,18 @@
 
 /* link the web font used for the level 1 heading here */
 
+h1 {
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
