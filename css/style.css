@@ -18,3 +18,37 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+h1 {
+    color: #d3d3d3;
+    font-size: 3.5em;
+    font-family: Baskerville;
+}
+
+.title {
+    color: grey;
+    font-family: Baskerville;
+}
+
+img {
+    border: 3px solid;
+    border-color: #d3d3d3;
+}
+
+footer {
+    position: relative;
+    float: right;
+}
+
+.piclinks:hover {
+    border-color: grey;
+}
