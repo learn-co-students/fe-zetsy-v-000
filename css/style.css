@@ -24,3 +24,38 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: #98ada6;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+#featured img{
+	border: 5px #98ada6 solid;
+}
+
+h2 {
+	color: #6f7f7a;
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+	/*cursor: pointer;*/
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+img {
+	border: 5px #98ada6 solid;
+	}
+
+.small {
+	font-size: 0.8em;
+	color: #555;
+	text-align: right;
+}
