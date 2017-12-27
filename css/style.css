@@ -21,6 +21,9 @@ body {
 }
 
 /* Write all remaining styles here */
+a {
+  text-decoration: none;
+}
 
 h1 {
   font-family: Baskerville;
@@ -29,17 +32,33 @@ h1 {
 
 h2 {
   font-size: 2em;
-  color: #6F7F7A;
+  color: #6f7f7A;
 }
 
-header a:link, header a:visited {
-  color: #98ADA6;
+header a {
+  color: #98ada6;
 }
 
 header a:hover {
-  color: #6F7F7A;
+  color: #6f7f7A;
 }
 
-a {
-  text-decoration: none;
+header img {
+  border: thick solid #98ada6;
+}
+
+#about a {
+  color: #2184b9;
+}
+
+#about a:hover {
+  text-decoration: underline;
+}
+
+#press img {
+  border: thick solid #cccccc;
+}
+
+#press img:hover {
+  border-color: #6f7f7A;
 }
