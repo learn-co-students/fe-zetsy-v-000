@@ -55,6 +55,10 @@ img {
 	border: 5px solid #C9CCCB;
 }
 
+a img:hover {
+	border: 5px solid #CBCBCB;
+}
+
 p {
 	color: #565565;
 }
