@@ -55,7 +55,7 @@ img {
 	border: 5px solid #C9CCCB;
 }
 
-a img:hover {
+img:hover {
 	border: 5px solid #CBCBCB;
 }
 
