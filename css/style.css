@@ -1,13 +1,13 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Bellefair', serif;
 }
 
 .wrapper {
@@ -18,3 +18,32 @@ body {
 }
 
 /* Write all remaining styles here */
+h1{
+	font-family: 'Bellefair', serif;
+	color: rgb(152, 173,166);
+	text-decoration: none;
+	font-size: 5em;
+	border-bottom: 1px solid #ccc;
+}
+#main img{
+	border: 5px rgb(152,173,166) solid;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+	font-weight: bold;
+}
+img{
+	border: 5px #ccc solid;
+}
+img:hover{
+	border: 5px rgb(111,127,122) solid;
+}
+p a {
+	color: #1783bb;
+	text-decoration: none;
+}
+p a:hover{
+	text-decoration: underline;
+}
