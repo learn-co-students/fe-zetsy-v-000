@@ -1,4 +1,8 @@
 /*////////////// Fonts //////////////*/
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /* link the web font used for the level 1 heading here */
 
@@ -7,7 +11,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +21,57 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+header h1 	{
+	font-size: 5em;
+	font-family: Baskerville;
+	color: rgb(155, 172, 166);
+	display: inline;
+}
+
+p {
+	color: #555;
+}
+
+#featured img {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(155, 172, 166);
+}
+
+a[href="https://en.wikipedia.org/wiki/Native_American_jewelry"] {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+a[href="https://en.wikipedia.org/wiki/Native_American_jewelry"]:hover {
+	color: #1783bb;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	color: rgb(113, 126, 122);
+}
+
+#press {
+	padding: 5px;
+}
+
+#press a img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #ccc;
+}
+
+#press a img:hover {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(113, 126, 122););
+}
+
+footer {
+	font-size: 0.8em;
+	color: #555;
+	text-align: right;
+}
