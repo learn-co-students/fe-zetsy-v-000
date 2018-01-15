@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,50 @@ body {
 }
 
 /* Write all remaining styles here */
+
+header h1 {
+	font-size: 65px;
+	color: #9BACA6;
+	font-weight: 100;
+	padding: 10px 0 0 0;
+	margin: 0 0 20px 0;
+}
+
+.hero img {
+	border: 5px solid #9BACA6;
+}
+
+section h2 {
+	font-size: 28px;
+	color: #9BACA6;
+	font-weight: 800;
+}
+
+section p {
+	color: #555;
+}
+
+section a {
+	color: #1C8ABE;
+	text-decoration: none;
+}
+
+.press_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.press img {
+	border: 5px solid #CCCCCC;
+}
+
+.press img:hover {
+	border: 5px solid #9BACA6;
+	transition: all .5s ease;
+}
+
+.footer p {
+	display: block;
+	text-align: right;
+	font-size: 12px;
+}
