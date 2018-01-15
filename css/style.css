@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,77 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+header {
+	display: block;
+}
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+a {
+	background: transparent;
+	text-decoration: none;
+}
+
+h1 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	margin: 0 0 5px;
+	font-weight: 2px;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p {
+	font-size: 1em;
+	color: #555;
+	margin: 0 0 20px 0;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+
+
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+#featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
