@@ -2,12 +2,24 @@
 
 /* link the web font used for the level 1 heading here */
 
+/*@font-face {
+  font-family: 'Baskerville';
+  src: url(../fonts/Baskerville.ttc);
+}
+
+for some reason this is not working properly, hence the @import of Libre Baskerville
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700);
+
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +29,78 @@ body {
 	padding: 0 45px 20px;
 }
 
+/* Colors
+Image border color = #98ADA6
+About/Press color #6F7F7A
+inline links images border color #CCCCCC
+background color on left and right #F3EBE9
+background: #F3EBE9
+Learn More <a> #1783BB
+*/
 /* Write all remaining styles here */
+
+h1	{
+  font-family: 'Libre Baskerville', serif;
+
+  /*font-family: 'Baskerville', serif;
+  */
+
+	font-size: 5em;
+  font-weight: normal;
+  border-bottom: 1px #98ADA6 solid;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+}
+
+h2 {
+  color: #6F7F7A;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+  color: #555555
+  margin: 0 0 20px 0;
+}
+
+/*/////////// Section Styles ////////*/
+
+header a {
+  color: #98ADA6;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #6B7773;
+}
+
+#featured img {
+  border: 5px #98ADA6 solid;
+}
+
+#featured a {
+  color: #1783BB;
+  text-decoration: none;
+}
+
+#featured a:hover {
+  text-decoration: underline;
+}
+
+#press {
+  margin-bottom: 20px;
+}
+
+#press img {
+  border: 5px #98ADA6 solid;
+  padding: 1px;
+}
+
+#press img:hover {
+  border: 5px #6B7773 solid;
+}
+
+footer {
+  text-align: right;
+  font-size: 0.8em;
+}
