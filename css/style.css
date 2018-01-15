@@ -17,4 +17,82 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+	margin: 0 0 10px 0;
+	font-weight: bold;
+}
+
+h2 {
+	color: #6F7F7A;
+	font-size: 30px;
+}
+
+p {
+	color: #555;
+}
+
 /* Write all remaining styles here */
+
+
+/* --------------- LOGO -------------- */
+
+#logo {
+	color: #98ADA6;
+	font-size: 42px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5px;
+}
+
+#logo a:link,
+#logo a:visited {
+	color: #98ADA6;
+	text-decoration: none;
+	transition: color 0.1s ease;
+}
+
+#logo a:hover {
+	color: #6F7F7A;
+}
+
+/* --------------- FEATURED IMAGE -------------- */
+
+#featured-image {
+	border: 5px solid #98ADA6;
+}
+
+/* ---------------- ABOUT ---------------*/
+
+.about a {
+	text-decoration: none;
+}
+
+.about a:link,
+.about a:visited {
+	color: #1783BB;
+}
+
+.about a:hover {
+	text-decoration: underline;
+}
+
+/* ---------------- PRESS ---------------*/
+
+.press img {
+	border: 5px solid #ccc;
+	transition: border 0.1s ease;
+}
+
+.press img:hover {
+	border: 5px solid #6F7F7A;
+}
+
+.press {
+	margin-bottom: 20px;
+}
+
+/* ---------------- FOOTER ---------------*/
+
+footer p {
+	font-size: 0.8em;
+	text-align: right;
+}
