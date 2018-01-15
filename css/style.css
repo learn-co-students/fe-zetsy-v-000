@@ -1,13 +1,16 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +20,83 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+a {
+	text-decoration: none;
+}
+
+p {
+	color: #5A5555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+h2 {
+	color: #6F7F7A;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/*////////// HEADER //////////*/
+
+h1 {
+	font-size: 5em;
+	font-family: 'Baskerville';
+	font-weight: normal;
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	color: #98ADA6;
+}
+
+h1 a {
+	transition: color 0.5s ease;
+}
+
+h1 a:visited {
+	text-decoration: none;
+	color: #98ADA6;
+}
+
+h1 a:hover {
+	color: #6F7F7A;
+}
+
+/*////////// FEATURED MAIN //////////*/
+
+#featured img {
+	border: 5px solid #98ADA6;
+}
+
+#featured a {
+	color: #1783C5;
+}
+
+#featured a:visited {
+	color: #1783C5;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+/*////////// PRESS //////////*/
+
+#press {
+	margin-bottom: 20px;
+}
+#press img {
+	transition: border 0.5s ease;
+	border: 5px solid #CCC;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px solid #6F7F7A;
+}
+
+
+/*////////// FOOTER //////////*/
+
+footer {
+	text-align: right;
+	font-size: .8em;
+}
