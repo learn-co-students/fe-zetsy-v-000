@@ -1,6 +1,7 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700);
 
 /*////////// Global Styles //////////*/
 
@@ -18,3 +19,20 @@ body {
 }
 
 /* Write all remaining styles here */
+.logo {
+  	color: rgb(154, 170, 171);
+	font: normal 5em 'Vollkorn', serif;
+}
+
+h2 {
+	color: rgb(107, 118, 111);
+	font: normal 36px Vollkorn, 'Times New Roman' serif;	
+}
+
+#press img {
+	border: 5px #ccc solid
+}
+
+#press img:hover {
+	border: 5px rgb(64, 64, 62) solid
+}
