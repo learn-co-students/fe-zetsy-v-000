@@ -1,13 +1,13 @@
 /*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
+@origin
+https://github.com/learn-co-students/fe-zetsy-v-000/blob/master/fonts/Baskerville.ttc
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Baskerville', serif;
 }
 
 .wrapper {
@@ -17,4 +17,70 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	font-weight: normal;
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(204,204,204);
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Baskerville', serif;
+	color: rgb(111,127,122);
+	text-decoration: none;
+}
+
+p  {
+	color: rgb(80, 80, 80);
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+.small {
+	font-size: 0.8em
+}
+
+/*/////////SECTIONS/////////*/
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#featured a {
+	color: rgb(23, 131, 187);
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px rgb(204,204,204) solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
