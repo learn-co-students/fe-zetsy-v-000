@@ -18,3 +18,48 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+  padding: 5px 0px 10px 0px;
+  color: rgb(134,157,149);
+  font-size: 5em;
+}
+h2 {
+  color: rgb(111,127,122);
+  font-size: 2em;
+}
+
+p  {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+#about img {
+  border: 5px solid rgb(134, 157, 149);
+}
+
+#about a {
+  color: #1783bb;
+  text-decoration: none;
+}
+#about a:hover {
+  text-decoration: underline;
+}
+#press img {
+  border: 5px solid rgb(204,204,204);
+  padding: 1px;
+}
+
+#press img:hover {
+  border: 5px solid rgb(110, 123, 125);
+}
+footer {
+  text-align: right;
+}
