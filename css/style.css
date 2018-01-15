@@ -1,4 +1,8 @@
 /*////////////// Fonts //////////////*/
+@font-face {
+  font-family: 'Baskerville';
+  src: "fe-zetsy-v-000/fonts/Baskerville.ttc";
+}
 
 /* link the web font used for the level 1 heading here */
 
@@ -18,3 +22,47 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  color: rgba(134, 156, 149, 1);
+  font-size: 5em;
+  font-family: 'Baskerville', 'Times New Roman', serif;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+  border-bottom: 10px;
+}
+
+h2 {
+  color: rgba(134, 156, 149, 1);
+  font-size: 2em;
+}
+
+p {
+    color: rgba(67,  67,  67, 1); 
+}
+
+#main img {
+border: 5px rgba(134, 156, 149, 1) solid;
+}
+
+#main a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+#links img {
+border: 5px rgba(174, 175, 176, 1) solid;
+margin-bottom: 20px;
+padding: 1px;
+
+}
+
+#links img:hover {
+  border: 5px gray solid;
+}
+
+footer {
+  text-align: right;
+  font-family: 'Baskerville', 'Times New Roman', serif;
+  font-size: .8em;
+}
