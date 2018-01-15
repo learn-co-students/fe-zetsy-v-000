@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,14 +7,96 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
+	width: 1080px;
 	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+	background: white;
+	padding: 0px 45px 0px;
+	/* border: 5px dashed blue; */
+	/* overflow: hidden; */
 }
 
-/* Write all remaining styles here */
+/*///// HEADERS //////*/
+
+h1.logo {
+	display: inline-block;
+	font-family: "Baskerville";
+	font-size: 75px;
+	color:	#92afa7;
+	margin: 10px 0px 10px;
+	/* border: 5px dashed yellow; */
+}
+
+h1:hover {
+  color: #6A807B;
+}
+
+.header2 {
+	display: block;
+	font-family: "Times New Roman";
+	color: #6A807B;
+	margin: 10px 0px 0px 0px;
+	/* border: 5px dashed green; */
+}
+
+/*//////// LAYOUT ////////*/
+
+* {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+.img-main {
+	display:inline-block;
+	/* border: 5px solid #92AFA7; */
+}
+
+.sub-image {
+	display:inline;
+	float: left;
+	border: 5px solid #ccc;
+	margin-left: 10px;
+	/* border: 5px dashed purple; */
+}
+
+.clearfix:after {
+  content: ".";
+  display:block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.copywrite {
+	float:right;
+	margin: 10px 0px 20px 0px;
+	font-size: 12px;
+}
+
+.body {
+	margin-left:auto;
+	/* border: 5px dashed violet; */
+}
+
+hr {
+	display:block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
+
+/*/////// Media ///////*/
+
+img,video,audio {
+  max-width: 100%;
+}
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
