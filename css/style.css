@@ -18,3 +18,38 @@ body {
 }
 
 /* Write all remaining styles here */
+
+img {
+	border: 5px solid #98ADA6;
+}
+
+h1 {
+	color: #98ADA6;
+	font-size: 5em;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+a {
+	text-decoration:none;
+}
+
+h2 {
+	font-size: 2em;
+	color: #6F7F7A;
+}
+
+p.footer {
+	font-size:.75em;
+	float: right;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility:hidden;
+	height: 0;
+	line-height: 0;
+
+}
