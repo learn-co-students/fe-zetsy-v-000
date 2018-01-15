@@ -2,6 +2,8 @@
 
 /* link the web font used for the level 1 heading here */
 
+@import "fonts/baskerville.ttc";
+
 /*////////// Global Styles //////////*/
 
 body {
@@ -11,10 +13,75 @@ body {
 }
 
 .wrapper {
-	width: 960px;
+	width: 1050px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+  height: 100%;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+img, video, audio {
+  max-width: 100%;
 }
 
 /* Write all remaining styles here */
+
+.baskerville { /* select elements with class="baskerville" */
+  font-family: "Baskerville", serif;
+  color: #98ADA6;  /* #6F7F7A;*/
+}
+
+h1 {
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+  }
+
+#feature {
+  border: 5px solid #98ADA6;
+}
+
+h1.baskerville:hover {
+  color: #6F7F7A;
+}
+
+h2{
+  color: #6F7F7A;
+  font-size: 2em;
+}
+
+#col {
+  display: block;
+  float: left;
+  width: 24.5%;
+  margin-left: .5%;
+  background: rgb(229, 222, 220); 
+  border: 5px solid rgb(198, 198, 198) ;
+}
+
+#col img {
+  width: 100%;
+}
+
+#footer {
+    float: right;
+    font-size: 0.8em;
+  }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
