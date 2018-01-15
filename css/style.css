@@ -2,19 +2,100 @@
 
 /* link the web font used for the level 1 heading here */
 
+header a  {
+	font-family: 'Baskerville';
+	color: rgb(147,178,167);
+	font-size: 5em;
+	margin-top: 0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+header a:hover {
+	font-family: 'Baskerville';
+	color: rgb(107,128,122);
+	font-size: 5em;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: rgb(147,175,166);
+
 }
 
-.wrapper {
-	width: 960px;
+.wrapper{
+	width: 990px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	position: relative;
+	padding: 0 25px 80px;
+
 }
 
 /* Write all remaining styles here */
+
+p {
+	color: rgb(85,85,85);
+	margin-right: 2.8%;
+}
+
+
+
+/*#abouttag .featured h2 {
+	color: rgba(107,129,122);
+}
+
+*/
+
+/*#presstag .press*/
+h2 {
+	color: rgb(107,129,122);
+}
+
+
+
+p>span>a:link, p>span>a:visited, p>span>a:active {
+	font-size: 100%;
+	font-weight: normal;
+	font-family: 'Times New Roman', serif;
+	color: rgb(0,141,215);
+	display: inline-block;
+	text-decoration: none;
+}
+
+p>span>a:hover {
+	font-size: 100%;
+	font-weight: normal;
+	font-family: 'Times New Roman', serif;
+	color: rgb(0,141,215);
+	display: inline-block;
+	text-decoration: underline;
+}
+
+.small {
+	text-align: right;
+	font-size: .8em;
+}
+
+img[alt*="Arizona"] {
+	border: 5px solid rgb(147,175,166);
+	padding: 0;
+
+}
+
+hr {
+    display: block;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: auto;
+    margin-right: 2.9%;
+    border-style: inset;
+    border-width: 1px;
+}
