@@ -3,11 +3,50 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+* {
+	//border: 1px solid red;
+}
+
+/*/// LAYOUT  ///*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+}
+
+h1 {
+	color: rgb(152,173,166);
+	font-family: 'Bakersville', serif;
+	font-size: 5em;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgb(111,127,122);
+    font-size: 2em;
+    margin: 26.56 0;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
+footer p {
+	text-align: right;
+	font-size: 0.8em;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#featured img {
+    border: 5px rgb(151,173,166) solid;
+    max-width: 100%;
 }
 
 .wrapper {
@@ -17,4 +56,28 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+
+#press {
+    margin-bottom: 20px;
+}
+
+#press a {
+	display: inline-block;
+	background: transparent;
+}
+
+#press img {
+	display: inline-block;
+	padding: 1px;
+	background: transparent;
+	border: 5px rgb(204,204,204) solid;
+}
+
+/* Psuedo Selector */
+
+#press img:hover {
+	border: 5px rgb(112,128,122) solid;
+}
+
+
