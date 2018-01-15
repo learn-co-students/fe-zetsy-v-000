@@ -18,3 +18,83 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family: baskerville serif;
+  font-size: 5em;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+  border-bottom: 1px solid rgb(157, 171, 166);
+}
+
+h2 {
+  font-family: baskerville serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0.75em 0;
+  margin: 5px;
+  color: rgb(114, 126, 133);
+}
+
+p {
+  font-family: baskerville serif;
+  margin: 5px;
+  color: rgb(85, 85, 85);
+  padding-bottom: 1em;
+}
+
+header a {
+  color: rgb(156, 171, 166);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(114, 126, 133);
+}
+
+a {
+  color: rgb(85, 85, 90);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.splash img {
+  border: 5px solid rgb(156, 171, 166);
+}
+
+.press {
+  margin: 0 auto;
+}
+
+.press div {
+  margin: 2px;
+  float: left;
+}
+
+.press img {
+  border: 5px solid rgb(204, 204, 204);
+  padding: 1px;
+}
+
+.press img:hover {
+  border: 5px solid rgb(114, 126, 122)
+}
+
+footer {
+  clear: both;
+  float: right;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
