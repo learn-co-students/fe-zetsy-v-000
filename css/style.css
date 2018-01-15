@@ -4,17 +4,61 @@
 
 /*////////// Global Styles //////////*/
 
+
+h1, h2{
+	font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+	color: rgb(152,173,166);
+}
+
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+
 }
+
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+
 }
 
 /* Write all remaining styles here */
+ /* Costumized my site to look a little cooler than most */
+
+#featured img {
+    border: 5px rgb(152,173,166) solid;
+}
+
+h2{
+display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+#press a{
+	display: inline-block;
+	border: 5px rgb(152,173,166) solid;
+	align-content: center
+}
+
+footer{
+	float: right;
+}
+
+/*///hover event ///*/
+#press a:hover{
+	cursor: pointer;
+	background-color: red;
+
+
+}
