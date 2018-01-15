@@ -14,7 +14,65 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0px 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+
+
+header a {
+  color: rgb(152,173,166);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(111,127,122);
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Baskerville';
+  font-size: 5em;
+  color: rgb(152,173,166);
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 5px;
+  padding-bottom: 10px;
+
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(111,127,122);
+}
+
+p {
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#Feature img {
+  border: 5px rgb(152,173,166) solid;
+}
+
+#Press img {
+  border: 5px rgb(152,173,166) solid;
+  padding: 1px;
+}
+
+#Press img:hover {
+  border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+  padding-top: 10px;
+  text-align: right;
+  font-size: 0.8em;
+}
