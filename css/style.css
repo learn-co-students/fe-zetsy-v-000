@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,43 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: rgb(151, 173, 166);
+	display: block;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+  padding-bottom: 10px;
+	border-bottom: 1px solid rgb(196, 196, 196)
+}
+
+h2.about {
+	color: rgb(110, 127, 122);
+	font-size: 2em;
+}
+
+h2.press {
+	color: rgb(110, 127, 122);
+	font-size: 2em;
+}
+
+.necklace {
+	border: solid 5px;
+	border-color: rgb(151, 173, 166);
+}
+
+img#nmai, img#times, img#sedona, img#bergdorf {
+	border: solid 5px rgb(204, 204, 204);
+	padding: 1px;
+
+}
+img#nmai:hover, img#times:hover, img#sedona:hover, img#bergdorf:hover {
+	border: solid 5px rgb(110, 127, 122);
+	padding: 1px;
+}
+
+p.copyright {
+	text-align: right;
+}
