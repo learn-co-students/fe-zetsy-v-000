@@ -1,20 +1,93 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: @url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+}
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+		background: #F3EBE9;
+		font-size: 100%;
+		font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+		width: 960px;
+		margin: 0 auto;
+		background: #fff;
+		padding: 0 45px 50px;
 }
 
 /* Write all remaining styles here */
+
+.wrapper #header1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 80px;
+}
+
+#header1 a {
+		text-decoration: none;
+		color: #98ADA6;
+}
+
+.wrapper a:hover {
+	color: #6F7F7A;
+}
+.wrapper #header1:after {
+	content: ' ';
+	display: block;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 20px;
+}
+
+.wrapper #necklace {
+	border:5px solid #98ADA6;
+}
+
+.wrapper .press-link img {
+		border:5px solid #CCCCCC;
+}
+
+.wrapper .press-link img:hover {
+		border-color: #6F7F7A;
+}
+
+.wrapper .press-link:link {
+	color: #1783BB;
+	text-decoration: none;
+}
+
+.wrapper .press-link:active {
+  color: #1783BB;
+	text-decoration: none;
+}
+.wrapper .press-link:visited {
+  color: #1783BB;
+	text-decoration: none;
+}
+
+.wrapper #header2 {
+	font-family: 'Times New Roman', serif;
+	font-size: 35px;
+	color: #6F7F7A;
+}
+
+p {
+	color:#555555;
+}
+
+.wrapper footer {
+	padding: 10px;
+	width: 945px;
+	position: relative;
+}
+
+.wrapper #cright {
+	font-family: 'Times New Roman', serif;
+	font-size: 12px;
+	position: absolute;
+	width: 945px;
+	text-align: right;
+}
