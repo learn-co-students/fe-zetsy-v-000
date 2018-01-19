@@ -1,13 +1,17 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+    font-family: "Baskerville";
+    src:url(fonts/Baskerville.ttc)
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +21,78 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+    font-family: "Baskerville", serif;
+    font-size: 5em;
+    color:rgb(152,173,166);
+    border-bottom: 1px solid rgb(204,204,204);
+    padding: 10px;
+}
+
+h2 {
+    color:rgb(111,127,122);
+    font-size: 2em;
+}
+
+p {
+    color: rgb(85,85,85);
+    font-size: 1em;
+    margin: 0 0 1.25em 0;
+}
+
+.small {
+    font-size: 0.75em;
+}
+
+
+/*////////// Other Styles //////////*/
+
+header a {
+    color:rgb(152,173,166);
+    text-decoration:none;
+}
+
+header a:hover {
+    color:rgb(111,127,122);
+    ursor: pointer;
+    -webkit-transition: color 2s ease-out;
+    -moz-transition: color 2s ease-out;
+    -o-transition: color 2s ease-out;
+    transition: color 2s ease-out;
+}
+
+
+p a:link, p a:visited {
+    color: rgb(33,132,185);
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+#necklace {
+    border: 5px solid rgb(152,173,166);
+}
+
+#press {
+    margin-bottom: 1.25em;
+}
+
+#press img {
+    border: 5px solid rgb(204,204,204);
+    padding: 1px;
+}
+
+#press img:hover {
+    border: 5px solid rgb(111,127,122);
+    cursor: pointer;
+    -webkit-transition: border 3s ease-out;
+    -moz-transition: border 3s ease-out;
+    -o-transition: border 3s ease-out;
+    transition: border 3s ease-out;
+}
+
+footer {
+    text-align: right;
+}
