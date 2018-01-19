@@ -31,13 +31,17 @@ p {
 	color: #555;
 }
 
-#featured img {
+#featured {
     border: 5px rgb(152,173,166) solid;
 }
 
 #press img {
     border: 5px #ccc solid;
     padding: 1px;
+}
+
+#press img:hover {
+    border: 5px rgb(111,127,122) solid;
 }
 
 h2 {
@@ -52,6 +56,7 @@ h2 {
 	padding: 0 45px 20px;
 }
 
-#copyright {
+.copyright {
 	text-align: right;
+	font-size: 0.8em;
 }
