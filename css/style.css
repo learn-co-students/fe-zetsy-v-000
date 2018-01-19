@@ -11,7 +11,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -54,15 +54,21 @@ header a {
 
 header a:hover {
     color:rgb(111,127,122);
+    ursor: pointer;
+    -webkit-transition: color 2s ease-out;
+    -moz-transition: color 2s ease-out;
+    -o-transition: color 2s ease-out;
+    transition: color 2s ease-out;
 }
 
-p a {
+
+p a:link, p a:visited {
     color: rgb(33,132,185);
-    text-decoration:none;
+    text-decoration: none;
 }
 
 p a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 #necklace {
@@ -78,8 +84,13 @@ p a:hover {
     padding: 1px;
 }
 
-#press a:hover img {
-    border: 5px solid rgb(111,127,122)
+#press img:hover {
+    border: 5px solid rgb(111,127,122);
+    cursor: pointer;
+    -webkit-transition: border 3s ease-out;
+    -moz-transition: border 3s ease-out;
+    -o-transition: border 3s ease-out;
+    transition: border 3s ease-out;
 }
 
 footer {
