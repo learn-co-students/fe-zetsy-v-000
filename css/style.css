@@ -2,12 +2,14 @@
 
 /* link the web font used for the level 1 heading here */
 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville')
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +20,92 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font: normal 5em 'Baskerville', serif;
+	padding-bottom: 10px;
+	margin: 0 0 5px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: "Times New Roman", serif;
+	color: rgb(111, 127, 122)
+}
+
+.headers {
+	display: block;
+	color: rgb(152, 173, 166);
+}
+
+#header img {
+	border: 5px rgb(152, 173, 166) solid;
+}
+
+a:-webkit-any-link {
+	color: #000;
+  text-decoration: underline;
+	cursor: pointer;
+}
+
+p {
+	font-size: 1em;
+	display: block;
+	margin-bottom: 0 0 20px 0;
+	color: #555;
+	font-family: "Times New Roman", serif;
+}
+
+div {
+	display: block;
+}
+
+#learnmore {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+/* a {
+	background: transparent;
+} */
+
+.small {
+	font-size: 0.8em;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+/*///// MEDIA /////*/
+
+img {
+	max-width: 100%;
+	border-color: rgb(152, 173, 166);
+	border: solid;
+	border-width: 5px;
+}
+
+/*///// LAYOUT /////*/
+
+footer {
+	font-size: 100%;
+	text-align: right;
+	background: #fff;
+}
+
+#Press a {
+	display: inline;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+/*///// SECTION /////*/
+
+section footer header{
+	display: block;
+}
