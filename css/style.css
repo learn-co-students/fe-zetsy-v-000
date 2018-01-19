@@ -1,6 +1,11 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+/* @import url(../fonts/Baskerville.ttc); */
+
+@font-face {
+	font-family: "Baskerville";
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +22,73 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+  font-family: "Baskerville", serif;
+  font-size: 5em;
+  font-weight: normal;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 5px;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px;
+}
+
+/*////////// Header Styles //////////*/
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+/*////////// About Section Styles //////////*/
+
+#about img {
+	border: 5px solid rgb(152,173,166);
+}
+
+#about a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#about a:hover {
+	text-decoration: underline;
+}
+
+/*////////// Press Section Styles //////////*/
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px solid #ccc;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px solid rgb(111,127,122);
+}
+
+/*////////// Footer Styles //////////*/
+
+footer {
+  text-align: right;
+}
+
+footer p {
+  font-size: 0.8em;
+}
