@@ -18,11 +18,8 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 45px 35px;
 }
-
-
-/* Write all remaining styles here */
 
 h1 {
   font-family: 'Baskerville', serif;
@@ -39,13 +36,28 @@ h2 {
   color: #727D76;
 }
 
+p {
+  color: #555;
+  margin: 0 0 20px 0;
+}
+
+/* Write all remaining styles here */
+
 .small {
   font-size: .8em;
-  margin: 0 0 20px 0;
 }
 
 #main-image {
   border: 5px #98ADA6 solid;
+}
+
+#about a {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+#about a:hover {
+  text-decoration: underline;
 }
 
 #press {
@@ -54,6 +66,10 @@ h2 {
 
 #press img {
   border: 5px #ccc solid;
+}
+
+#press img:hover {
+  border-color: #70807B;
 }
 
 footer {
