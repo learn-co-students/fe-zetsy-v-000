@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,30 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#zetsy {
+  color: rgb(157,172,168);
+  font-size: 4em;
+  line-height: 150%;
+}
+
+#necklace {
+	border: 4px solid rgb(157,172,168);
+}
+
+.information {
+  color: rgb(106,123,123);
+}
+
+p {
+  color: black;
+}
+
+.press img {
+  border: 4px solid rgb(202,206,206);
+
+}
+
+.press img:hover {
+  border: 4px solid rgb(157,172,168);
+}
