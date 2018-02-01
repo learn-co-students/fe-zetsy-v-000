@@ -1,13 +1,19 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 /*////////// Global Styles //////////*/
-
+body, html {
+	display: block;
+	top: 0;
+	height: 100%;
+}
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	
 }
 
 .wrapper {
@@ -18,3 +24,64 @@ body {
 }
 
 /* Write all remaining styles here */
+header {
+	margin-top:0px;
+	display: block;
+	top: 0;
+  left: 0;
+  width: 100%;
+}
+.logo {
+	color: rgb(152,173,166);
+	font-family: 'Baskerville', serif;
+	text-decoration: none;
+	font-size: 2.5em;
+}
+
+h1{
+	margin: 0;
+}
+
+
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+#press {
+    margin-bottom: 20px;
+}
+#featured img {
+    border: 5px rgb(152,173,166) solid;
+}
+
+img {
+    border: 5px #ccc solid;
+    padding: 1px;
+}
+footer {
+    text-align: right;
+    background: #fff;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+#featured a {
+    color: #1783bb;
+    text-decoration: none;
+}
+
+.small {
+    font-size: 0.8em;
+}
+#featured a:hover {
+	text-decoration: underline;
+}
+a#logo:hover {
+	color: grey;
+}
+#press img:hover {
+	border-color: grey;
+}
