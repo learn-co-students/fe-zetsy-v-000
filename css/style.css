@@ -45,11 +45,13 @@ footer {
 
 /* Write all remaining styles here */
 
-header {
+header a {
+	transition: color 0.5s ease;
 	color: rgb(152, 173, 166);
+	text-decoration: none;
 }
 
-header:hover {
+header a:hover {
 	color: rgb(111,127,122);
 }
 
@@ -58,6 +60,7 @@ header:hover {
 }
 
 #press img {
+	transition: border 0.5s ease;
 	border: 5px rgb(204,204,204) solid;
 	padding: 1px;
 }
