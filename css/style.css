@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -16,5 +16,24 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
+box 1{
+	float: left;
+	background: yellow;
+	width: 25%auto;
+}
+box 2{
+	float: left;
+	background: blue;
+	width: 25%
+}
+box 3{
+	float: left;
+	background: green;
+	width: 25%auto;
+}
+box 4{
+	float: left;
+	background: pink;
+	width: 25%
+}
 /* Write all remaining styles here */
