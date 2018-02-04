@@ -38,6 +38,10 @@ a > img {
 	border: 0.2em solid rgb(204, 205, 204);
 }
 
+a:hover > img {
+	border-color: green;
+}
+
 #press img:hover {
 	background color: grey;
 }
