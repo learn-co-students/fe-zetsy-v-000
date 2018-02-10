@@ -30,26 +30,17 @@ h1 {
 }
 
 h2 {
-	font: Baskerville, serif;
 	font-size: 2em;
-	font-style: normal;
 	color: rgba(111, 127, 122, 1);
 }
 
-#featured {
-	font: Baskerville, serif;
-	font-size: 1em;
-	font-style: normal;
-	color: rgba(85, 85, 85, 1);
+#featured img {
+	border: 5px rgba(152, 173, 166, 1) solid;
 }
 
 #featured a {
 	color: rgba(33, 132, 185, 1);
 	text-decoration: none;
-}
-
-#featured img {
-	border: 5px rgba(152, 173, 166, 1) solid;
 }
 
 #featured a:hover {
