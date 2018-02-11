@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,13 @@ body {
 }
 
 /* Write all remaining styles here */
+.h1 #title {
+color: rgb(152,173,166);
+text-decoration: none;
+padding-bottom: 10px;
+margin: 0 0 5px;
+font-size: 5em;
+font-weight: normal;
+font-family: 'Baskerville', serif;
+border-bottom: 1px solid #ccc;
+}
