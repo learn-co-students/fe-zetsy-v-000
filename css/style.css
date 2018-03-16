@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+@import url('https://fonts.googleapis.com/css?family=Rufina');
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,46 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h2, p {
+	color: #748184;
+}
+
+/*/// HEADER ///*/
+
+h1 {
+	font-family: 'Rufina', serif;
+	font-size: 60px;
+	color: #9CABA5;
+}
+
+header img {
+	border: 4px solid #93A39E;
+}
+
+hr {
+	color: #CDCCCD;
+}
+
+/*///About ///*/
+
+#about p {
+	font-size: 16px;
+}
+
+/*///Press ///*/
+#press img {
+	border: 4px solid #CDCCCD;
+}
+
+#press img:hover {
+	border-color: #93A39E;
+}
+
+/*///Footer ///*/
+
+footer p {
+	font-size: 12px;
+	text-align: right;
+	padding: 18px 18px;
+}
