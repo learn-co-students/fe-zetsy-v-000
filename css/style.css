@@ -5,16 +5,81 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background: #F3EBE9;
+  font-size: 100%;
+  font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 45px 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family: 'Baskerville', serif;
+  color: rgb(152, 173, 166);
+  font-size: 5em;
+  margin: 0 0 5px;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 10px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: rgb(152, 173, 166);
+  transition: color 0.5s ease-in-out;
+}
+
+h1 a:hover {
+  color: #6F7F7A
+}
+
+.featured-image {
+  border: 5px solid rgb(152, 173, 166)
+}
+
+h2 {
+  color: rgb(111, 127, 122);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+  color: #55555A;
+  margin: 0 0 20px 0;
+}
+
+p a {
+  color: #1783bb;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s ease-in-out;
+}
+
+p a:hover {
+  border-color: #1783bb;
+}
+
+ #press-images img {
+  border: 5px solid rgb(204, 204, 204);
+  padding: 1px;
+  transition: border 0.5s ease-in-out;
+}
+
+ #press-images img:hover {
+  border: 5px solid #6F7F7A;
+ }
+
+footer {
+  font-size: .8em;
+  float: right;
+  margin: 20px 0 0 0;
+}
