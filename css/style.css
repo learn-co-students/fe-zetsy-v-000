@@ -17,4 +17,43 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+  font-family: 'Baskerville', serif;
+  color: rgb(152, 173, 166);
+  font-size: 5em;
+  margin: 0;
+  padding-bottom: .075em;
+}
+
+h2 {
+  color: rgb(111,127,122);
+  font-size: 2em;
+}
+
+#necklace img {
+  border: 5px rgb(152, 173, 166) solid;
+}
+
+p {
+  color: #555;
+}
+
+#press img {
+  border: 5px rgb(204, 204, 204) solid;
+}
+
+#copy {
+  text-align: right;
+  font-size: 0.75em;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0.25em 0;
+    padding: 0;
+}
+/* border is same as h1, border around press 204 */
 /* Write all remaining styles here */
