@@ -3,11 +3,13 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
-
+* {
+	box-sizing: border-box;
+}
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -16,5 +18,28 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
 /* Write all remaining styles here */
+
+
+h1 {
+ font-family: 'Libre Baskerville', serif;
+ color: grey;
+ font-size: 2.5em;
+}
+
+h2, h3, p {
+	color: grey;
+}
+
+ #copy-right {
+	 	text-align: right;
+ }
+#main-image {
+	border: 3px solid grey;
+}
+.link-image {
+	border: 3px solid darkgrey;
+}
+.link-image:hover {
+	border: 3px solid grey;
+}
