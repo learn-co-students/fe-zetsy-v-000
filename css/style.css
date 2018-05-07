@@ -51,6 +51,7 @@ h1 {
 }
 
 header a {
+	transition: color 0.5s ease;
 	color: rgb(152,173,166);
 	text-decoration: none;
 }
