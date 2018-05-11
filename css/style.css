@@ -34,13 +34,18 @@ header h1 {
 	font-size: 80px;
 }
 
-img {
+#featured-product img {
 	max-width: 100%;
 	border: 5px #98ada6 solid;
 }
-/* Column Layout - 1/4 container */
-.col-1 {
-	float: left;
-  width: 20%;
-  background: #ccc;
+
+#press img {
+	width: 24%;
+	max-width: 24%;
+	margin-left:0.5%;
+	border: 5px #98ada6 solid;
+}
+
+#press img .first {
+	margin-left: 0;
 }
