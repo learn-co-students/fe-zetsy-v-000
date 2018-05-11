@@ -21,31 +21,60 @@ body {
 }
 
 /* Write all remaining styles here */
+/* Styling that applies to all sections */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* specific sections */
+section h1 {
+  color: #6f7f7a;
+}
+
+/* Header Styling */
 header h1 {
 	font-family: Baskerville, serif;
 	color: #98ada6;
 	font-size: 80px;
+  margin-bottom: 10px;
+}
+header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
 }
 
+/* Featured Product Styling */
 #featured-product img {
 	max-width: 100%;
 	border: 5px #98ada6 solid;
 }
 
+/* about styling */
+#about a {
+  color: #1783bb;
+  text-decoration: none;
+}
+#about a:hover {
+  text-decoration:underline;
+}
+/* Press Section Styling */
 #press img {
 	width: 24%;
 	max-width: 24%;
 	margin-left:0.5%;
-	border: 5px #98ada6 solid;
+	border: 5px #ccc solid;
 }
 
 #press img .first {
 	margin-left: 0;
+}
+
+#press a img:hover {
+  border-color: #98ada6;
+}
+/* Footer Styling */
+footer {
+  font-size: 0.75em;
+  text-align: right;
 }
