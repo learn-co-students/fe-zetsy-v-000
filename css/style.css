@@ -4,11 +4,13 @@
 
 /*////////// Global Styles //////////*/
 
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
+
 
 .wrapper {
 	width: 960px;
@@ -18,3 +20,41 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1	{
+	font-family: 'Baskerville';
+	font-size: 5em;
+	color: gray;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 5px 0;
+}
+header a {
+    color: rgb(152,173,166);
+    text-decoration: none;
+}
+
+/* img, video, audio {
+  max-width: 100%
+} */
+
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+
+#about img {
+	border: 5px rgb(152,173,166) solid;
+	/* margin: 0, auto; */
+}
+
+
+section a img {
+	border: 5px #ccc solid;
+}
+
+.small {
+	font-size: 0.8em;
+}
+footer {
+	text-align: right;
+}
