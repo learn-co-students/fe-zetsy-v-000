@@ -4,6 +4,7 @@
 
 /*////////// Global Styles //////////*/
 
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -25,6 +26,7 @@ h1	{
 	font-size: 5em;
 	color: gray;
 	border-bottom: 1px solid #ccc;
+	margin: 0 0 5px 0;
 }
 header a {
     color: rgb(152,173,166);
@@ -42,10 +44,17 @@ h2 {
 
 #about img {
 	border: 5px rgb(152,173,166) solid;
-	margin: 0, auto;
+	/* margin: 0, auto; */
 }
 
 
 section a img {
 	border: 5px #ccc solid;
+}
+
+.small {
+	font-size: 0.8em;
+}
+footer {
+	text-align: right;
 }
