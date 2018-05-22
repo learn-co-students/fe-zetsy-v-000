@@ -9,6 +9,7 @@ body {
 	font-size: 100%;
 	font-family: 'Times New Roman', serif;
   height: 100%;
+	color: 	#a8a8a8;
 }
 
 .wrapper {
@@ -19,3 +20,30 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+	font-size: 3em;
+	font-weight: lighter;
+	border-bottom: 0.75px solid #bbb;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+p {
+	/* line-height: 0.9em; */
+}
+
+img {
+	border: 4px solid	#a8a8a8;
+}
+
+a img{
+	transition: all 0.2s ease-in-out;
+}
+
+a img:hover {
+	border-color:	#888888;
+}
+
+footer {
+	text-align: end;
+}
