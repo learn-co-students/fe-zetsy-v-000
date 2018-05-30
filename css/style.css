@@ -35,6 +35,11 @@ p {
 
 }
 
+div {
+	display: block;
+	margin: -10 auto;
+}
+
 h2 {
 	font-size: 2em;
 	color: rgb(111,127,122);
