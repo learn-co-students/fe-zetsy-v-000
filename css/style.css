@@ -27,8 +27,17 @@ h1 {
   font-family: 'Baskerville', serif;
   font-size: 5em;
   margin: 0 0 5px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
+}
+
+h1 a {
+  text-decoration: none;
   color: rgb(152,173,166);
+}
+
+h1 a:hover {
+  color: rgb(111,127,122);
 }
 
 h2 {
@@ -45,3 +54,26 @@ p {
   color: #555;
   margin: 0 0 20px 0;
 }
+
+#press img {
+  border: 5px #ccc solid;
+  padding: 1px;
+  /*transition: border-color 0.5s ease;*/
+}
+
+#copyright {
+  text-align: right;
+  font-size: 0.8em;
+}
+
+#about a {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+#press img:hover {
+  border: 5px rgb(111,127,122) solid;
+  cursor: pointer;
+}
+
+    
