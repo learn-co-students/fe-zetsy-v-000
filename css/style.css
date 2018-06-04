@@ -26,10 +26,16 @@ body {
 h1 {
   font-family: 'Baskerville', serif;
   font-size: 5em;
-  margin: 0 auto;
-}
-
-h1, h2 {
+  margin: 0 0 5px;
+  border-bottom: 1px solid #ccc;
   color: rgb(152,173,166);
 }
 
+h2 {
+  color: rgb(111,127,122);
+  font-size: 2em;
+}
+
+#necklace {
+  border: 5px rgb(152,173,166) solid;
+}
