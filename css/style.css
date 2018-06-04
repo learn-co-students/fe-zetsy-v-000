@@ -20,8 +20,16 @@ body {
 	padding: 0 45px 20px;
 }
 
+
 /* Write all remaining styles here */
 
 h1 {
   font-family: 'Baskerville', serif;
+  font-size: 5em;
+  margin: 0 auto;
 }
+
+h1, h2 {
+  color: rgb(152,173,166);
+}
+
