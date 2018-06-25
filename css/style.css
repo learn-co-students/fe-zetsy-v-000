@@ -1,8 +1,14 @@
 /*////////////// Fonts //////////////*/
-
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 body {
 	background: #F3EBE9;
@@ -17,4 +23,55 @@ body {
 	padding: 0 45px 20px;
 }
 
+.logo h1{
+  color: RGB(111,127,133);
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5em;
+}
+
+figure{
+  border: solid;
+  border-color: RGB(111, 127, 133);
+}
+
+h2{
+  color: RGB(111,127,133);
+}
+
+#about-section p {
+  color: RGB(111,127,133);
+}
+
+.press-box{
+  display: block;
+  width: 23.5%;
+  float: left;
+  margin: 5px;
+  border: solid;
+  border-color: RGB(111, 127, 133);
+}
+.press-box #left-box{
+  margin-left: 0px;
+}
+
+.press-box #right-box{
+  margin-right: 0px;
+}
+
+#copyright-tag{
+  clear: both;
+  position: relative;
+  top: 30px;
+  left: 660px;
+}
+
+.press-box:hover{
+  border-color: black;
+}
+
+
+/*/////IMAGE/////*/
+img, video, audio {
+  max-width: 100%;
+}
 /* Write all remaining styles here */
