@@ -21,9 +21,24 @@ body {
 /* Write all remaining styles here */
 h1 {
 	font-family: Baskerville, serif;
-	font-size: 3em;
-	line-height: 3.5em;
-	
+	font-weight: 100;
+	font-size: 4em;
+	color: rgb(145, 160, 155);
+	border-bottom: 1px solid rgb(211, 211, 211);
+	padding: 5px 0;
+	margin-bottom: 0;
+}
+
+h2 {
+	color: rgb(104, 115,110);
+}
+
+.logo {
+	border: 5px solid rgb(195, 195, 195);
+}
+
+.logo:hover {
+	border-color: rgb(101, 117, 112);
 }
 
 footer p {
@@ -31,5 +46,8 @@ footer p {
 }
 
 #product {
-
+	border-color: rgb(144, 160, 156);
+	border-style: solid;
+	border-width: thick;
+	margin-top: 5px;
 }
