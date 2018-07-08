@@ -1,4 +1,5 @@
 /*////////////// Fonts //////////////*/
+@import url("./fonts/Baskerville.ttc");
 
 /* link the web font used for the level 1 heading here */
 
@@ -7,7 +8,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -15,6 +16,40 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+  position: relative;
 }
 
 /* Write all remaining styles here */
+
+/* Element Styles */
+
+h1 {
+  font-family: Baskerville, 'Times New Roman', serif;
+}
+
+h1, h2 {
+  color: rgb(152,173,166);
+}
+
+img {
+  border: 1px solid #ccc;
+}
+
+footer {
+  font-size: 25%;
+  position: absolute;
+  right: 0px;
+}
+
+/* ID Styles */
+
+#featured {
+  border-color: #98ada6;
+}
+
+
+
+/* Add borders to images */
+/* Change header colors */
+/* Add font to Header */
+/* Style footer */
