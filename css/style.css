@@ -1,13 +1,16 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Domine');
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	position: relative;
+	top: -42px;
 }
 
 .wrapper {
@@ -18,3 +21,53 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*////////// Header //////////*/
+
+header {
+	font-family: 'Domine', serif;
+	font-size: 31px;
+	padding-top: 20px;
+	color: rgb(157, 173, 168)
+}
+
+/*////////// Image //////////*/
+
+#img {
+	margin: 0 auto;
+	border-style: solid;
+	color: rgb(157, 173, 168)
+}
+
+/*////////// Sections //////////*/
+
+h2 {
+	color: rgb(113, 126, 116);
+	font-size: 30px;
+}
+
+.about {
+	color: rgb(86, 99, 111);
+}
+
+.links a {
+	display: block;
+	float: left;
+	margin: .4%;
+	border-style: solid;
+	color: rgb(157, 173, 168);
+}
+
+a:hover {
+	color: rgb(115, 125, 121);
+}
+
+/*////////// Footer //////////*/
+
+footer {
+	text-align: right;
+	padding-top: 20px;
+	font-size: 14px;
+	color: rgb(86, 99, 111);
+	clear: both;
+}
