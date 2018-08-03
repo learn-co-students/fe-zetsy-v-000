@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+@import url('https://fonts.googleapis.com/css?family=Domine');
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,49 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: rgb(147,175,166);
+	padding: 10px;
+	font-size: 5em;
+	font-family: font-family: 'Domine', serif;
+	border-bottom: 1px solid rgb(147,175,166);
+}
+
+h2 {
+	color: rgb(107, 128, 122);
+	font-size: 2em;
+}
+
+p {
+	color: rgb(78,78,78);
+	font-size: 1em;
+}
+
+img {
+	margin: 0 auto;
+	border: 5px;
+	border-style: solid;
+	color: rgb(157, 173, 168);
+}
+
+.links img {
+	border-style: solid;
+	color: rgb(204,204,204);
+}
+
+a {
+	color: blue;
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	padding: 10px;
+	font-size: 0.7em;
+	text-align: right;
+	color: rgb(85, 104, 122);
+}
