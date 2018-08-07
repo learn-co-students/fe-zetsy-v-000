@@ -42,8 +42,17 @@ p {
 
 /*////////// Section Styles //////////*/
 
-header {
+header a {
+	-webkit-transition: color 2s ease;
+	-moz-transition: color 2s ease;
+	-o-transition: color 2s ease;
+	transition: color 2s ease;
 	color: rgb(144, 174, 165);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: pink;
 }
 
 #featured img {
