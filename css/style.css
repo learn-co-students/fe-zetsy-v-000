@@ -40,6 +40,7 @@ h2 {
 #zetsy-header {
 	color: rgb(141, 163, 156);
 	text-decoration: none;
+	transition: color 0.5s ease;
 }
 
 #zetsy-header:hover {
@@ -49,6 +50,7 @@ h2 {
 #press img {
 	border: 5px solid #ccc;
 	padding: 1px;
+	transition: border 0.5s ease;
 }
 
 #press img:hover {
