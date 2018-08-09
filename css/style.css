@@ -1,6 +1,17 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+    font-family: Baskerville;
+    src: url(../fonts/Baskerville.ttc);
+}
+
+@font-face{
+	font-family: "New Athena Unicode";
+	src: url(../fonts/newathu.ttf),
+	url(../fonts/newathu5_5.woff),
+	url(../fonts/newathuBold5_5.woff);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -16,5 +27,58 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
+
+#title{
+	color:rgb(158, 169, 165);
+	font: 5em "New Athena Unicode", Baskerville, "Times New Roman";
+	margin: 0;
+}
+
+img[alt="Necklace"]{
+	border-style: solid;
+	border-width: 6px;
+	border-color: rgb(158, 169, 165);	
+}
+
+h2{
+	font: bold 2em "Times New Roman";
+	color: rgb(115, 126, 123);
+}
+
+p{
+	color: rgb(90, 90, 100)
+	/* rgb(98, 103, 115)	 */
+}
+
+div#press-pics img{
+	-webkit-transition: border-color 500ms ease-out 0.1s;
+	-moz-transition: border-color 500ms ease-out 0.1s;
+	-o-transition: border-color 500ms ease-out 0.1s;
+	transition: border-color 500ms ease-out 0.1s;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(203, 205, 204);
+}
+
+div#press-pics img:hover{
+	border-color: rgb(117,128,123);	
+}
+
+p#info{
+	float: right;
+	font-size: 0.75em;
+}
+
+div#press-pics{
+	padding: 4px;
+}
+
+.clearfix::after{
+	content: "";
+    clear: both;
+    display: table;
+}
+
+
 
 /* Write all remaining styles here */
