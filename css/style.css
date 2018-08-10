@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,67 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+body {
+	background: #f3ebe9;
+}
+
+header {
+	display: block;
+}
+
+section {
+	display: block;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(204, 204, 204, 1);
+}
+
+#logo a {
+	color: rgba(153, 173, 166, 1);
+	text-decoration: none;
+}
+
+#feature-image img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#press img {
+	border: 5px #ccc solid;
+}
+
+#press img:hover {
+	border: 5px rgb(152,173,166) solid;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p {
+	margin-bottom: 20px;
+	color: #555;
+	font-size: 1em;
+}
+
+p a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	text-align: right;
+	display: block;
+}
+
+.small {
+	font-size: 0.8em;
+}
