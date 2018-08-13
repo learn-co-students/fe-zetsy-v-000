@@ -40,8 +40,7 @@ h1.title {
   font-family: 'Baskerville';
   font-size: 80px;
   font-weight: lighter;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
 }
 
 img#feature {
@@ -53,8 +52,42 @@ p:last-of-type {
   font-size: 13px;
 }
 
+div.columns img {
+  border: 5px solid #CACDCC;
+}
+
+div.columns img:hover {
+  border-color: #64736E;
+}
+
 /*/////////// LAYOUT ///////////*/
 
-.col-25 {
-  /* Make this 25% width */
+div.columns {
+  columns: 4;
 }
+
+section.col-25 {
+  width: 75%;
+}
+
+/*/////////// HOVER ///////////*/
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+/*img[src="*.png"]:hover {
+  border: ;
+}*/
+/*
+img whose src attribute ends with png
+should : hover    */
+
+
+/*
+
+*/
