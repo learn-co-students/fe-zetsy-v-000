@@ -2,12 +2,23 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+    font-family: 'Baskerville';
+    src: url(../fonts/Baskerville.ttc) format("truetype"), url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+    /*src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */*/
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+  color: #555555;
 }
 
 .wrapper {
@@ -17,4 +28,66 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/* /////////// STYLES /////////// */
+
+h2.subtitle {
+  color: #697D78;
+  font-size: 30px;
+}
+
+h1.title {
+  color: #92AFA6;
+  font-family: 'Baskerville';
+  font-size: 80px;
+  font-weight: lighter;
+  padding: 0;
+}
+
+img#feature {
+  border: solid #92AFA6;
+}
+
+p:last-of-type {
+  text-align: right;
+  font-size: 13px;
+}
+
+div.columns img {
+  border: 5px solid #CACDCC;
+}
+
+div.columns img:hover {
+  border-color: #64736E;
+}
+
+/*/////////// LAYOUT ///////////*/
+
+div.columns {
+  columns: 4;
+}
+
+section.col-25 {
+  width: 75%;
+}
+
+/*/////////// HOVER ///////////*/
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+/*img[src="*.png"]:hover {
+  border: ;
+}*/
+/*
+img whose src attribute ends with png
+should : hover    */
+
+
+/*
+
+*/
