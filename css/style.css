@@ -1,20 +1,67 @@
 /*////////////// Fonts //////////////*/
+header{
+	display: block;
+}
 
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: #ccc;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
-
+header h1 {
+  color: blue;
+	text-align: center;
+	font-size: 2em;
+}
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
+div{
+	display: block;
+}
+#featured img{
+	border: 3px rgb(152,173,166) solid;
+}
+h2{
+	color: blue;
+	font-size: 2em;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+p{
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+#press{
+	margin-bottom: 20px;
+}
 
-/* Write all remaining styles here */
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer{
+	text-align: right;
+	background: #fff;
+}
+a img:hover{
+	border: 3px solid #ccc;
+	box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
