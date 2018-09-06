@@ -45,6 +45,6 @@ p {
 }
 
 #Press figure {
-  postion: absolute;
+  postion: relative;
   
 }
