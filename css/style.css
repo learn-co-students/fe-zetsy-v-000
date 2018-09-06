@@ -43,3 +43,8 @@ p {
 .small {
 	font-size: 0.8em;
 }
+
+#Press figure {
+  postion: absolute;
+  
+}
