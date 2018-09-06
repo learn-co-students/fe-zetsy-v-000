@@ -45,7 +45,7 @@ p {
 }
 
 #Press {
-  position: relative;
+  position: absolute;
   top: 0px;
   right: 200px;
 }
