@@ -44,6 +44,9 @@ p {
 	font-size: 0.8em;
 }
 
-section #Press {
+section {
+}
+
+#Press {
   width: 100%;
 }
