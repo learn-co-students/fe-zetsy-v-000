@@ -47,3 +47,8 @@ p {
 #Press {
   margin-bottom: 20px;
 }
+
+#Press img {
+  border: 5px #ccc solid;
+  padding: 1px;
+}
