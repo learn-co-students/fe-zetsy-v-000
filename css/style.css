@@ -47,3 +47,9 @@ p {
 #Press figure {
   width: 100%;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+}
