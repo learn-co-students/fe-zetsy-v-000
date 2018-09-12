@@ -5,16 +5,63 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+    background: #F3EBE9;
+    font-size: 100%;
+    font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 45px 20px;
+
 }
 
 /* Write all remaining styles here */
+
+h1 {
+    color: #98ada6;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    color: #98ada6;
+    font-weight: bold;
+}
+
+p {
+    color: #555;
+    font-size: 0.75em;
+}
+
+#featured img {
+    border:5px solid #98ada6;
+}
+
+#press img {
+    border:5px solid #ccc;
+    padding: 1px;
+}
+
+section {
+    display: block;
+}
+
+footer {
+    text-align: right;
+}
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
