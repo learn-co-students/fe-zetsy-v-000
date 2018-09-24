@@ -4,11 +4,11 @@
 @import "fonts/Baskerville.ttc";
 /*////////// Global Styles //////////*/
 
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif;
-	margin-top: 0;
 }
 
 .wrapper {
@@ -16,10 +16,6 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
-}
-	
-div {
-  display: block;
 }
 	
 
@@ -51,20 +47,21 @@ div {
   text-decoration: none;
 }
 
-.header a:link, .header a:visited {
+header a:link, header a:visited {
   font-family: 'Baskerville', serif;
   color: rgb(152,173,166);
-  font-size: 3em;
+  font-size: 2.5em;
   text-decoration: none;
+  
 }
 
-.header a:hover {
+header a:hover {
   color: rgb(115, 126, 121);
 }
 
-.header {
-  border-bottom: 2px rgb(152,173,166) solid;
-  
+h1 {
+  border-bottom: 1px rgb(152,173,166) solid;
+  padding-bottom: 5px;
 }
 
 h2 {
@@ -76,7 +73,7 @@ p {
   color: rgb(86, 86, 86);
 }
 
-.footer {
+footer {
   text-align: right;
   font-size: 14px;
   padding: 5px 20px;
