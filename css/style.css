@@ -18,3 +18,9 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 a {
+  font-family: 'Baskerville', serif;
+  color: rgb(152,173,166);
+}
+
