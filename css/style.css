@@ -75,3 +75,9 @@ footer {
 	background: #fff;
 	font-size: 0.8em;
 }
+
+div:hover {
+  background: #fft;;
+  padding: 0;
+	transition: all 0.9s ease;
+}
