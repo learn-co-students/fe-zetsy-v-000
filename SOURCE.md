@@ -1,5 +1,5 @@
 <!-- Level 1 header -->
-Zetsy
+Zetsy 
 
 <!-- featured image -->
 [necklace.jpg]
