@@ -23,7 +23,6 @@ body {
 h1 {
   padding-bottom: 10px;
   font-size: 5em;
-  font-weight: normal;
   font-family: Baskerville, serif;
   margin: 0px 0px 5px;
   border-bottom: 1px solid rgb(204,204,204);
@@ -38,10 +37,6 @@ header a {
 header a:hover{
   color: rgb(111,127,122);
 }
-
-/* a {
-  background: transparent;
-} */
 
 /*////////// Featured Image //////////*/
 #featured img {
@@ -69,16 +64,11 @@ p {
   font-size: 1em;
   margin: 0px 0px 20px;
   display: block;
-  margin-block-start: 20px;
-  margin-block-end: 20px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .learn-more {
   color: rgb(23,131,187);
   text-decoration: none;
-  margin: 0px 0px 20px;
 }
 
 .learn-more:hover {
@@ -100,15 +90,16 @@ p {
   border-color: rgb(111,127,122);
 }
 
+.link {
+  text-decoration: none;
+}
 
 /*////////// Footer //////////*/
 footer {
   text-align: right;
   background: rgb(255, 255, 255);
-
 }
 
 .small {
   font-size: 0.8em;
-  margin: 0px 0px 20px;
 }
