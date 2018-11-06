@@ -1,6 +1,7 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
 
 /*////////// Global Styles //////////*/
 
@@ -20,7 +21,8 @@ body {
 /* css copying only certain elements is fine. don't copy paste though.
 it's like quoting someone vs plagiarizing their whole essay.*/
 /* Write all remaining styles here */
-
 h1 { font-size: 5em;
-	font-weight: normal;
-	font-family: 'Basketville', serif;}
+		 font-weight: normal;
+		 font-family: 'Libre Basketville', serif;
+
+	 	}
