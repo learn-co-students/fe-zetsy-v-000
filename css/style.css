@@ -18,10 +18,17 @@ body {
 }
 
 /* Write all remaining styles here */
+div {
+  display: block;
+}
 
 header a {
     color: rgb(152,173,166);
     text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(90,173,166);
 }
 
 h1 {
@@ -36,7 +43,33 @@ h1 {
 a {
     background: transparent;
 }
+
 h2 {
     color: rgb(111,127,122);
     font-size: 2em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#featured img {
+    border: 5px rgb(152,173,166) solid;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    display: block;
+}
+
+#press {
+    margin-bottom: 20px;
+}
+footer {
+    text-align: right;
+    background: #fff;
 }
