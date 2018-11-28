@@ -24,5 +24,13 @@ it's like quoting someone vs plagiarizing their whole essay.*/
 h1 { font-size: 5em;
 		 font-weight: normal;
 		 font-family: 'Libre Basketville', serif;
-
+		 color: #9caba6;
 	 	}
+h2 { font-size: 2em;
+		 font-weight: bold;
+		 color: #6d7873; }
+p { color: #6d7873; }
+
+img { border-color: #9caba6;
+			border-style: solid;
+			border-width: 5.5px; }
