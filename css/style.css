@@ -1,13 +1,14 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +18,19 @@ body {
 	padding: 0 45px 20px;
 }
 
+/* css copying only certain elements is fine. don't copy paste though.
+it's like quoting someone vs plagiarizing their whole essay.*/
 /* Write all remaining styles here */
+h1 { font-size: 5em;
+		 font-weight: normal;
+		 font-family: 'Libre Basketville', serif;
+		 color: #9caba6;
+	 	}
+h2 { font-size: 2em;
+		 font-weight: bold;
+		 color: #6d7873; }
+p { color: #6d7873; }
+
+img { border-color: #9caba6;
+			border-style: solid;
+			border-width: 5.5px; }
