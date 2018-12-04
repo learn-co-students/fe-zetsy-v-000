@@ -26,11 +26,20 @@ h1 { font-size: 5em;
 		 font-family: 'Libre Basketville', serif;
 		 color: #9caba6;
 	 	}
-h2 { font-size: 2em;
+h2 { position: relative;
+		 bottom: 50px;
+	   font-size: 2em;
 		 font-weight: bold;
 		 color: #6d7873; }
-p { color: #6d7873; }
+p { font-size: 1.2em;
+	position: relative;
+		 bottom: 50px;
+	  color: #6d7873; }
 
-img { border-color: #9caba6;
+img { position: relative;
+		 bottom: 50px;
+	    border-color: #9caba6;
 			border-style: solid;
 			border-width: 5.5px; }
+
+.copyright {float:right;}
