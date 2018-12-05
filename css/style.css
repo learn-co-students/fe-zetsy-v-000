@@ -18,3 +18,20 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*///// h1 /////*/
+h1 {
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+}
+
+/*///// h# color /////*/
+h1, h2 {
+  color: rgb(152,173,166);
+}
+
+/*///// Footer /////*/
+footer {
+	text-align: right;
+}
