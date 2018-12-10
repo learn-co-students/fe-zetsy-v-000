@@ -2,12 +2,17 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -15,6 +20,91 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	color: rgba(85,85,85, 1);
 }
 
 /* Write all remaining styles here */
+
+/* Image with border */
+
+.img-border {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgba(157,171,166,1);
+}
+
+.press-border {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgba(204,204,204,1);
+	padding: 1px;
+}
+
+/* Text */
+
+h1 {
+	color: rgba(153,173,166, 1);
+	font-family: Baskerville, "Times New Roman";
+	font-size: 5em;
+	padding-bottom: 10px;
+	margin: 0 0 5px 0;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: rgba(204,204,204,1);
+}
+
+/*h1:hover {
+	color: rgba(112,127,122,1);
+}*/
+
+h2 {
+	font-size: 2em;
+  color: rgba(112,127,122, 1)
+}
+
+#align-right {
+	text-align: right;
+	width: 100%
+}
+
+footer {
+	padding: 20px 0 20px 0;
+	text-align: right;
+	font-size: 0.8em;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+/* Links */
+
+a:link {
+	text-decoration: none;
+	color: rgba(37,131,184, 1);
+}
+
+a:visited {
+	color: rgba(37,131,184, 1);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.title:link {
+	color: rgba(153,173,166, 1);
+}
+
+a.title:visited {
+	color: rgba(153,173,166, 1);
+}
+
+a.title:hover {
+	text-decoration: none;
+	color: rgba(112,127,122,1);
+}
+
+.press-border:hover {
+	border-color: rgba(112,127,122,1);
+}
