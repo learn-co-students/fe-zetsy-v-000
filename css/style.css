@@ -17,4 +17,31 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+.featured_image {
+  border: 5px rgb(152,173,166) solid
+}
+
+p {color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
+h1 {color: rgb(152,173,166);
+font-size: 5em;
+font-family: "Baskerville";
+}
+
+h2 {color: rgb(111,127,122);
+    font-size: 2em;}
+
+.press img {padding: 1px;
+      border: 5px #ccc solid;
+}
+
+.press img:hover {
+    border: 5px rgb(111,127,122) solid;
+}
+
+.footer p {
+  float: right;
+}
