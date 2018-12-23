@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -18,3 +18,29 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.wrapper h1 {
+  font: bold 5em 'Libre Baskerville', serif;
+  color: rgb(134, 157, 149);
+}
+
+#picture {
+  border:5px rgb(134, 157, 149) solid;
+}
+
+.wrapper h2 {
+  font-size: 2em;
+  color: rgb(92, 108, 102);
+}
+
+.info {
+  color: rgb(92, 108, 102);
+}
+.press img{
+  border: 5px #ccc solid;
+}
+footer {
+  text-align: right;
+  font-size: 0.75em;
+  color: #555;
+}
