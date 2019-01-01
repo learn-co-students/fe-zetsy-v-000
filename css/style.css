@@ -6,15 +6,96 @@
 
 body {
 	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
 }
 
 .wrapper {
-	width: 960px;
+	width: 50%;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 40px 20px;
 }
 
-/* Write all remaining styles here */
+header {
+    color: rgb(152,173,166);
+    font-size: 3em;
+    text-decoration: none;
+}
+
+a {
+    background: transparent;
+}
+
+h1 {
+    margin: 0 0 1px;
+    font-size: 3em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+}
+
+h1 {
+    padding-bottom: 1px;
+    margin: 0 0 1px;
+    font-size: 3em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+}
+
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#featured img {
+    border: 5px rgb(152,173,166) solid;
+    padding: 1px;
+}
+
+/* Press icon bar */
+#press img {
+    border: 5px #ccc solid;
+    padding: 1px;
+}
+
+#press img:hover {
+  border: 5px rgb(152,173,166) solid;
+  cursor: pointer;
+}
+
+.icon-bar {
+  display: inline;
+  top: 1%;
+  right: 1%;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: inline;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+	float: right;
+	padding: 20px 0px 20px;
+}
+
+
