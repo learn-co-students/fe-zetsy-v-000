@@ -4,8 +4,15 @@
 
 /*////////// Global Styles //////////*/
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
 body {
-	background: #F3EBE9;
+  background-color: lightgrey;
+	border: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
@@ -15,6 +22,13 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	text-align: center;
+	border: 1px black;
 }
 
+
 /* Write all remaining styles here */
+
+
+
+
