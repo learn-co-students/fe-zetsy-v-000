@@ -11,8 +11,7 @@
 
 
 body {
-  background-color: lightgrey;
-	border: #F3EBE9;
+  background-color: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
@@ -21,11 +20,16 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
-	text-align: center;
-	border: 1px black;
+	padding: 15px 20px 20px 20px;
 }
 
+.titles {
+  color: #6E7F7A;
+}
+
+.new_font {
+  font: baskerville;
+}
 
 /* Write all remaining styles here */
 
