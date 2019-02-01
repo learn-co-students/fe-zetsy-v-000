@@ -1,20 +1,106 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC|Sarabun');
 
 /*////////// Global Styles //////////*/
 
-body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+
+* {
+	box-sizing: border-box;
 }
 
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
+body {
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+}
+
+.wrapper, .is-grid {
 	background: #fff;
-	padding: 0 45px 20px;
+	display: grid;
+	grid-template: repeat(3 1fr)/repeat(4 1fr);
+	grid-column-gap: 1vw;
+	
+	justify-items: center;
+	align-items: center;
+
+	margin: 0 auto;
+	width: 960px;
+}
+
+.col-1 {
+	grid-column-start: 1;
+}
+
+.col-2 {
+	grid-column-start: 2;
+}
+
+.col-3 {
+	grid-column-start: 3;
+}
+
+.col-4 {
+	grid-column-start: 4;
+}
+
+.col-span1 {
+	grid-column-end: span 1;
+}
+
+.col-span2 {
+	grid-column-end: span 2;
+}
+
+.col-span3 {
+	grid-column-end: span 3;
+}
+
+.col-span4 {
+	grid-column-end: span 4;
+}
+
+.is-flex {
+	display: flex;
+}
+
+.jc-space-bw {
+	justify-content: space-between;
+}
+
+.justify-self-start {
+	justify-self: flex-start;
+}
+
+.align-end {
+	align-items: flex-end;
+}
+
+.is-padded1 {
+	padding: 3vw
+}
+
+/* Responsive Images */
+figure {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+figcaption {
+	display: none;
 }
 
 /* Write all remaining styles here */
+.header,h1,h2,h3,h4 {
+	font-family: 'Noto Serif SC', serif;
+	margin: 0;
+}
+
+.header {
+	width: 100%;
+}
+
+
+
+
