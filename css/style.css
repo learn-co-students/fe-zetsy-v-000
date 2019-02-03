@@ -1,3 +1,4 @@
+
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
@@ -7,7 +8,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +19,30 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#press{
+  width: auto;
+  display: inline;
+}
+
+a{
+  max-width: 15%;
+  display: inline;
+}
+
+#info{
+  width: auto;
+  display: block;
+}
+
+footer {
+	text-align: right;
+	right:10;
+	font-size: 0.8em;
+	margin: 0;
+}
+
+/* MEDIA position*/
+img, video {
+	max-width: 100%
+}
