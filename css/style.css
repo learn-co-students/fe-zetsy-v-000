@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,19 @@ body {
 }
 
 /* Write all remaining styles here */
+#logo h1 { /* selects <h1>s if they are inside element with id = logo*/
+	color: #6f7f7a;
+	font-family: 'Baskerville' cursive;
+	font-size: 80px;
+}
+
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  color: #777;
+  text-align: right;
+}
