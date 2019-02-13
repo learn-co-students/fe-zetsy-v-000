@@ -48,3 +48,12 @@ p {
 	font-family: 'Times New Roman', serif;
 	font-size: 16px;
 }
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
