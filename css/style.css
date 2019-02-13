@@ -1,5 +1,11 @@
 /*////////////// Fonts //////////////*/
 
+
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
+
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -18,10 +24,9 @@ body {
 }
 
 /* Write all remaining styles here */
-#logo h1 { /* selects <h1>s if they are inside element with id = logo*/
-	color: #6f7f7a;
-	font-family: 'Baskerville' cursive;
-	font-size: 80px;
+h1 {
+	color: rgb(111,127,122);
+	font-size: 2em;
 }
 
 
