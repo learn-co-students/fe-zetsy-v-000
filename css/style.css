@@ -1,6 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+h1 {
+  font-size: 5em;
+  font-family: 'Baskerville', serif;
+}
 
 /*////////// Global Styles //////////*/
 
