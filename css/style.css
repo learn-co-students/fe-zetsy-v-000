@@ -18,9 +18,21 @@ body {
 }
 
 /* Write all remaining styles here */
+header{
+  color: rgb(152,173,166);
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  background: transparent;
+}
 
 h1 {
+  display: block;
   font-size: 5em;
   font-family: 'Baskerville', serif;
   font-weight: normal;
+  text-decoration: none;
+  color: 152,173,166;
 }
+
