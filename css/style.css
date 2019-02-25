@@ -5,16 +5,50 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: #F2EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
+	height: 100%;
+	min-height: 100%;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 45px 40px 40px;
+	color: #74828B;
 }
+
+h1 {
+	font-size: 48px;
+	border-bottom: 1px #CCC solid;
+	margin-bottom: 5px;
+	padding-top: 10px
+
+}
+
+.featured-image {
+	border:5px #9EABA6 solid;
+}
+
+a img {
+	border:5px #CCC solid;
+	/*opacity:0.5;*/
+}
+
+a:hover img{
+	border:5px #767F7B solid;
+}
+
+h2 {
+	color: #74828B;
+}
+
+footer {
+	float: right;
+	font-size: 12px;
+}
+
 
 /* Write all remaining styles here */
