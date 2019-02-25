@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 5em;
 	border-bottom: 1px #CCC solid;
 	margin-bottom: 5px;
 	padding-top: 10px
@@ -46,7 +46,7 @@ h2 {
 }
 
 footer {
-	float: right;
+	text-align: right;
 	font-size: 12px;
 }
 
