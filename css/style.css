@@ -36,6 +36,7 @@ h2 {
   /*font-family: 'Libre Baskerville';*/
   color: rgba(151, 173, 167);	
   font-size: 2em;
+    padding: 10px 45px;
 }
 
 
@@ -45,6 +46,7 @@ h2 {
   position: relative;
   right: 85px;
   bottom: 30px;
+  margin: 0px 45px;
 }
 
 a img {
@@ -63,6 +65,7 @@ a img:hover {
 .para {
   position: relative;
   right: 45px;
+  padding: 10px 45px;
 }
 
 .col-1 {
