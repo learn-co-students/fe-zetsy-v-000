@@ -19,3 +19,14 @@ body {
 
 /* Write all remaining styles here */
 /* Note: I need to figure out the link color where it says "Learn more." */
+
+/* Not sure why this doesn't work: 
+footer {
+  position: relative;
+  width: 100%;
+}
+
+footer p {
+  position: absolute;
+  right: 0;
+} */
