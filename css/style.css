@@ -36,6 +36,9 @@ footer p {
   text-align: right;
 } */
 
-/* footer { /* This doesn't work yet. 
+/*footer { /* This doesn't work yet. 
+  display: block;
+  position: absolute;
+  width: 100%;
   text-align: right;
-} */
+}*/
