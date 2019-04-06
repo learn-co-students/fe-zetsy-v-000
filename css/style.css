@@ -18,9 +18,9 @@ body {
 }
 
 /* Write all remaining styles here */
-/* Note: I need to figure out the link color where it says "Learn more." */
+/* Note: I need to figure out the link color where it says "Learn more." Also, I need to adjust the underline for that link (visible only when hovered over).*/
 
-/* Not sure why this doesn't work: 
+/* Not sure why this doesn't work (even when I set the wrapper's position to relative): 
 footer {
   position: relative;
   width: 100%;
@@ -29,4 +29,4 @@ footer {
 footer p {
   position: absolute;
   right: 0;
-}*/
+} */
