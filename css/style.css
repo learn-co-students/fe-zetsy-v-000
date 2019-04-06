@@ -30,3 +30,12 @@ footer p {
   position: absolute;
   right: 0;
 } */
+
+/* footer { Neither this nor the same rules with "footer p" work!
+  position: absolute;
+  text-align: right;
+} */
+
+/* footer { /* This doesn't work yet. 
+  text-align: right;
+} */
