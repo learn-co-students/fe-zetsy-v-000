@@ -2,6 +2,7 @@
 
 /* link the web font used for the level 1 heading here */
 /* @import url('../fonts/Baskerville.ttc'); /* This won't work, with or without the url method */
+/* Maybe I need to use something besides import and url? */
 
 /*////////// Global Styles //////////*/
 
@@ -39,9 +40,9 @@ footer p {
   text-align: right;
 } */
 
-/*footer { /* This doesn't work yet. 
-  display: block;
-  position: absolute;
-  width: 100%;
-  text-align: right;
-}*/
+footer { /* This works, but I need to see if it needs the width properties. */
+  /*display: block; /* This is already the default. */
+  /* width: 100%; /* This is the default, since footers are block-level elements. */
+  position: relative; /* This is needed for sure! */
+  text-align: right; /* This is needed as well, obviously. */
+}
