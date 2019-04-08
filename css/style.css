@@ -21,6 +21,8 @@ body {
 /* Write all remaining styles here */
 /* Note: I need to figure out the link color where it says "Learn more." Also, I need to adjust the underline for that link (visible only when hovered over).*/
 
+/* Update: Now that I actually included this stylesheet in a <link>, maybe NOW this stuff will work! */
+
 /* Not sure why this doesn't work (even when I set the wrapper's position to relative): 
 footer {
   position: relative;
