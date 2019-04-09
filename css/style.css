@@ -26,34 +26,51 @@ body {
 	padding: 0 45px 20px;
 }
 
-h1 {
-  font-family: 'Baskerville'; /* Note: I may not need the quotes. */
+/* Write all remaining styles here */
+
+h1 { /* I need to fiddle around with padding, height, margin, etc. */
+  font-family: 'Baskerville', serif; /* Note: I may not need the quotes. "serif" is a backup (see live page example). */
+  font-size: 80px; /* Equivalently, 5em */
+  margin-top: 0;
 }
 
-/* Write all remaining styles here */
+h1 a:link, h1 a:visited, h1 a:active { /* Note: it looks like this has a link on it (to #) that changes color when hovered! */
+  /* Need to figure out the color for this. */
+}
+
+h1 a:active {
+  /* Need to figure out the color for this. Possibly the same color as the Press links and image border? */
+}
+
+#featured {
+  /* Add a dark gray colored border to the image here. */
+}
+
+a {
+  text-decoration: none; /* This hides the link's underline. */
+}
+
+#press {
+  /* See handwritten receipt notes for how to style the images. */
+}
+
+#press a:link, #press a:visited, #press a:active { /* I may only need "nav a", but this makes more semantic sense. */
+  /* These have borders that change color when hovered over. */
+  /* I had thought they might be child elements layered on top of lower z-indexed color-changing parents. */
+  /* But I don't know that the parents would change color once their children were hovered over. I'll go with the simpler solution (Occam's Razor). Once I implement the code, move these comments to my notes file. */
+}
+
+#press a:hover {
+  /* Change the border color here. It's possible I ONLY need to have this selector and one for #press a. I may be able to delete the other selectors? */
+}
+
 /* Note: I need to figure out the link color where it says "Learn more." Also, I need to adjust the underline for that link (visible only when hovered over).*/
 
 /* Update: Now that I actually included this stylesheet in a <link>, maybe NOW this stuff will work! */
 
-/* Not sure why this doesn't work (even when I set the wrapper's position to relative): 
-footer {
-  position: relative;
-  width: 100%;
-}
-
-footer p {
-  position: absolute;
-  right: 0;
-} */
-
-/* footer { Neither this nor the same rules with "footer p" work!
-  position: absolute;
-  text-align: right;
-} */
-
 footer { /* This works, but I need to see if it needs the width properties. */
-  /*display: block; /* This is already the default. */
+  /* display: block; /* This is already the default. */
   /* width: 100%; /* This is the default, since footers are block-level elements. */
-  position: relative; /* This is needed for sure! */
-  text-align: right; /* This is needed as well, obviously. */
+  /* position: relative; /* Update: it turns out that this is NOT needed! I only need it for TBLR properties. */
+  text-align: right; /* This is the only declaration I need! */
 }
