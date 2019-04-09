@@ -3,7 +3,14 @@
 /* link the web font used for the level 1 heading here */
 /* @import url('../fonts/Baskerville.ttc'); /* This won't work, with or without the url method */
 /* Maybe I need to use something besides import and url? */
+/* Update: Yes, I do! Here's how: */
 
+@font-face {
+  font-family: 'Baskerville';
+  src: url('../fonts/Baskerville.ttc');
+  /* This works as well (not sure which is better, or if I should use lowercase): */
+  /* font-family: Baskerville; */
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -17,6 +24,10 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+h1 {
+  font-family: 'Baskerville'; /* Note: I may not need the quotes. */
 }
 
 /* Write all remaining styles here */
