@@ -32,6 +32,7 @@ h1 { /* I need to fiddle around with padding, height, margin, etc. */
   font-family: 'Baskerville', serif; /* Note: I may not need the quotes. "serif" is a backup (see live page example). */
   font-size: 80px; /* Equivalently, 5em */
   margin-top: 0;
+  /* They have a border-bottom as well. That may be the line above the image. */
 }
 
 h1 a:link, h1 a:visited, h1 a:active { /* Note: it looks like this has a link on it (to #) that changes color when hovered! */
