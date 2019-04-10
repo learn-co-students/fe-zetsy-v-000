@@ -38,7 +38,7 @@ h1 {
   /* Note that I cannot use 5em because ems depend DIRECTLY on the font-size! */
   /* By default, 1em = 16px, the default font-size. But in my case, 1em = 80px because I changed the font-size. See https://css-tricks.com/css-font-size/#article-header-id-2 for more information. */
   padding: 0 0 10px;
-  border-bottom: 1px solid gray; /* Need to change the color. */
+  border-bottom: 1px solid #ccc;
 }
 
 /*h1 a {
@@ -54,12 +54,12 @@ h1 a:active {
 }
 
 #featured {
-  /* Add a dark gray colored border to the image here. */
-  border: 5px solid gray;
+  border: 5px solid #98ada6;
 }
 
 h2 {
   font-size: 2em;
+  color: #6f7f7a;
 }
 
 p {
