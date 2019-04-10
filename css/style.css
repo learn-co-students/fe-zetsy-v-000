@@ -33,7 +33,7 @@ h1 { /* I need to fiddle around with padding, height, margin, etc. */
   font-size: 80px; /* Equivalently, 5em */
   margin-top: 0;
   margin-bottom: 5px;
-  padding: 10px 0;
+  padding: 0 0 10px;
   border-bottom: 1px solid gray; /* Need to change the color. */
 }
 
