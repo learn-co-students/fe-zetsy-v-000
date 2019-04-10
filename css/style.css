@@ -33,7 +33,12 @@ h1 { /* I need to fiddle around with padding, height, margin, etc. */
   font-size: 80px; /* Equivalently, 5em */
   margin-top: 0;
   /* They have a border-bottom as well. That may be the line above the image. */
+  border-bottom: 1px solid gray;
 }
+
+/*h1 a {
+  border-bottom: 1px solid gray;
+}*/
 
 h1 a:link, h1 a:visited, h1 a:active { /* Note: it looks like this has a link on it (to #) that changes color when hovered! */
   /* Need to figure out the color for this. */
@@ -45,6 +50,7 @@ h1 a:active {
 
 #featured {
   /* Add a dark gray colored border to the image here. */
+  border: 5px solid gray;
 }
 
 a {
