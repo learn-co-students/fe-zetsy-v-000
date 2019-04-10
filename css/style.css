@@ -70,8 +70,9 @@ a {
   text-decoration: none; /* This hides the link's underline. */
 }
 
-#press {
-  /* See handwritten receipt notes for how to style the images. */
+#press img {
+  border: 5px solid gray; /* This does something different for #press a. I need to target the images themselves! */
+  width: 25%;
 }
 
 #press a:link, #press a:visited, #press a:active { /* I may only need "nav a", but this makes more semantic sense. */
