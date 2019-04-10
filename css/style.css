@@ -34,7 +34,8 @@ h1 {
   margin-top: 0;
   margin-bottom: 5px;
   /* height: 20px; /* This isn't needed; it causes the image below to cover it. I would need to increase the bottom padding to about 80px. */
-  /* What I don't get is why specifying 5em for ANY padding direction makes it WAY bigger than 80px on ANY browser! */
+  /* Note that I cannot use 5em because ems depend DIRECTLY on the font-size! */
+  /* By default, 1em = 16px. But in my case, 1em = 80px, the font-size. See https://css-tricks.com/css-font-size/#article-header-id-2 for more information. */
   padding: 0 0 10px;
   border-bottom: 1px solid gray; /* Need to change the color. */
 }
