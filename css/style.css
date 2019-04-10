@@ -70,9 +70,14 @@ a {
   text-decoration: none; /* This hides the link's underline. */
 }
 
+/* This won't change anything: #press a { width: 25%; } */
+
+/* This isn't needed: #press nav { margin-right: 0; } */
+
 #press img {
+  padding: 1px; /* Turns out, THIS is what I needed, not the width and box-sizing! Tricky! */
   border: 5px solid gray; /* This does something different for #press a. I need to target the images themselves! */
-  /* This won't work: box-sizing: border-box; width: 25%; */
+  /* This won't work: box-sizing: border-box; width: 24.5% or 25%; (plus, the images get blurrier). */
 }
 
 #press a:link, #press a:visited, #press a:active { /* I may only need "nav a", but this makes more semantic sense. */
@@ -95,4 +100,5 @@ footer { /* This works, but I need to see if it needs the width properties. */
   /* position: relative; /* Update: it turns out that this is NOT needed! I only need it for TBLR properties. */
   
   text-align: right; /* This is the only declaration I need! */
+  /*font-size: 20px;*/
 }
