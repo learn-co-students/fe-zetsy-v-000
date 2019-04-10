@@ -98,7 +98,7 @@ footer { /* This works, but I need to see if it needs the width properties. */
   /* display: block; /* This is already the default. */
   /* width: 100%; /* This is the default, since footers are block-level elements. */
   /* position: relative; /* Update: it turns out that this is NOT needed! I only need it for TBLR properties. */
-  
-  text-align: right; /* This is the only declaration I need! */
-  /*font-size: 20px;*/
+  padding: 20px 0;
+  text-align: right;
+  font-size: 13px;
 }
