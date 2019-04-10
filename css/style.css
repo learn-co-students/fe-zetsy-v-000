@@ -34,7 +34,7 @@ h1 {
   margin-top: 0;
   margin-bottom: 5px;
   /* height: 20px; /* This isn't needed; it causes the image below to cover it. I would need to increase the bottom padding to about 80px. */
-  /* What I don't get is why specifying 5em for ANY padding direction makes it WAY bigger than 80px! */
+  /* What I don't get is why specifying 5em for ANY padding direction makes it WAY bigger than 80px on ANY browser! */
   padding: 0 0 10px;
   border-bottom: 1px solid gray; /* Need to change the color. */
 }
