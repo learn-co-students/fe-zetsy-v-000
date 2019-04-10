@@ -32,8 +32,7 @@ body {
 h1 {
   font-family: 'Baskerville', serif; /* Note: I may not need the quotes. "serif" is a backup (see live page example). */
   font-size: 80px; /* Equivalently, 5em (note that setting the font-size in em relies on the default font-size of 1em = 16px). */
-  margin-top: 0;
-  margin-bottom: 5px;
+  margin: 0 0 5px;
   /* height: 20px; /* This isn't needed; it causes the image below to cover it. I would need to increase the bottom padding to about 80px. */
   /* Note that I cannot use 5em because ems depend DIRECTLY on the font-size! */
   /* By default, 1em = 16px, the default font-size. But in my case, 1em = 80px because I changed the font-size. See https://css-tricks.com/css-font-size/#article-header-id-2 for more information. */
@@ -84,5 +83,6 @@ footer { /* This works, but I need to see if it needs the width properties. */
   /* display: block; /* This is already the default. */
   /* width: 100%; /* This is the default, since footers are block-level elements. */
   /* position: relative; /* Update: it turns out that this is NOT needed! I only need it for TBLR properties. */
+  
   text-align: right; /* This is the only declaration I need! */
 }
