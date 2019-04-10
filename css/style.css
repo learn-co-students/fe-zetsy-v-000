@@ -89,15 +89,17 @@ a {
   /* This won't work: box-sizing: border-box; width: 24.5% or 25%; (plus, the images get blurrier). */
 }
 
-#press a:link, #press a:visited, #press a:active { /* I may only need "nav a", but this makes more semantic sense. */
-  /* These have borders that change color when hovered over. */
-  /* I had thought they might be child elements layered on top of lower z-indexed color-changing parents. */
-  /* But I don't know that the parents would change color once their children were hovered over. I'll go with the simpler solution (Occam's Razor). Once I implement the code, move these comments to my notes file. */
+#press img:hover { /* Interesting. The :hover pseudo-class works on other elements besides <a>! */
+  border-color: #6f7f7a;
 }
 
-#press a:hover {
-  /* Change the border color here. It's possible I ONLY need to have this selector and one for #press a. I may be able to delete the other selectors? */
-}
+/* This wasn't needed AT ALL, but I'll leave it here for future reference: */
+
+/* #press a:link, #press a:visited, #press a:active { /* I may only need "nav a", but this makes more semantic sense.
+  /* These have borders that change color when hovered over.
+  /* I had thought they might be child elements layered on top of lower z-indexed color-changing parents.
+  /* But I don't know that the parents would change color once their children were hovered over. I'll go with the simpler solution (Occam's Razor). Once I implement the code, move these comments to my notes file.
+} */
 
 /* Note: I need to figure out the link color where it says "Learn more." Also, I need to adjust the underline for that link (visible only when hovered over).*/
 
