@@ -44,12 +44,12 @@ h1 {
   border-bottom: 1px solid gray; /* Note: this just adds an extra underline.
 }*/
 
-h1 a:link, h1 a:visited, h1 a:active { /* Note: it looks like this has a link on it (to #) that changes color when hovered! */
+h1 a { 
   color: #98ada6;
 }
 
-h1 a:active {
-  /* Need to figure out the color for this. Possibly the same color as the Press links and image border? */
+h1 a:hover {
+  color: #6f7f7a;
 }
 
 #featured {
@@ -67,12 +67,16 @@ p {
   color: #555;
 }
 
+a {
+  text-decoration: none; /* This hides the link's underline. */
+}
+
 #about a {
   color: #1783c9;
 }
 
-a {
-  text-decoration: none; /* This hides the link's underline. */
+#about a:hover {
+  text-decoration: underline;
 }
 
 /* This won't change anything: #press a { width: 25%; } */
