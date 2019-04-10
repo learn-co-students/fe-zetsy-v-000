@@ -46,7 +46,7 @@ h1 {
 }*/
 
 h1 a:link, h1 a:visited, h1 a:active { /* Note: it looks like this has a link on it (to #) that changes color when hovered! */
-  /* Need to figure out the color for this. */
+  color: #98ada6;
 }
 
 h1 a:active {
