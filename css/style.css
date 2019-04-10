@@ -63,6 +63,7 @@ h2 {
 }
 
 p {
+  /* The live example has this, but this is the default anyway: font-size: 1em; */
   margin: 0 0 20px 0; /* I need to watch the spacing closely here; I didn't catch it until I examined the live site example! */
 }
 
@@ -100,5 +101,5 @@ footer { /* This works, but I need to see if it needs the width properties. */
   /* position: relative; /* Update: it turns out that this is NOT needed! I only need it for TBLR properties. */
   padding: 20px 0;
   text-align: right;
-  font-size: 13px;
+  font-size: 0.8em; /* I had this at 13px, but the live example had 0.8em, which = 12.8px. */
 }
