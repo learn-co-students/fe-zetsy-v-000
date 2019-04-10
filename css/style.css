@@ -1,7 +1,8 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-/* @import url('../fonts/Baskerville.ttc'); /* This won't work, with or without the url method */
+
+/* @import url('../fonts/Baskerville.ttc'); /* This won't work, with or without the url method. */
 /* Maybe I need to use something besides import and url? */
 /* Update: Yes, I do! Here's how: */
 
