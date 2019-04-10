@@ -73,7 +73,8 @@ a {
 }
 
 #about a {
-  /* transition: text-decoration 2s ease; This won't work for the text-decoration. */
+  /* transition: text-decoration 2s ease; */ 
+  /* I can, in fact, use the transition property on text-decoration according to https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties. I just don't know how yet. */
   color: #1783c9;
 }
 
