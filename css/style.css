@@ -18,6 +18,7 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	/* I think I need to add a default text color here, or else in the wrapper. */
 }
 
 .wrapper {
@@ -55,6 +56,14 @@ h1 a:active {
 #featured {
   /* Add a dark gray colored border to the image here. */
   border: 5px solid gray;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  margin: 0 0 20px 0; /* I need to watch the spacing closely here; I didn't catch it until I examined the live site example! */
 }
 
 a {
