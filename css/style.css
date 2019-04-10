@@ -28,17 +28,18 @@ body {
 
 /* Write all remaining styles here */
 
-h1 { /* I need to fiddle around with padding, height, margin, etc. */
+h1 {
   font-family: 'Baskerville', serif; /* Note: I may not need the quotes. "serif" is a backup (see live page example). */
   font-size: 80px; /* Equivalently, 5em */
   margin-top: 0;
   margin-bottom: 5px;
+  /* height: 20px; /* This isn't needed; it causes the image below to cover it. I would need to increase the bottom padding to about 80px. */
   padding: 0 0 10px;
   border-bottom: 1px solid gray; /* Need to change the color. */
 }
 
 /*h1 a {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid gray; /* Note: this just adds an extra underline.
 }*/
 
 h1 a:link, h1 a:visited, h1 a:active { /* Note: it looks like this has a link on it (to #) that changes color when hovered! */
