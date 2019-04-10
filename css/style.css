@@ -40,11 +40,11 @@ h1 {
   border-bottom: 1px solid #ccc;
 }
 
-/*h1 a {
+/* h1 a {
   border-bottom: 1px solid gray; /* Note: this just adds an extra underline.
-}*/
+} */
 
-h1 a { 
+h1 a { /* Since the color only changes when the element is hovered over, this selector works for the rest of the link states! */
   color: #98ada6;
 }
 
@@ -62,13 +62,13 @@ h2 {
 }
 
 p {
-  /* The live example has this, but this is the default anyway: font-size: 1em; */
+  /* The live example has this, even though it's a default setting anyway: font-size: 1em; */
   margin: 0 0 20px 0; /* I need to watch the spacing closely here; I didn't catch it until I examined the live site example! */
   color: #555;
 }
 
 a {
-  text-decoration: none; /* This hides the link's underline. */
+  text-decoration: none; /* This hides the underline for ALL links. */
 }
 
 #about a {
@@ -98,11 +98,11 @@ a {
 /* #press a:link, #press a:visited, #press a:active { /* I may only need "nav a", but this makes more semantic sense.
   /* These have borders that change color when hovered over.
   /* I had thought they might be child elements layered on top of lower z-indexed color-changing parents.
-  /* But I don't know that the parents would change color once their children were hovered over. I'll go with the simpler solution (Occam's Razor). Once I implement the code, move these comments to my notes file.
+  /* But I don't know that the parents would change color once their children were hovered over. I'll go with the simpler solution (Occam's Razor).
 } */
 
 footer { 
-  /* This works, but I need to see if it needs the width properties. */
+  /* This works, but these are either default settings or not needed at all. */
   /* display: block; /* Update: this is already the default. */
   /* width: 100%; /* Update: this is the default, since footers are block-level elements. */
   /* position: relative; /* Update: it turns out that this is NOT needed! I only need it for TBLR properties. */
