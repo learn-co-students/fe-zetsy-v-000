@@ -101,14 +101,12 @@ a {
   /* But I don't know that the parents would change color once their children were hovered over. I'll go with the simpler solution (Occam's Razor). Once I implement the code, move these comments to my notes file.
 } */
 
-/* Note: I need to figure out the link color where it says "Learn more." Also, I need to adjust the underline for that link (visible only when hovered over).*/
-
-/* Update: Now that I actually included this stylesheet in a <link>, maybe NOW this stuff will work! */
-
-footer { /* This works, but I need to see if it needs the width properties. */
-  /* display: block; /* This is already the default. */
-  /* width: 100%; /* This is the default, since footers are block-level elements. */
+footer { 
+  /* This works, but I need to see if it needs the width properties. */
+  /* display: block; /* Update: this is already the default. */
+  /* width: 100%; /* Update: this is the default, since footers are block-level elements. */
   /* position: relative; /* Update: it turns out that this is NOT needed! I only need it for TBLR properties. */
+  
   padding: 20px 0;
   text-align: right;
   font-size: 0.8em; /* I had this at 13px, but the live example had 0.8em, which = 12.8px. */
