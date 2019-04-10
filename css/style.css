@@ -45,10 +45,11 @@ h1 {
 } */
 
 h1 a { /* Since the color only changes when the element is hovered over, this selector works for the rest of the link states! */
-  color: #98ada6;
+  color: #98ada6; /* This is needed here instead of inside the h1 selector; otherwise, it defaults to a different color! */
 }
 
 h1 a:hover {
+  transition: color 1s ease; /* I need to play around with this. See what happens when this property is moved into the "h1 a" rule. */
   color: #6f7f7a;
 }
 
@@ -72,6 +73,7 @@ a {
 }
 
 #about a {
+  /* transition: text-decoration 2s ease; This won't work for the text-decoration. */
   color: #1783c9;
 }
 
@@ -84,6 +86,7 @@ a {
 /* This isn't needed: #press nav { margin-right: 0; } */
 
 #press img {
+  transition: border-color 3s linear; /* I'll have to play with this later. */
   padding: 1px; /* Turns out, THIS is what I needed, not the width and box-sizing! Tricky! */
   border: 5px solid #ccc; /* This does something different for #press a. I need to target the images themselves! */
   /* This won't work: box-sizing: border-box; width: 24.5% or 25%; (plus, the images get blurrier). */
