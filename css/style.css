@@ -5,7 +5,7 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: rgb(243,235,233);
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
@@ -14,7 +14,49 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 10px 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  color: rgb(156, 171, 165);
+  font-size: 3em;
+}
+
+h2 {
+  color: rgb(156, 171, 165);
+}
+
+img {
+  border: 4px solid rgba(155,172,166, 1);
+}
+
+.logos {
+  border: 2px solid rgba(155,172,166, 0.8);
+}
+
+.logos:hover {
+  border-color: rgb(113, 127, 122);
+  cursor: pointer;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.copyright {
+  display: block;
+  font-size: .75em;
+  float: right;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
