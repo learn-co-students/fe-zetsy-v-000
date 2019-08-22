@@ -21,7 +21,10 @@ body {
 /* Write all remaining styles here */
 h1 {
 	color: #d3d3d3;
-	padding: 10px 5px;
+	padding: 5px 5px;
+	font-weight: bold;
+	font-size: 3em;
+	margin: 0 0 5px;
 }
 
 h2 {
@@ -33,6 +36,17 @@ h2 {
 	margin-right: auto;
 	width: 50%;
 }
+#featured img {
+	border: 5px solid #778899;
+}
 .footer {
-	float: right;
+	text-align: right;
+}
+#column img {
+	border: 2px solid #778899;
+}
+#column img:hover {
+	border-color: #707070;
+	border-width: 4px;
+	cursor: pointer;
 }
