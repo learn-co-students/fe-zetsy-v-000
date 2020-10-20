@@ -4,10 +4,16 @@
 
 /*////////// Global Styles //////////*/
 
+@font-face {
+	font-family: Baskerville;
+	src: url(/font/Baskerville.ttc);
+}
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	margin: 0;
+
 }
 
 .wrapper {
@@ -17,4 +23,54 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+header {
+  display: block;
+}
+
+h1 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+h1 a{
+	color: #98ada6;
+  font-size: 2.5em;
+  font-family: 'Baskerville', serif;
+	margin: 0 0 5px;
+  text-decoration: none;
+}
+
+h1 a:hover{
+  color: #6f7f7a;
+
+}
+
+h2 {
+	color: #6f7f7a;
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+}
+
+#largeimage {
+	border: 5px #98ada6 solid;
+}
+
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+	font-size: 0.8em
+}
