@@ -17,4 +17,54 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+	font-family: baskerville;
+	font-weight: 500;
+	font-size: 80px;
+	color: #9DACA6;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #9DACA6;
+	margin-bottom: 5px;
+}
+
+.main-image img {
+	box-sizing: border-box;
+    width: 100%;
+    border: 5px solid #9DACA6;
+}
+
+h3 {
+	color: #72837E;
+	font-size: 30px;
+}
+
+.links {
+	display:flex;
+	justify-content: space-between;
+}
+
+.link {
+	border: 5px solid #CBCDCD;
+}
+
+.links div:hover {
+	border: 5px solid #75807B;
+}
+
+.link img {
+	height: 100%;
+	width: 100%;
+}
+
+.footer p {
+	text-align: right;
+	font-size: 14px;
+	color:#72837E;
+}
+
+
+
+
 /* Write all remaining styles here */
